@@ -1,0 +1,2040 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="">
+		<meta name="author" content="">
+
+		<title>Сайт</title>
+
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+		<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+
+		<link href="css/easy-autocomplete.css" rel="stylesheet" type="text/css" />
+		<link href="css/app.css" rel="stylesheet" type="text/css" />
+
+		<link href="style.css" rel="stylesheet" type="text/css" />
+
+
+	</head>
+
+<body>
+
+	<!-- Modal add to favorite -->
+	<div class="modal fade mini-mod thank-mod" id="thank-return" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+	aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered" role="document">
+			<div class="modal-content">
+				<div class="modal-mini-body">
+					<span class="close-modal" data-dismiss="modal" aria-label="Close"></span>
+					<div class="modal-mini-wrap">
+						<div class="modal-mini-tit">
+							Ваша заявка отправлена
+						</div>
+						<div class="modal-mini-bt">
+							<a href="#" class="first-bt" data-dismiss="modal">
+								Хорошо
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- / Modal add to favorite -->
+
+	<!-- Modal call-me -->
+	<div class="modal fade" id="return-items" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+		aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered" role="document">
+			<div class="modal-content">
+				<div class="modal-return-body">
+					<span class="close-modal" data-dismiss="modal" aria-label="Close"></span>
+					<div class="modal-return-wrap">
+						<div class="modal-return-tit">
+							Вернуть товар
+						</div>
+						
+                        <div class="list-return">
+                            <!-- one item -->
+                            <div class="list-return-one">
+                                <div class="return-one-thumb">
+                                    <img src="./images/LK-fav/thumb-1.png" alt="">
+                                </div>
+                                <div class="return-one-descr">
+                                    <div class="return-one-tit">
+                                        <a href="#">
+                                            Костюм Extra-Vision WPL влагозащитный
+                                        </a>
+                                    </div>
+                                    <div class="return-one-cat">
+                                        <a href="#">
+                                            Одежда влагозащитная
+                                        </a>
+                                    </div>
+                                    <div class="return-one-info">
+                                        <div class="return-one-price">
+                                            1 980 ₽
+                                        </div>
+                                        <div class="return-one-info-right">
+                                            <!-- one size -->
+                                            <div class="return-one-order-size">
+                                                <div class="return-one-order-size-left">
+                                                    88-92, 170-176
+                                                </div>
+                                                <div class="return-one-order-size-euro">
+                                                    M
+                                                </div>
+                                                <div class="return-one-order-size-count">
+                                                    <div class="num-block skin-6">
+                                                        <div class="num-in">
+                                                            <span class="minus dis">
+                                                                <svg width="10" height="2" viewBox="0 0 10 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                    <path d="M0 0V2H10V0H0Z" fill="#B0B0B0"/>
+                                                                </svg>                                                                            
+                                                            </span>
+                                                            <input type="text" class="in-num" value="4" readonly="">
+                                                            <span class="plus">
+                                                                <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                    <path d="M6 0H4V4H0V6H4V10H6V6H10V4H6V0Z" fill="#B0B0B0"/>
+                                                                </svg>
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- / one size -->
+                                            <!-- one size -->
+                                            <div class="return-one-order-size">
+                                                <div class="return-one-order-size-left">
+                                                    88-92, 170-176
+                                                </div>
+                                                <div class="return-one-order-size-euro">
+                                                    M
+                                                </div>
+                                                <div class="return-one-order-size-count">
+                                                    <div class="num-block skin-6">
+                                                        <div class="num-in">
+                                                            <span class="minus dis">
+                                                                <svg width="10" height="2" viewBox="0 0 10 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                    <path d="M0 0V2H10V0H0Z" fill="#B0B0B0"/>
+                                                                </svg>                                                                            
+                                                            </span>
+                                                            <input type="text" class="in-num" value="4" readonly="">
+                                                            <span class="plus">
+                                                                <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                    <path d="M6 0H4V4H0V6H4V10H6V6H10V4H6V0Z" fill="#B0B0B0"/>
+                                                                </svg>
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- / one size -->
+                                            
+                                            <div class="return-one-order-price">
+                                                7 970 ₽
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- / one item -->
+                            <!-- one item -->
+                            <div class="list-return-one">
+                                <div class="return-one-thumb">
+                                    <img src="./images/LK-fav/thumb-2.png" alt="">
+                                </div>
+                                <div class="return-one-descr">
+                                    <div class="return-one-tit">
+                                        <a href="#">
+                                            Сапоги мужские Step
+                                        </a>
+                                    </div>
+                                    <div class="return-one-cat">
+                                        <a href="#">
+                                            Одежда влагозащитная
+                                        </a>
+                                    </div>
+                                    <div class="return-one-info">
+                                        <div class="return-one-price">
+                                            1 980 ₽
+                                        </div>
+                                        <div class="return-one-info-right">
+                                            <!-- one size -->
+                                            <div class="return-one-order-size">
+                                                <div class="return-one-order-size-euro">
+                                                    43
+                                                </div>
+                                                <div class="return-one-order-size-count">
+                                                    <div class="num-block skin-6">
+                                                        <div class="num-in">
+                                                            <span class="minus dis">
+                                                                <svg width="10" height="2" viewBox="0 0 10 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                    <path d="M0 0V2H10V0H0Z" fill="#B0B0B0"/>
+                                                                </svg>                                                                            
+                                                            </span>
+                                                            <input type="text" class="in-num" value="4" readonly="">
+                                                            <span class="plus">
+                                                                <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                    <path d="M6 0H4V4H0V6H4V10H6V6H10V4H6V0Z" fill="#B0B0B0"/>
+                                                                </svg>
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- / one size -->
+                                            
+                                            <div class="return-one-order-price">
+                                                70 ₽
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- / one item -->
+                        </div>
+                        <div class="area-ret">
+                            <textarea placeholder="Укажите причину возврата"></textarea>
+                        </div>
+                        <div class="ret-bt">
+                            <button class="first-bt" data-dismiss="modal" data-toggle="modal" data-target="#thank-return">
+                                Отправить заявку 
+                            </button>
+                        </div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- / Modal acall-me -->
+
+    <!-- Modal login -->
+	<div class="modal fade log-reg-mod" id="cancel" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true">
+	    <div class="modal-dialog modal-dialog-centered" role="document">
+	        <div class="modal-content">
+	            <div class="modal-mini-body">
+	                <span class="close-modal" data-dismiss="modal" aria-label="Close"></span>
+	                <div class="cancel-modal-wrap">
+	                    <div class="cancel-modal-body">
+	                        <div class="cancel-modal-tit">
+	                            Отмена заказа
+	                        </div>
+	                        <div class="cancel-modal-ico">
+	                            <svg width="105" height="105" viewBox="0 0 105 105" fill="none" xmlns="http://www.w3.org/2000/svg">
+	                                <circle cx="52.5" cy="52.5" r="51.5" fill="white" stroke="#CAB49A" stroke-width="2"/>
+	                                <path d="M55.535 59.2956C58.9844 58.7594 62.1411 57.1329 64.6043 54.5802C67.6575 51.416 69.2111 47.2723 68.9769 42.907C68.5446 34.7171 61.6728 28.167 53.3284 28.003C45.2363 27.8479 38.2744 33.6668 37.1531 41.5509C37.054 42.2733 37 43.0089 37 43.7446C37 45.1185 38.1348 46.2397 39.5353 46.2397C40.9358 46.2397 42.0706 45.1229 42.0706 43.7446C42.0706 43.2394 42.1066 42.7342 42.1741 42.2422C42.9397 36.8577 47.6905 32.8824 53.2249 32.9932C58.9259 33.104 63.6182 37.5756 63.9154 43.1729C64.073 46.1555 63.0102 48.9918 60.9253 51.1545C58.8403 53.3172 56.0258 54.5093 52.9997 54.5093C51.5992 54.5093 50.4644 55.6261 50.4644 57.0044V64.5871C50.4644 65.9654 51.5992 67.0822 52.9997 67.0822C54.4002 67.0822 55.535 65.9654 55.535 64.5871V59.2956Z" fill="#CAB49A"/>
+	                                <path d="M52.9995 71.8547C51.5991 71.8547 50.4643 72.9715 50.4643 74.3498V74.5049C50.4643 75.8832 51.5991 77 52.9995 77C54.4 77 55.5348 75.8832 55.5348 74.5049V74.3498C55.5348 72.9715 54.4 71.8547 52.9995 71.8547Z" fill="#CAB49A"/>
+	                            </svg>                                
+	                        </div>
+	                        <div class="cancel-modal-quest">
+	                            Вы уверены, что хотите <br>отменить заказ?
+	                        </div>
+	                        <div class="cancel-modal-check">
+	                            <label>
+	                                <input type="checkbox">
+	                                <i></i>
+	                                <span>
+	                                    Подтверждаю
+	                                </span>
+	                            </label>
+	                        </div>
+	                        <div class="cancel-modal-bt">
+	                            <a href="#" class="first-bt" data-dismiss="modal" data-toggle="modal" data-target="#thank-question">
+	                                Отменить заказ
+	                            </a>
+	                        </div>
+	                    </div>
+	                </div>
+	            </div>
+	        </div>
+	    </div>
+	</div>
+	<!-- / Modal login -->
+
+	<!-- Modal add to favorite -->
+	<div class="modal fade mini-mod thank-mod" id="thank-question" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+		aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered" role="document">
+			<div class="modal-content">
+				<div class="modal-mini-body">
+					<span class="close-modal" data-dismiss="modal" aria-label="Close"></span>
+					<div class="modal-mini-wrap">
+						<div class="modal-mini-tit">
+							Заказ №1231234 отменен
+						</div>
+						<div class="modal-mini-bt">
+							<a href="#" class="first-bt" data-dismiss="modal">
+								Хорошо
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- / Modal add to favorite -->
+
+	<!-- Modal banner -->
+	<div class="modal fade mini-ban" id="bann" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+		aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered" role="document">
+			<div class="modal-content">
+				<div class="modal-mini-body">
+					<span class="close-modal" data-dismiss="modal" aria-label="Close"></span>
+					<div class="modal-mini-wrap">
+						<div class="thumb-action">
+							<a href="#">
+								<img src="./images/bann-modal.jpg" alt="">
+							</a>
+						</div>
+						<div class="mod-action-descr">
+							<div class="mod-action-tit">
+								<a href="#">
+									Антисептик в подарок к каждому заказу
+								</a>
+							</div>
+							<div class="mod-action-text">
+								До конца акции осталось  
+								<span>
+									5 дней
+								</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- / Modal banner -->
+
+	<!-- Modal add to favorite -->
+	<div class="modal fade mini-mod" id="fav" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+		aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered" role="document">
+			<div class="modal-content">
+				<div class="modal-mini-body">
+					<span class="close-modal" data-dismiss="modal" aria-label="Close"></span>
+					<div class="modal-mini-wrap">
+						<div class="modal-mini-tit">
+							Товар добавлен в Избранное
+						</div>
+						<div class="modal-mini-bt">
+							<a href="#" class="first-bt" data-dismiss="modal">
+								Хорошо
+							</a>
+							<a href="#" class="third-bt">
+								Перейти в Избранное
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- / Modal add to favorite -->
+
+	<!-- Modal add to compare -->
+	<div class="modal fade mini-mod" id="comp" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+		aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered" role="document">
+			<div class="modal-content">
+				<div class="modal-mini-body">
+					<span class="close-modal" data-dismiss="modal" aria-label="Close"></span>
+					<div class="modal-mini-wrap">
+						<div class="modal-mini-tit">
+							Товар добавлен к сравнению
+						</div>
+						<div class="modal-mini-bt">
+							<a href="#" class="first-bt" data-dismiss="modal">
+								Хорошо
+							</a>
+							<a href="#" class="third-bt">
+								Перейти к Сравнению
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- / Modal add to compare -->
+
+	<!-- Modal login -->
+	<div class="modal fade log-reg-mod" id="log" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+		aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered" role="document">
+			<div class="modal-content">
+				<div class="modal-mini-body">
+					<span class="close-modal" data-dismiss="modal" aria-label="Close"></span>
+					<div class="modal-reg-log">
+						<div class="modal-reg-body">
+							<div class="modal-reg-tit">
+								Вход
+							</div>
+							<div class="modal-reg-soc">
+								<div class="modal-reg-soc-name">
+									Через соцсети
+								</div>
+								<div class="modal-reg-bt">
+									<a class="vk" href="#">
+										<span>
+											Вконтакте
+										</span>
+									</a>
+									<a class="face" href="#">
+										<span>
+											Facebook
+										</span>
+									</a>
+								</div>
+							</div>
+
+							<div class="modal-reg-form">
+								<div class="modal-reg-form-tit">
+									С помощью аккаунта Rossbrand
+								</div>
+								<div class="modal-reg-in">
+									<form action="">
+										<div class="modal-reg-inp">
+											<input type="text" placeholder="E-mail">
+										</div>
+										<div class="modal-reg-inp">
+											<input type="text" placeholder="Пароль">
+										</div>
+										<div class="modal-reg-btns">
+											<div class="modal-log-bt">
+												<button class="first-bt">
+													Войти
+												</button>
+											</div>
+											<div class="modal-reg-frog">
+												<a href="#">
+													Забыли пароль?
+												</a>
+											</div>
+										</div>
+									</form>
+								</div>
+							</div>
+						</div>
+						<div class="modal-reg-bottom">
+							<a class="first-bt" data-dismiss="modal" data-toggle="modal" data-target="#reg" href="#">
+								<span>
+									Создать аккаунт
+								</span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- / Modal login -->
+
+	<!-- Modal login -->
+	<div class="modal fade log-reg-mod" id="reg" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+		aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered" role="document">
+			<div class="modal-content">
+				<div class="modal-mini-body">
+					<span class="close-modal" data-dismiss="modal" aria-label="Close"></span>
+					<div class="modal-reg-log">
+						<div class="modal-reg-body">
+							<div class="modal-reg-tit">
+								Регистрация
+							</div>
+							
+							<div class="modal-reg-form">
+								
+								<div class="modal-reg-in">
+									<form action="">
+										<div class="modal-reg-inp">
+											<input type="text" placeholder="Ваше имя">
+										</div>
+										<div class="modal-reg-inp">
+											<input type="text" placeholder="Ваш E-mail">
+										</div>
+										<div class="modal-reg-inp">
+											<input type="text" placeholder="Придумайте пароль">
+										</div>
+										<div class="modal-reg-inp">
+											<input type="text" placeholder="Повторите пароль">
+										</div>
+										<div class="modal-check">
+											<label>
+												<input type="checkbox" checked>
+												<i></i>
+												<span>
+													Подписаться на новости и скидки
+												</span>
+											</label>
+										</div>
+										<div class="modal-reg-btns">
+											<div class="modal-log-bt">
+												<button class="first-bt">
+													Создать аккаунт
+												</button>
+											</div>
+										</div>
+									</form>
+								</div>
+							</div>
+						</div>
+						<div class="modal-reg-bottom">
+							<a class="first-bt" data-dismiss="modal" data-toggle="modal" data-target="#log" href="#">
+								<span>
+									Уже есть аккаунт?
+								</span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- / Modal login -->
+
+	<!-- Modal call-me -->
+	<div class="modal fade mini-mod" id="call" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+		aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered" role="document">
+			<div class="modal-content">
+				<div class="modal-mini-body">
+					<span class="close-modal" data-dismiss="modal" aria-label="Close"></span>
+					<div class="modal-call-wrap">
+						<div class="modal-call-tit">
+							Заказать звонок
+						</div>
+						<div class="modal-call-inp">
+							<input type="text" class="phone-mask" placeholder="+7">
+						</div>
+						<div class="modal-call-bt">
+							<button href="#" class="first-bt" data-dismiss="modal">
+								Позвоните мне
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- / Modal acall-me -->
+
+	<!-- New Modals -->
+	<div class="modal fade new_modal new_modal__reg" id="new_reg" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+		aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered" role="document">
+			<div class="modal-content">
+				<button data-dismiss="modal" class="close-modal">
+	                 
+	            </button>
+	            <p class="modal_title">
+	            	Регистрация
+	            </p>
+	            <div class="modal-reg-in">
+					<form method="post">
+						<div class="modal-reg-inp">
+							<input type="text" placeholder="Имя">
+						</div>
+						<div class="modal-reg-inp">
+							<input type="email" placeholder="E-mail">
+						</div>
+						<div class="modal-reg-inp">
+							<input type="password" placeholder="Пароль">
+						</div>
+						<div class="modal-reg-inp">
+							<input type="password" placeholder="Повторите пароль">
+						</div>
+						<div class="modal-check">
+							<label>
+								<input type="checkbox" checked>
+								<i></i>
+								<span>
+									Подписаться на новости и скидки
+								</span>
+							</label>
+						</div>
+						<p class="error_info">
+							Ошибка! Пароли не совпадают
+						</p>
+						<button type="submit" class="btn btn_green modal_btn">
+							Зарегистрироваться
+						</button>
+						<a href="#" class="btn btn_white__bordered modal_btn">
+							Уже есть аккаунт?
+						</a>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="modal fade new_modal new_modal__login" id="new_login" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+		aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered" role="document">
+			<div class="modal-content">
+				<button data-dismiss="modal" class="close-modal">
+	                 
+	            </button>
+	            <p class="modal_title">
+	            	Вход
+	            </p>
+	            <div class="modal-reg-in">
+					<form method="post">
+						<div class="modal-reg-inp">
+							<input type="email" placeholder="E-mail">
+						</div>
+						<div class="modal-reg-inp">
+							<input type="password" placeholder="Пароль">
+						</div>
+						<div class="modal-check">
+							<label>
+								<input type="checkbox" checked>
+								<i></i>
+								<span>
+									Соглашаюсь с <a href="#">условиями</a>
+								</span>
+							</label>
+						</div>
+						<p class="error_info">
+							Ошибка! Пароли не совпадают
+						</p>
+						<button type="submit" class="btn btn_green modal_btn">
+							Войти
+						</button>
+						<a href="#" class="forgot_pswrd">
+							Забыли пароль?
+						</a>
+						<p class="modal_subtitle">
+							Войти с помощью
+						</p>
+						<div class="login_socials__wrapper">
+							<a href="#" class="btn btn_vk">
+								Вконтакте
+							</a>
+							<a href="#" class="btn btn_fb">
+								Facebook
+							</a>
+						</div>
+						<a href="#" class="btn btn_white__bordered modal_btn">
+							Еще не зарегистрированы?
+						</a>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="modal fade new_modal new_modal__forgot" id="new_forgot" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+		aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered" role="document">
+			<div class="modal-content">
+				<button data-dismiss="modal" class="close-modal">
+	                 
+	            </button>
+	            <p class="modal_title">
+	            	Забыли пароль?
+	            </p>
+	            <div class="modal-reg-in">
+					<form method="post">
+						<div class="modal-reg-inp">
+							<input type="email" placeholder="E-mail">
+						</div>
+						<p class="error_info">
+							Ошибка! E-mail не найден
+						</p>
+						<button type="submit" class="btn btn_green modal_btn">
+							Выслать на E-mail
+						</button>
+						<a href="#" class="btn btn_white__bordered modal_btn">
+							Отмена
+						</a>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+    
+	<div class="modal fade new_modal new_modal__forgot__success" id="new_forgot__success" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+		aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered" role="document">
+			<div class="modal-content">
+				<button data-dismiss="modal" class="close-modal">
+	                 
+	            </button>
+	            <p class="modal_title">
+	            	Забыли пароль?
+	            </p>
+	            <div class="modal-reg-in">
+					<p class="modal_descr">
+						Письмо отправлено
+					</p>
+					<a href="#" class="btn btn_green modal_btn">
+						Спасибо
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="wrapper">
+		<!-- header -->
+        <header>
+
+            <!-- header-top desctop -->
+            <div class="header-top">
+                <div class="container">
+                    <div class="header-top-in">
+                        <div class="header_left_wrapper">
+                            <a href="#" class="logo_inner">
+                                <img src="images/logo_inner.svg" alt="">
+                            </a>
+                            <!-- one drop -->
+                                <div class="one-top-drop drop-serv">
+                                    <div class="one-top-drop-bt">
+                                        <span>Клиентский сервис</span>
+                                    </div>
+                                    <div class="one-top-drop-hide">
+                                        <ul>
+                                            <li><a href="#">Доставка и оплата</a></li>
+                                            <li><a href="#">Возврат товара</a></li>
+                                            <li><a href="#">Личный кабинет</a></li>
+                                            <li><a href="#">Вопрос-ответ</a></li>
+                                            <li><a href="#">О нас</a></li>
+                                            <li><a href="#">Обратная связь</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <!-- / one drop -->
+                                <!-- one drop -->
+                                <div class="one-top-drop drop-phone">
+                                    <div class="one-top-drop-bt">
+                                        <span>8 (800) 300 - 50 - 50</span>
+                                    </div>
+                                    <div class="one-top-drop-hide">
+                                        <div class="call-me-from">
+                                            <form class="header_callback">
+                                                <div class="call-me-from-inp">
+                                                    <input class="phone-mask" type="text" placeholder="+7">
+                                                </div>
+                                                <div class="call-me-from-bt">
+                                                    <button class="first-bt">
+                                                        Позвоните мне
+                                                    </button>
+                                                </div>
+                                            </form>
+                                        </div>
+                                        <div class="call_me_form_thx">
+                                            <p class="title">
+                                                Заявка отправлена!
+                                            </p>
+                                            <p class="subtitle">
+                                                Менеджер перезвонит Вам через несколько минут
+                                            </p>
+                                            <div class="btn_wrapper">
+                                                <a href="#" class="btn btn_green btn_green__thx">
+                                                    Спасибо
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- / one drop -->
+                        </div>
+                        <div class="logo">
+                            <a href="#">
+                                <img src="./images/logo.svg" alt="">
+                            </a>
+                        </div>
+                        <div class="header-right">
+                            <div class="lang">
+                                <a href="#">
+                                    Eng
+                                </a>
+                            </div>
+                            <div class="header-time">
+                                <div class="header-time-top">
+                                    <img src="./images/header-time.svg" alt="">
+                                </div>
+                                <div class="header-time-bot">
+                                    Пн-Пт: 
+                                    <span>
+                                        9-20
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="header-lk">
+                                <a href="#"  data-toggle="modal" data-target="#log">
+                                    Войти
+                                </a>
+                                <div class="header-lk-drop">
+                                    <ul>
+                                        <li><a href="#"  data-toggle="modal" data-target="#reg">Заказы</a></li>
+                                        <li><a href="#">Избранное</a></li>
+                                        <li><a href="#">Сравнение товаров</a></li>
+                                        <li><a href="#">Мои вопросы</a></li>
+                                        <li><a href="#">Мои данные</a></li>
+                                        <li><a class="exit" href="#">Выйти</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="header-bask">
+                                <a href="#">
+                                    Корзина
+                                </a>
+                            </div>
+                        </div>
+                        <div class="menu_box">
+                            <div class="hamburger">
+                                <span class="line"></span>
+                                <span class="line"></span>
+                                <span class="line"></span>
+                            </div>
+                        </div>
+                        <div class="mob_nav">
+                            <div class="mob_nav-top">
+                                <ul>
+                                    <li>
+                                        <a href="#">
+                                            <img src="images/lang-ico.svg" alt="">
+                                            <span>Eng</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <img src="images/header-time.svg" alt="">
+                                            <span>
+                                                Пн-Пт: <small>9-20</small>
+                                            </span>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img src="images/header-user.svg" alt="">
+                                            <span>Войти</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img src="images/header-bask.svg" alt="">
+                                            <span>Корзина</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="mob_nav-middle">
+                                <a href="#" class="nav-link js-client">
+                                    <span>Клиентский<br/> сервис</span>
+                                </a>
+                                <a href="#" class="nav-link js-call">
+                                    <span>8 (800)<br/> 300 - 50 - 50</span>
+                                </a>
+                            </div>
+                            <div class="mob_nav-bottom">
+                                <ul class="main-menu nav-element">
+                                    <li>
+                                        <a href="#" class="active">
+                                            Экосистема Rossbrand
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            Цифровые решения
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            Услуги и сервисы
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            Каталог продукции
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            Бизнес вместе
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            Контакты
+                                        </a>
+                                    </li>
+                                </ul>
+                                <ul class="client-menu nav-element">
+                                    <li>
+                                        <a href="#">
+                                            Доставка и оплата
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            Возврат товара
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            Личный кабинет
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            Вопрос-ответ
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            О нас
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            Обратная связь
+                                        </a>
+                                    </li>
+                                </ul>
+                                <div class="call-me nav-element">
+                                    <form method="post">
+                                        <div class="call-me-from-inp">
+                                            <input class="phone-mask" type="text" placeholder="+7" inputmode="text">
+                                        </div>
+                                        <div class="call-me-from-bt">
+                                            <a href="#" class="first-bt">
+                                                Позвоните мне
+                                            </a>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="thnx-wrapper nav-element">
+                                    <p>
+                                        Заявка отправлена!
+                                    </p>
+                                    <span>
+                                        Менеджер перезвонит Вам через несколько минут
+                                    </span>
+                                    <a href="#" class="first-bt">
+                                        Спасибо
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- / header-top desctop-->
+
+            <!-- header-bot -->
+            <div class="header-bot">
+                <div class="container">
+                    <div class="header-bot-in">
+
+                        <!-- nav -->
+                        <nav>
+                            <ul>
+                                <li class="active_nav">
+                                    <a href="#">
+                                        <span>Экосистема Rossbrand</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <span>Цифровые решения</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <span>Услуги и сервисы</span>
+                                    </a>
+                                </li>
+                                <li class="has-child main-drop">
+                                    <a href="#">
+                                        <span>Каталог продукции</span>
+                                    </a>
+                                    <!-- hide drop menu -->
+                                    <span class="hide-menu">
+                                        <span class="hide-menu-in">
+                                            <span class="hide-menu-left part-4">
+                                                <!-- one mini menu -->
+                                                <span class="one-hide-menu">
+                                                    <span class="one-hide-menu-tit">
+                                                        <a href="#">Цифровые решения</a>
+                                                    </span>
+                                                    <ul>
+                                                        <li><a href="#">Летняя</a></li>
+                                                        <li><a href="#">Зимняя</a></li>
+                                                        <li><a href="#">Мужская</a></li>
+                                                        <li><a href="#">Женская</a></li>
+                                                        <li><a href="#">Головные уборы</a></li>
+                                                        <li><a href="#">Подшлемники</a></li>
+                                                        <li><a href="#">Жилеты</a></li>
+                                                        <li><a href="#">Фартуки</a></li>
+                                                    </ul>
+                                                </span>
+                                                <!-- / one mini menu -->
+                                                <!-- one mini menu -->
+                                                <span class="one-hide-menu">
+                                                    <span class="one-hide-menu-tit">
+                                                        <a href="#">Направления</a>
+                                                    </span>
+                                                    <ul>
+                                                        <li><a href="#">Сфера услуг</a></li>
+                                                        <li><a href="#">Охота, рыбалка, туризм</a></li>
+                                                        <li><a href="#">Охранные структуры</a></li>
+                                                        <li><a href="#">Медицина</a></li>
+                                                        <li><a href="#">Рестораны, кафе</a></li>
+                                                        <li><a href="#">Лабораторная</a></li>
+                                                        <li><a href="#">Спасательная</a></li>
+                                                    </ul>
+                                                </span>
+                                                <!-- / one mini menu -->
+                                                <!-- one mini menu -->
+                                                <span class="one-hide-menu">
+                                                    <span class="one-hide-menu-tit">
+                                                        <a href="#">Костюмы</a>
+                                                    </span>
+                                                    <ul>
+                                                        <li><a href="#">Огнезащитные</a></li>
+                                                        <li><a href="#">Термостойкие</a></li>
+                                                        <li><a href="#">Влагозащитные</a></li>
+                                                        <li><a href="#">Кислостойкие</a></li>
+                                                        <li><a href="#">Против насекомых</a></li>
+                                                        <li><a href="#">Противоэнцефалитные</a></li>
+                                                        <li><a href="#">Сварщика</a></li>
+                                                    </ul>
+                                                </span>
+                                                <!-- / one mini menu -->
+                                                <!-- one mini menu -->
+                                                <span class="one-hide-menu">
+                                                    <span class="one-hide-menu-tit">
+                                                        <a href="#">Трикотаж</a>
+                                                    </span>
+                                                    <ul>
+                                                        <li><a href="#">Белье нательное</a></li>
+                                                        <li><a href="#">Футболки</a></li>
+                                                        <li><a href="#">Рубашки</a></li>
+                                                        <li><a href="#">Свитера</a></li>
+                                                        <li><a href="#">Толстовки</a></li>
+                                                        <li><a href="#">Носки</a></li>
+                                                    </ul>
+                                                </span>
+                                                <!-- / one mini menu -->
+                                            </span>
+
+                                            <span class="hide-menu-right">
+                                                <a href="#" class="cat-img" style="background-image: url(./images/menu-img-1.jpg);">
+                                                    <span class="cat-img-tit">
+                                                        <i>
+                                                            Сигнальный костюм
+                                                        </i>
+                                                    </span>
+                                                </a>
+                                                <a href="#" class="cat-img" style="background-image: url(./images/menu-img-2.jpg);">
+                                                    <span class="cat-img-tit">
+                                                        <i>
+                                                            Термостойкий костюм
+                                                        </i>
+                                                    </span>
+                                                </a>
+                                            </span>
+                                        </span>
+                                    </span>
+                                    <!-- / hide drop menu -->
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <span>Бизнес вместе</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <span>Контакты</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <!-- / nav -->
+
+                        <!-- search -->
+                        <div class="header_search search_w_photo w-photo">
+                            <input class="search_header" type="search" placeholder="Я ищу" name="header_search">
+                            <div class="search_photo__wrapper">
+                                <button type="button">
+                                    <svg width="14" height="15" viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M13.8086 12.8633L11.0742 10.1289C10.9375 10.0195 10.7734 9.9375 10.6094 9.9375H10.1719C10.9102 8.98047 11.375 7.77734 11.375 6.4375C11.375 3.32031 8.80469 0.75 5.6875 0.75C2.54297 0.75 0 3.32031 0 6.4375C0 9.58203 2.54297 12.125 5.6875 12.125C7 12.125 8.20312 11.6875 9.1875 10.9219V11.3867C9.1875 11.5508 9.24219 11.7148 9.37891 11.8516L12.0859 14.5586C12.3594 14.832 12.7695 14.832 13.0156 14.5586L13.7812 13.793C14.0547 13.5469 14.0547 13.1367 13.8086 12.8633ZM5.6875 9.9375C3.74609 9.9375 2.1875 8.37891 2.1875 6.4375C2.1875 4.52344 3.74609 2.9375 5.6875 2.9375C7.60156 2.9375 9.1875 4.52344 9.1875 6.4375C9.1875 8.37891 7.60156 9.9375 5.6875 9.9375Z"
+                                            fill="#d2d6d8"/>
+                                    </svg>
+                                </button>
+                                <p class="search_hidden__descr">
+                                    Поиск по фото
+                                </p>
+                            </div>
+                            <ul class="focus_search__wrapper">
+                                <li>
+                                    <a href="#">
+                                        Костюм <span>Охрана</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Кепка <span>Охрана</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Рубашка <span>Охранника</span>
+                                    </a>
+                                </li>
+                                <li class="all_search__result">
+                                    <a href="#">
+                                        Все результаты
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="photo_search__hidden">
+                                <img src="images/close_search.svg" alt="" class="close_js">
+                                <p class="title">
+                                    Поиск по фотографии
+                                </p>
+                                <p class="descr_info">
+                                    Максимальный размер: <span>8 МБ.</span>
+                                </p>
+                                <p class="descr_info">
+                                    Поддерживаемые форматы: <span>JPG, JPEG, PNG, BMP, GIF.</span>
+                                </p>
+                                <div class="upload">
+                                    <label for="file-upload" class="custom-file-upload btn btn_green">
+                                        Выберите файл
+                                    </label>
+                                    <input id="file-upload" type="file"/>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- / search -->
+                    </div>
+                </div>
+                <div class="photo-wrapper">
+                    <a href="#" class="photo-close">
+                        <img src="images/photo-cross.svg" alt="">
+                    </a>
+                    <div class="photo-main"></div>
+                    <div class="bottom-nav">
+                        <p>Сделайте фото или выберите из галереи</p>
+                        <div class="photo-btns">
+                            <a href="#" class="gallery">
+                                <img src="images/photo-img.svg" alt="">
+                            </a>
+                            <a href="#" class="shot">
+                                <img src="images/photo-btn.svg" alt="">
+                            </a>
+                            <a href="#" class="reverse">
+                                <img src="images/photo-reverse.svg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="header-bot--cat--new--wrapper">
+                <div class="container">
+                    <a href="#" class="header-bot--cat--new">
+                        <span>Каталог товаров</span>
+                        <small class="cat_img__wrapper">
+                            <img src="images/cart_new.svg" alt="">
+                        </small>
+                    </a>
+                </div>
+            </div>
+            <!-- / header-bot -->
+
+            <div class="mob_nav__new">
+                <div class="mob_nav_bg"></div>
+                <div class="mob-nav__wrapper">
+                    <div class="mob_nav__top">
+                        <p>Каталог товаров</p>
+                        <div class="close_mob_nav">
+                            <img src="images/new_close.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="mob_nav__main">
+                        <div class="mob_nav__cat">
+                            <a href="#">
+                                <img src="images/new_green.svg" alt="">
+                                <span>Новинки</span>
+                            </a>
+                            <a href="#" class="red">
+                                <img src="images/new_red.svg" alt="">
+                                <span>Распродажа</span>
+                            </a>
+                        </div>
+                        <div class="mob-nav__body">
+                            <ul>
+                                <li class="w-submenu">
+                                    <a href="#">
+                                        <img src="images/catalog/cat1.svg" alt="">
+                                        Спецодежда
+                                    </a>
+                                    <div class="second-level">
+                                        <p class="category-title">
+                                            <a href="#" class="back">
+                                                <img src="images/catalog/back-ico.svg" alt="">
+                                            </a>
+                                            Спецодежда
+                                        </p>
+                                        <div class="second-level-inner">
+                                            <ul class="default-categories">
+                                                <li>
+                                                    <a href="#">
+                                                        Летняя
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        Зимняя
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        Мужская
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        Женская
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        Головные уборы
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        Летняя
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        Головные уборы
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        Женская
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                            <div class="menu-dropdown">
+                                                <a href="#">
+                                                    Направления
+                                                </a>
+                                                <ul>
+                                                    <li>
+                                                        <a href="#">Сфера услуг</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Охота, рыбалка, туризм Sobol™</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Медицина</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Спасательная</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Охранные структуры</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Сфера услуг</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Охота, рыбалка, туризм Sobol™</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Медицина</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Спасательная</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Охранные структуры</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="menu-dropdown">
+                                                <a href="#">
+                                                    Костюмы
+                                                </a>
+                                                <ul>
+                                                    <li>
+                                                        <a href="#">Сфера услуг</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Охота, рыбалка, туризм Sobol™</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Медицина</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Спасательная</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Охранные структуры</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Сфера услуг</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Охота, рыбалка, туризм Sobol™</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Медицина</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Спасательная</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Охранные структуры</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="menu-dropdown">
+                                                <a href="#">
+                                                    Трикотаж
+                                                </a>
+                                                <ul>
+                                                    <li>
+                                                        <a href="#">Сфера услуг</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Охота, рыбалка, туризм Sobol™</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Медицина</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Спасательная</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Охранные структуры</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Сфера услуг</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Охота, рыбалка, туризм Sobol™</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Медицина</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Спасательная</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Охранные структуры</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="w-submenu">
+                                    <a href="#">
+                                        <img src="images/catalog/cat2.svg" alt="">
+                                        Рабочая обувь
+                                    </a>
+                                    <div class="second-level">
+                                        <p class="category-title">
+                                            <a href="#" class="back">
+                                                <img src="images/catalog/back-ico.svg" alt="">
+                                            </a>
+                                            Рабочая обувь
+                                        </p>
+                                        <div class="second-level-inner">
+                                            <ul class="default-categories">
+                                                <li>
+                                                    <a href="#">
+                                                        Летняя
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        Зимняя
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        Мужская
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        Женская
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        Головные уборы
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        Летняя
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        Головные уборы
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        Женская
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                            <div class="menu-dropdown">
+                                                <a href="#">
+                                                    Направления
+                                                </a>
+                                                <ul>
+                                                    <li>
+                                                        <a href="#">Сфера услуг</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Охота, рыбалка, туризм Sobol™</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Медицина</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Спасательная</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Охранные структуры</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Сфера услуг</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Охота, рыбалка, туризм Sobol™</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Медицина</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Спасательная</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Охранные структуры</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="menu-dropdown">
+                                                <a href="#">
+                                                    Костюмы
+                                                </a>
+                                                <ul>
+                                                    <li>
+                                                        <a href="#">Сфера услуг</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Охота, рыбалка, туризм Sobol™</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Медицина</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Спасательная</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Охранные структуры</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Сфера услуг</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Охота, рыбалка, туризм Sobol™</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Медицина</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Спасательная</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Охранные структуры</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="menu-dropdown">
+                                                <a href="#">
+                                                    Трикотаж
+                                                </a>
+                                                <ul>
+                                                    <li>
+                                                        <a href="#">Сфера услуг</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Охота, рыбалка, туризм Sobol™</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Медицина</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Спасательная</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Охранные структуры</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Сфера услуг</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Охота, рыбалка, туризм Sobol™</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Медицина</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Спасательная</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Охранные структуры</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="images/catalog/cat3.svg" alt="">
+                                        Защита рук
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="images/catalog/cat4.svg" alt="">
+                                        Средства инд. защиты
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="images/catalog/cat5.svg" alt="">
+                                        Хозяйственная группа
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="images/catalog/cat6.svg" alt="">
+                                        Защита от вирусов
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </header>
+        <!-- header -->
+
+		<!-- main -->
+		<main>
+			<section class="main_automation">
+				<div class="main_automation__wrapper first" style="background: url('images/main_slider_1.jpg') center no-repeat; background-size: cover;">
+					<div class="container">
+						<p class="main_automation__descr">
+							Цифровая платформа предназначена для подбора <br> спецодежды и СИЗ на промышленных предприятиях, <br>а также для управления учетом, выдачей и <br>обслуживанием СИЗ
+						</p>
+						<a href="#new_form" class="btn btn_white scroll_anchor">
+							Отправить заявку
+						</a>
+					</div>
+				</div>
+			</section>
+			<section class="about_digital_sol">
+				<div class="container">
+					<div class="about_digital_sol__wrapper">
+						<div class="about_digital_sol__item">
+							<img src="images/a_dig_sol_1.svg" alt="">
+							<div class="descr">
+								<p class="about_digital_sol_name">
+									Контроль <br>использования СИЗ
+								</p>
+								<ul>
+									<li>
+										<a href="#">
+											Цифровые СИЗ
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											Комплектность СИЗ
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="about_digital_sol__item">
+							<img src="images/a_dig_sol_2.svg" alt="">
+							<div class="descr">
+								<p class="about_digital_sol_name">
+									Учет рабочего <br>времени и навигация
+								</p>
+								<ul>
+									<li>
+										<a href="#">
+											Трекеры
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											Навигация в экстремальных условиях
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="about_digital_sol__item">
+							<img src="images/a_dig_sol_3.svg" alt="">
+							<div class="descr">
+								<p class="about_digital_sol_name">
+									Безопасность <br>на производстве
+								</p>
+								<ul>
+									<li>
+										<a href="#">
+											Навигация Indoor
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											Предотвращение столкновений
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="about_digital_sol__item">
+							<img src="images/a_dig_sol_4.svg" alt="">
+							<div class="descr">
+								<p class="about_digital_sol_name">
+									Учет рабочего <br>времени и навигация
+								</p>
+								<ul>
+									<li>
+										<a href="#">
+											RFID метки продукции
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="about_digital_sol__item">
+							<img src="images/a_dig_sol_5.svg" alt="">
+							<div class="descr">
+								<p class="about_digital_sol_name">
+									Мониторинг <br>территории
+								</p>
+								<ul>
+									<li>
+										<a href="#">
+											Конвертопланы и компьютерное зрение
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="platform_digital_sol">
+				<div class="container">
+					<p class="section_title text_left__mob">
+						Платформа «Цифровой рабочий»
+					</p>
+					<div class="digital_platform_wrapper">
+						<div class="row">
+							<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+								<div class="left_side">
+									<p>
+										Цифровая платформа позволяет осуществлять планирование, контроль, управление всей работой. Обеспечивает безопасность проведения работ. Включает в себя удаленные сервисы по СИЗ, систему нарядов-допусков, учитывает рабочее время и имеет собсьвенное мобильное приложение.
+									</p>
+									<img src="images/digital_grafic.png" alt="">
+									<p>
+										Цифровая платформа предназначена для риск- ориентированного подбора спецодежды и СИЗ на промышленных предприятиях, а также для управления учетом, выдачей и обслуживанием СИЗ.
+									</p>
+								</div>
+							</div>
+							<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+								<div class="right_side">
+									<picture>
+										<source srcset="images/digital_worker_mob.png" media="(max-width: 991px)">
+										<source srcset="images/digital_worker.png">
+										<img src="images/digital_worker.png" alt="">
+									</picture>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="digital_function__wrapper">
+						<div class="row">
+							<div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 col-12">
+								<p class="digital_function_name">
+									Базовый функционал
+								</p>
+								<div class="digital_function__item">
+									<div class="item_left">
+										<div class="item_left__one">
+											<img src="images/digital_function_icon_1.svg" alt="" class="digital_function_icon">
+											<div>
+												<p class="name">
+													Программа учета выдачи
+												</p>
+												<p class="descr">
+													Программа позволяет вести цифровые карточки сотрудников, формировать потребность, выгружать аналитические отчеты
+												</p>
+											</div>
+										</div>
+										<div class="item_left__one">
+											<img src="images/digital_function_icon_2.svg" alt="" class="digital_function_icon">
+											<div>
+												<p class="name">
+													Риск-ориентированный экспертный подход
+												</p>
+												<p class="descr">
+													Экспертная группа, в случае необходимости, проводит аудит рабочих мест и выдает рекомендации по характеристикам СИЗ
+												</p>
+											</div>
+										</div>
+									</div>
+									<div class="item_right">
+										<img src="images/digital_function_1.png" alt="">
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 col-12">
+								<p class="digital_function_name">
+									Дополнительный функционал
+								</p>
+								<div class="digital_function__item">
+									<div class="item_left">
+										<div class="item_left__one">
+											<img src="images/digital_function_icon_3.svg" alt="" class="digital_function_icon">
+											<div>
+												<p class="name">
+													Мобильное приложение
+												</p>
+												<p class="descr">
+													Предоставляет сотруднику доступ к личному кабинету с возможностью корректировки размеров
+												</p>
+											</div>
+										</div>
+										<div class="item_left__one">
+											<img src="images/digital_function_icon_4.svg" alt="" class="digital_function_icon">
+											<div>
+												<p class="name">
+													Комплексное обеспечение
+												</p>
+												<p class="descr">
+													Обеспечение сотрудников спецодеждой и СИЗ
+												</p>
+											</div>
+										</div>
+									</div>
+									<div class="item_right">
+										<img src="images/digital_function_2.png" alt="">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="how_working__digital_sol">
+				<div class="container">
+					<div class="section_title__arrow">
+						<p class="section_title">
+							Как это работает
+						</p>
+						<div class="section__sliderNav--arrows">
+							<button class="prev" tabindex="-1">
+								<img src="images/arr_left_slider.svg" alt="">
+							</button>
+							<button class="next" tabindex="-1">
+								<img src="images/arr_right_slider.svg" alt="">
+							</button>
+						</div>
+					</div>
+					<div class="how_working__wrapper">
+						<div class="how_working__slider">
+							<a href="#" class="slider_item">
+								<small>1</small>
+								<span>
+									Предприятия подключаются к облачной платформе, заносят данные, необходимые для расчета условий и норм обеспечения сотрудников СИЗ, с учетом риск- ориентированного подхода. Платформа выполняет необходимые расчеты.
+								</span>
+							</a>
+							<a href="#" class="slider_item">
+								<small>2</small>
+								<span>
+									Платформа, посредством встроенного агрегатора цен, формирует ценовые медианы по каждому производителю СИЗ
+								</span>
+							</a>
+							<a href="#" class="slider_item">
+								<small>3</small>
+								<span>
+									Предприятия в платформе указывают желаемые ценовые медианы номенклатурного справочника и платформа помогает подобрать оптимальный набор СИЗ
+								</span>
+							</a>
+							<a href="#" class="slider_item">
+								<small>4</small>
+								<span>
+									Учет и выдача спецодежды осуществляется через платформу
+								</span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="support_digital_sol">
+				<div class="container">
+					<p class="section_title">
+						Комплексное партнерское обеспечение
+					</p>
+					<div class="support_wrapper">
+						<div class="support_item">
+							<span class="support_item__decoration"></span>
+							<img src="images/support_1.svg" alt="" class="support_item__img">
+							<p class="name">
+								Интеграция
+							</p>
+							<p class="descr">
+								Заключается договор аренды склада на территории заказчика. Персонал заказчика в полном составе переводится в штат аутсорсера. Аутсорсер через платформу интегрируется с ИТ-системами заказчика
+							</p>
+							<a href="#new_form" class="btn btn_green scroll_anchor">
+								Заявка
+							</a>
+						</div>
+						<div class="support_item support_item__inner">
+							<span class="support_item__decoration"></span>
+							<img src="images/support_2.svg" alt="" class="support_item__img">
+							<p class="name">
+								Согласование
+							</p>
+							<p class="descr">
+								Аутсорсер полностью берет на себя актуализацию норм, закупку у поставщиков и выдачу СИЗ сотрудникам в рамках согласованной заказчиком номенклатуры. Кроме того аутсорсер может взять на себя стирку, мелкий ремонт и др.
+							</p>
+						</div>
+						<div class="support_item support_item__inner">
+							<img src="images/support_3.svg" alt="" class="support_item__img">
+							<p class="name">
+								Обеспечение
+							</p>
+							<p class="descr">
+								Аусторсер ведет непрерывную работу совместно со службами снабжения и ОТиПБ заказчика в области подбора и тестирования новых СИЗ с целью снижения затрат и увеличения комфорта и защищенности сотрудников
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="your_prev_digital_sol">
+				<div class="container">
+					<p class="section_title">
+						Ваши преимущества
+					</p>
+					<div class="your_prev__wrapper">
+						<div class="your_prev__duo">
+							<div class="your_prev_item">
+								<img src="images/y_prev_1.svg" alt="">
+								<p>
+									Строгое соответствие правилам и нормам выдачи СИЗ
+								</p>
+							</div>
+							<div class="your_prev_item">
+								<img src="images/y_prev_2.svg" alt="">
+								<p>
+									Контроль и прозрачность на всем жизненном цикле СИЗ
+								</p>
+							</div>
+						</div>
+						<div class="your_prev__duo">
+							<div class="your_prev_item">
+								<img src="images/y_prev_3.svg" alt="">
+								<p>
+									Исключение рисков приобретения СИЗ с недостоверными документами
+								</p>
+							</div>
+							<div class="your_prev_item">
+								<img src="images/y_prev_4.svg" alt="">
+								<p>
+									Повышение производительности труда и увеличение прибыли
+								</p>
+							</div>
+						</div>
+						<div class="your_prev__duo">
+							<div class="your_prev_item">
+								<img src="images/y_prev_5.svg" alt="">
+								<p>
+									Обеспечение безопасных условий труда
+								</p>
+							</div>
+							<div class="your_prev_item">
+								<img src="images/y_prev_6.svg" alt="">
+								<p>
+									Экономия времени и передача непрофильных функций
+								</p>
+							</div>
+						</div>
+						<div class="your_prev__duo">
+							<div class="your_prev_item">
+								<img src="images/y_prev_7.svg" alt="">
+								<p>
+									Существенное снижение своих рисков (разделяя их с аутсорсером)
+								</p>
+							</div>
+							<div class="your_prev_item">
+								<img src="images/y_prev_8.svg" alt="">
+								<p>
+									Снижение себестоимости функций, передаваемых на аутсорсинг
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="cooperation_ready">
+				<div class="container">
+					<div class="partnership_wrapper">
+						<div class="partnership_block">
+							<div class="partnership_block_first">
+								<p class="partnership_title">
+									Мы всегда готовы к сотрудничеству
+								</p>
+							</div>
+							<form class="new_form" id="new_form">
+								<div class="form_input">
+									<input type="text" name="name" placeholder="Имя Фамилия	" >
+								</div>
+								<div class="form_input">
+									<input type="text" name="companyName" placeholder="Компания" >
+								</div>
+								<div class="form_input">
+									<input type="tel" name="phone" placeholder="Телефон" >
+								</div>
+								<div class="form_input">
+									<input type="email" name="email" placeholder="E-mail" >
+								</div>
+								<label class="check">
+		                            Соглашаюсь с <a href="#">условиями обработки персональных данных</a>
+		                            <input type="checkbox" >
+		                            <span class="checkmark"></span>
+		                        </label> 
+								<div class="error_info">
+									Ошибка! Не заполнено поле E-mail
+								</div>
+								<button type="submit" class="btn btn_green">
+									Отправить заявку
+								</button>
+							</form>
+							<div class="partnership_success">
+								<p class="partnership_title">
+									Ваше письмо отправлено!
+								</p>
+								<button type="button" class="btn btn_green thx_button">
+									Спасибо
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<!-- / main -->
+
+		<!-- footer -->
+		<footer>
+            <div class="container">
+                <div class="footer-in">
+                    <div class="footer-cont">
+                        <div class="footer-phone">
+                            <a href="#">
+                                +7 (965) 318-90-83
+                            </a>
+                        </div>
+                        <div class="footer-mail">
+                            <a href="mailto:info@rossbrand.ru">
+                                info@rossbrand.ru
+                            </a>
+                        </div>
+
+                    </div>
+
+                    <div class="footer-menu">
+                        <div class="one-footer-menu">
+                            <ul>
+                                <li><a href="#">Доставка и оплата</a></li>
+                                <li><a href="#">Личный кабинет</a></li>
+                                <li><a href="#">Вопросы</a></li>
+                            </ul>
+                        </div>
+                        <div class="one-footer-menu">
+                            <ul>
+                                <li><a href="#">Каталог товаров</a></li>
+                                <li><a href="#">Акции</a></li>
+                                <li><a href="#">Услуги</a></li>
+                                <li><a href="#">Бренды</a></li>
+                            </ul>
+                        </div>
+                        <div class="one-footer-menu">
+                            <ul>
+                                <li><a href="#">О компании</a></li>
+                                <li><a href="#">Партнеры</a></li>
+                                <li><a href="#">Контактная информация</a></li>
+                                <li class="active"><a href="#">Участие в тендерах</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer-lang">
+                        <a class="eng" href="#">
+                            Eng
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer-copy">
+                    © ООО «РБ», 2021 <br>
+                    Все права защищены. Предложение<br>
+                    не является публичной офертой <a href="#">Условия обработки персональных данных</a>
+                </div>
+            </div>
+        </footer>
+		<!-- / footer -->
+	</div>
+
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+	<script src="https://cdns.cloudflare.com/ajax/libs/opper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+	<script src="js/jquery.inputmask.min.js"></script>
+
+	<script src="js/jquery.easy-autocomplete.min.js"></script>
+
+	<script src="js/init.js"></script>
+
+</body>
+                                  
+</html>

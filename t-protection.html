@@ -1,0 +1,2842 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Сайт</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+
+    <link href="css/easy-autocomplete.css" rel="stylesheet" type="text/css" />
+    <link href="css/app.css" rel="stylesheet" type="text/css" />
+
+    <link href="style.css" rel="stylesheet" type="text/css" />
+
+    <!-- ============================== -->
+
+    <link href="js/swiper/swiper.min.css" rel="stylesheet" type="text/css" />
+
+    <link href="js/ionRangeSlider/ion.rangeSlider.min.css" rel="stylesheet" type="text/css" />
+
+    <link href="new-style.css" rel="stylesheet" type="text/css" />
+
+    <!-- ============================== -->
+
+
+    <link href="t-style.css" rel="stylesheet" type="text/css" />
+
+
+  </head>
+
+<body>
+
+  <!-- Modal add to favorite -->
+  <div class="modal fade mini-mod thank-mod" id="thank-return" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+  aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-mini-body">
+          <span class="close-modal" data-dismiss="modal" aria-label="Close"></span>
+          <div class="modal-mini-wrap">
+            <div class="modal-mini-tit">
+              Ваша заявка отправлена
+            </div>
+            <div class="modal-mini-bt">
+              <a href="#" class="first-bt" data-dismiss="modal">
+                Хорошо
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- / Modal add to favorite -->
+
+  <!-- Modal call-me -->
+  <div class="modal fade" id="return-items" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-return-body">
+          <span class="close-modal" data-dismiss="modal" aria-label="Close"></span>
+          <div class="modal-return-wrap">
+            <div class="modal-return-tit">
+              Вернуть товар
+            </div>
+            
+                        <div class="list-return">
+                            <!-- one item -->
+                            <div class="list-return-one">
+                                <div class="return-one-thumb">
+                                    <img src="./images/LK-fav/thumb-1.png" alt="">
+                                </div>
+                                <div class="return-one-descr">
+                                    <div class="return-one-tit">
+                                        <a href="#">
+                                            Костюм Extra-Vision WPL влагозащитный
+                                        </a>
+                                    </div>
+                                    <div class="return-one-cat">
+                                        <a href="#">
+                                            Одежда влагозащитная
+                                        </a>
+                                    </div>
+                                    <div class="return-one-info">
+                                        <div class="return-one-price">
+                                            1 980 ₽
+                                        </div>
+                                        <div class="return-one-info-right">
+                                            <!-- one size -->
+                                            <div class="return-one-order-size">
+                                                <div class="return-one-order-size-left">
+                                                    88-92, 170-176
+                                                </div>
+                                                <div class="return-one-order-size-euro">
+                                                    M
+                                                </div>
+                                                <div class="return-one-order-size-count">
+                                                    <div class="num-block skin-6">
+                                                        <div class="num-in">
+                                                            <span class="minus dis">
+                                                                <svg width="10" height="2" viewBox="0 0 10 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                    <path d="M0 0V2H10V0H0Z" fill="#B0B0B0"/>
+                                                                </svg>                                                                            
+                                                            </span>
+                                                            <input type="text" class="in-num" value="4" readonly="">
+                                                            <span class="plus">
+                                                                <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                    <path d="M6 0H4V4H0V6H4V10H6V6H10V4H6V0Z" fill="#B0B0B0"/>
+                                                                </svg>
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- / one size -->
+                                            <!-- one size -->
+                                            <div class="return-one-order-size">
+                                                <div class="return-one-order-size-left">
+                                                    88-92, 170-176
+                                                </div>
+                                                <div class="return-one-order-size-euro">
+                                                    M
+                                                </div>
+                                                <div class="return-one-order-size-count">
+                                                    <div class="num-block skin-6">
+                                                        <div class="num-in">
+                                                            <span class="minus dis">
+                                                                <svg width="10" height="2" viewBox="0 0 10 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                    <path d="M0 0V2H10V0H0Z" fill="#B0B0B0"/>
+                                                                </svg>                                                                            
+                                                            </span>
+                                                            <input type="text" class="in-num" value="4" readonly="">
+                                                            <span class="plus">
+                                                                <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                    <path d="M6 0H4V4H0V6H4V10H6V6H10V4H6V0Z" fill="#B0B0B0"/>
+                                                                </svg>
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- / one size -->
+                                            
+                                            <div class="return-one-order-price">
+                                                7 970 ₽
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- / one item -->
+                            <!-- one item -->
+                            <div class="list-return-one">
+                                <div class="return-one-thumb">
+                                    <img src="./images/LK-fav/thumb-2.png" alt="">
+                                </div>
+                                <div class="return-one-descr">
+                                    <div class="return-one-tit">
+                                        <a href="#">
+                                            Сапоги мужские Step
+                                        </a>
+                                    </div>
+                                    <div class="return-one-cat">
+                                        <a href="#">
+                                            Одежда влагозащитная
+                                        </a>
+                                    </div>
+                                    <div class="return-one-info">
+                                        <div class="return-one-price">
+                                            1 980 ₽
+                                        </div>
+                                        <div class="return-one-info-right">
+                                            <!-- one size -->
+                                            <div class="return-one-order-size">
+                                                <div class="return-one-order-size-euro">
+                                                    43
+                                                </div>
+                                                <div class="return-one-order-size-count">
+                                                    <div class="num-block skin-6">
+                                                        <div class="num-in">
+                                                            <span class="minus dis">
+                                                                <svg width="10" height="2" viewBox="0 0 10 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                    <path d="M0 0V2H10V0H0Z" fill="#B0B0B0"/>
+                                                                </svg>                                                                            
+                                                            </span>
+                                                            <input type="text" class="in-num" value="4" readonly="">
+                                                            <span class="plus">
+                                                                <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                    <path d="M6 0H4V4H0V6H4V10H6V6H10V4H6V0Z" fill="#B0B0B0"/>
+                                                                </svg>
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- / one size -->
+                                            
+                                            <div class="return-one-order-price">
+                                                70 ₽
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- / one item -->
+                        </div>
+                        <div class="area-ret">
+                            <textarea placeholder="Укажите причину возврата"></textarea>
+                        </div>
+                        <div class="ret-bt">
+                            <button class="first-bt" data-dismiss="modal" data-toggle="modal" data-target="#thank-return">
+                                Отправить заявку 
+                            </button>
+                        </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- / Modal acall-me -->
+
+    <!-- Modal login -->
+  <div class="modal fade log-reg-mod" id="cancel" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+              <div class="modal-mini-body">
+                  <span class="close-modal" data-dismiss="modal" aria-label="Close"></span>
+                  <div class="cancel-modal-wrap">
+                      <div class="cancel-modal-body">
+                          <div class="cancel-modal-tit">
+                              Отмена заказа
+                          </div>
+                          <div class="cancel-modal-ico">
+                              <svg width="105" height="105" viewBox="0 0 105 105" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                  <circle cx="52.5" cy="52.5" r="51.5" fill="white" stroke="#CAB49A" stroke-width="2"/>
+                                  <path d="M55.535 59.2956C58.9844 58.7594 62.1411 57.1329 64.6043 54.5802C67.6575 51.416 69.2111 47.2723 68.9769 42.907C68.5446 34.7171 61.6728 28.167 53.3284 28.003C45.2363 27.8479 38.2744 33.6668 37.1531 41.5509C37.054 42.2733 37 43.0089 37 43.7446C37 45.1185 38.1348 46.2397 39.5353 46.2397C40.9358 46.2397 42.0706 45.1229 42.0706 43.7446C42.0706 43.2394 42.1066 42.7342 42.1741 42.2422C42.9397 36.8577 47.6905 32.8824 53.2249 32.9932C58.9259 33.104 63.6182 37.5756 63.9154 43.1729C64.073 46.1555 63.0102 48.9918 60.9253 51.1545C58.8403 53.3172 56.0258 54.5093 52.9997 54.5093C51.5992 54.5093 50.4644 55.6261 50.4644 57.0044V64.5871C50.4644 65.9654 51.5992 67.0822 52.9997 67.0822C54.4002 67.0822 55.535 65.9654 55.535 64.5871V59.2956Z" fill="#CAB49A"/>
+                                  <path d="M52.9995 71.8547C51.5991 71.8547 50.4643 72.9715 50.4643 74.3498V74.5049C50.4643 75.8832 51.5991 77 52.9995 77C54.4 77 55.5348 75.8832 55.5348 74.5049V74.3498C55.5348 72.9715 54.4 71.8547 52.9995 71.8547Z" fill="#CAB49A"/>
+                              </svg>                                
+                          </div>
+                          <div class="cancel-modal-quest">
+                              Вы уверены, что хотите <br>отменить заказ?
+                          </div>
+                          <div class="cancel-modal-check">
+                              <label>
+                                  <input type="checkbox">
+                                  <i></i>
+                                  <span>
+                                      Подтверждаю
+                                  </span>
+                              </label>
+                          </div>
+                          <div class="cancel-modal-bt">
+                              <a href="#" class="first-bt" data-dismiss="modal" data-toggle="modal" data-target="#thank-question">
+                                  Отменить заказ
+                              </a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <!-- / Modal login -->
+
+  <!-- Modal add to favorite -->
+  <div class="modal fade mini-mod thank-mod" id="thank-question" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-mini-body">
+          <span class="close-modal" data-dismiss="modal" aria-label="Close"></span>
+          <div class="modal-mini-wrap">
+            <div class="modal-mini-tit">
+              Заказ №1231234 отменен
+            </div>
+            <div class="modal-mini-bt">
+              <a href="#" class="first-bt" data-dismiss="modal">
+                Хорошо
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- / Modal add to favorite -->
+
+  <!-- Modal banner -->
+  <div class="modal fade mini-ban" id="bann" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-mini-body">
+          <span class="close-modal" data-dismiss="modal" aria-label="Close"></span>
+          <div class="modal-mini-wrap">
+            <div class="thumb-action">
+              <a href="#">
+                <img src="./images/bann-modal.jpg" alt="">
+              </a>
+            </div>
+            <div class="mod-action-descr">
+              <div class="mod-action-tit">
+                <a href="#">
+                  Антисептик в подарок к каждому заказу
+                </a>
+              </div>
+              <div class="mod-action-text">
+                До конца акции осталось  
+                <span>
+                  5 дней
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- / Modal banner -->
+
+  <!-- Modal add to favorite -->
+  <div class="modal fade mini-mod" id="fav" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-mini-body">
+          <span class="close-modal" data-dismiss="modal" aria-label="Close"></span>
+          <div class="modal-mini-wrap">
+            <div class="modal-mini-tit">
+              Товар добавлен в Избранное
+            </div>
+            <div class="modal-mini-bt">
+              <a href="#" class="first-bt" data-dismiss="modal">
+                Хорошо
+              </a>
+              <a href="#" class="third-bt">
+                Перейти в Избранное
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- / Modal add to favorite -->
+
+  <!-- Modal add to compare -->
+  <div class="modal fade mini-mod" id="comp" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-mini-body">
+          <span class="close-modal" data-dismiss="modal" aria-label="Close"></span>
+          <div class="modal-mini-wrap">
+            <div class="modal-mini-tit">
+              Товар добавлен к сравнению
+            </div>
+            <div class="modal-mini-bt">
+              <a href="#" class="first-bt" data-dismiss="modal">
+                Хорошо
+              </a>
+              <a href="#" class="third-bt">
+                Перейти к Сравнению
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- / Modal add to compare -->
+
+  <!-- Modal login -->
+  <div class="modal fade log-reg-mod" id="log" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-mini-body">
+          <span class="close-modal" data-dismiss="modal" aria-label="Close"></span>
+          <div class="modal-reg-log">
+            <div class="modal-reg-body">
+              <div class="modal-reg-tit">
+                Вход
+              </div>
+              <div class="modal-reg-soc">
+                <div class="modal-reg-soc-name">
+                  Через соцсети
+                </div>
+                <div class="modal-reg-bt">
+                  <a class="vk" href="#">
+                    <span>
+                      Вконтакте
+                    </span>
+                  </a>
+                  <a class="face" href="#">
+                    <span>
+                      Facebook
+                    </span>
+                  </a>
+                </div>
+              </div>
+
+              <div class="modal-reg-form">
+                <div class="modal-reg-form-tit">
+                  С помощью аккаунта Rossbrand
+                </div>
+                <div class="modal-reg-in">
+                  <form action="">
+                    <div class="modal-reg-inp">
+                      <input type="text" placeholder="E-mail">
+                    </div>
+                    <div class="modal-reg-inp">
+                      <input type="text" placeholder="Пароль">
+                    </div>
+                    <div class="modal-reg-btns">
+                      <div class="modal-log-bt">
+                        <button class="first-bt">
+                          Войти
+                        </button>
+                      </div>
+                      <div class="modal-reg-frog">
+                        <a href="#">
+                          Забыли пароль?
+                        </a>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+            <div class="modal-reg-bottom">
+              <a class="first-bt" data-dismiss="modal" data-toggle="modal" data-target="#reg" href="#">
+                <span>
+                  Создать аккаунт
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- / Modal login -->
+
+  <!-- Modal login -->
+  <div class="modal fade log-reg-mod" id="reg" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-mini-body">
+          <span class="close-modal" data-dismiss="modal" aria-label="Close"></span>
+          <div class="modal-reg-log">
+            <div class="modal-reg-body">
+              <div class="modal-reg-tit">
+                Регистрация
+              </div>
+              
+              <div class="modal-reg-form">
+                
+                <div class="modal-reg-in">
+                  <form action="">
+                    <div class="modal-reg-inp">
+                      <input type="text" placeholder="Ваше имя">
+                    </div>
+                    <div class="modal-reg-inp">
+                      <input type="text" placeholder="Ваш E-mail">
+                    </div>
+                    <div class="modal-reg-inp">
+                      <input type="text" placeholder="Придумайте пароль">
+                    </div>
+                    <div class="modal-reg-inp">
+                      <input type="text" placeholder="Повторите пароль">
+                    </div>
+                    <div class="modal-check">
+                      <label>
+                        <input type="checkbox" checked>
+                        <i></i>
+                        <span>
+                          Подписаться на новости и скидки
+                        </span>
+                      </label>
+                    </div>
+                    <div class="modal-reg-btns">
+                      <div class="modal-log-bt">
+                        <button class="first-bt">
+                          Создать аккаунт
+                        </button>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+            <div class="modal-reg-bottom">
+              <a class="first-bt" data-dismiss="modal" data-toggle="modal" data-target="#log" href="#">
+                <span>
+                  Уже есть аккаунт?
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- / Modal login -->
+
+  <!-- Modal call-me -->
+  <div class="modal fade mini-mod" id="call" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-mini-body">
+          <span class="close-modal" data-dismiss="modal" aria-label="Close"></span>
+          <div class="modal-call-wrap">
+            <div class="modal-call-tit">
+              Заказать звонок
+            </div>
+            <div class="modal-call-inp">
+              <input type="text" class="phone-mask" placeholder="+7">
+            </div>
+            <div class="modal-call-bt">
+              <button href="#" class="first-bt" data-dismiss="modal">
+                Позвоните мне
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- / Modal acall-me -->
+
+  <!-- New Modals -->
+  <div class="modal fade new_modal new_modal__reg" id="new_reg" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <button data-dismiss="modal" class="close-modal">
+                   
+              </button>
+              <p class="modal_title">
+                Регистрация
+              </p>
+              <div class="modal-reg-in">
+          <form method="post">
+            <div class="modal-reg-inp">
+              <input type="text" placeholder="Имя">
+            </div>
+            <div class="modal-reg-inp">
+              <input type="email" placeholder="E-mail">
+            </div>
+            <div class="modal-reg-inp">
+              <input type="password" placeholder="Пароль">
+            </div>
+            <div class="modal-reg-inp">
+              <input type="password" placeholder="Повторите пароль">
+            </div>
+            <div class="modal-check">
+              <label>
+                <input type="checkbox" checked>
+                <i></i>
+                <span>
+                  Подписаться на новости и скидки
+                </span>
+              </label>
+            </div>
+            <p class="error_info">
+              Ошибка! Пароли не совпадают
+            </p>
+            <button type="submit" class="btn btn_green modal_btn">
+              Зарегистрироваться
+            </button>
+            <a href="#" class="btn btn_white__bordered modal_btn">
+              Уже есть аккаунт?
+            </a>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade new_modal new_modal__login" id="new_login" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <button data-dismiss="modal" class="close-modal">
+                   
+              </button>
+              <p class="modal_title">
+                Вход
+              </p>
+              <div class="modal-reg-in">
+          <form method="post">
+            <div class="modal-reg-inp">
+              <input type="email" placeholder="E-mail">
+            </div>
+            <div class="modal-reg-inp">
+              <input type="password" placeholder="Пароль">
+            </div>
+            <div class="modal-check">
+              <label>
+                <input type="checkbox" checked>
+                <i></i>
+                <span>
+                  Соглашаюсь с <a href="#">условиями</a>
+                </span>
+              </label>
+            </div>
+            <p class="error_info">
+              Ошибка! Пароли не совпадают
+            </p>
+            <button type="submit" class="btn btn_green modal_btn">
+              Войти
+            </button>
+            <a href="#" class="forgot_pswrd">
+              Забыли пароль?
+            </a>
+            <p class="modal_subtitle">
+              Войти с помощью
+            </p>
+            <div class="login_socials__wrapper">
+              <a href="#" class="btn btn_vk">
+                Вконтакте
+              </a>
+              <a href="#" class="btn btn_fb">
+                Facebook
+              </a>
+            </div>
+            <a href="#" class="btn btn_white__bordered modal_btn">
+              Еще не зарегистрированы?
+            </a>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade new_modal new_modal__forgot" id="new_forgot" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <button data-dismiss="modal" class="close-modal">
+                   
+              </button>
+              <p class="modal_title">
+                Забыли пароль?
+              </p>
+              <div class="modal-reg-in">
+          <form method="post">
+            <div class="modal-reg-inp">
+              <input type="email" placeholder="E-mail">
+            </div>
+            <p class="error_info">
+              Ошибка! E-mail не найден
+            </p>
+            <button type="submit" class="btn btn_green modal_btn">
+              Выслать на E-mail
+            </button>
+            <a href="#" class="btn btn_white__bordered modal_btn">
+              Отмена
+            </a>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+    
+  <div class="modal fade new_modal new_modal__forgot__success" id="new_forgot__success" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <button data-dismiss="modal" class="close-modal">
+                   
+              </button>
+              <p class="modal_title">
+                Забыли пароль?
+              </p>
+              <div class="modal-reg-in">
+          <p class="modal_descr">
+            Письмо отправлено
+          </p>
+          <a href="#" class="btn btn_green modal_btn">
+            Спасибо
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="wrapper">
+    <!-- header -->
+    <header>
+
+      <!-- header-top desctop -->
+      <div class="header-top">
+        <div class="container">
+          <div class="header-top-in">
+            <div class="header_left_wrapper">
+              <a href="#" class="logo_inner">
+                <img src="images/logo_inner.svg" alt="">
+              </a>
+              <!-- one drop -->
+                <div class="one-top-drop drop-serv">
+                  <div class="one-top-drop-bt">
+                    <span>Клиентский сервис</span>
+                  </div>
+                  <div class="one-top-drop-hide">
+                    <ul>
+                      <li><a href="#">Доставка и оплата</a></li>
+                      <li><a href="#">Возврат товара</a></li>
+                      <li><a href="#">Личный кабинет</a></li>
+                      <li><a href="#">Вопрос-ответ</a></li>
+                      <li><a href="#">О нас</a></li>
+                      <li><a href="#">Обратная связь</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <!-- / one drop -->
+                <!-- one drop -->
+                <div class="one-top-drop drop-phone">
+                  <div class="one-top-drop-bt">
+                    <span>8 (800) 300 - 50 - 50</span>
+                  </div>
+                  <div class="one-top-drop-hide">
+                    <div class="call-me-from">
+                      <form class="header_callback">
+                        <div class="call-me-from-inp">
+                          <input class="phone-mask" type="text" placeholder="+7">
+                        </div>
+                        <div class="call-me-from-bt">
+                          <button class="first-bt">
+                            Позвоните мне
+                          </button>
+                        </div>
+                      </form>
+                    </div>
+                    <div class="call_me_form_thx">
+                      <p class="title">
+                        Заявка отправлена!
+                      </p>
+                      <p class="subtitle">
+                        Менеджер перезвонит Вам через несколько минут
+                      </p>
+                      <div class="btn_wrapper">
+                        <a href="#" class="btn btn_green btn_green__thx">
+                          Спасибо
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- / one drop -->
+            </div>
+            <div class="logo">
+              <a href="#">
+                <img src="./images/logo.svg" alt="">
+              </a>
+            </div>
+            <div class="header-right">
+              <div class="lang">
+                <a href="#">
+                  Eng
+                </a>
+              </div>
+              <div class="header-time">
+                <div class="header-time-top">
+                  <img src="./images/header-time.svg" alt="">
+                </div>
+                <div class="header-time-bot">
+                  Пн-Пт: 
+                  <span>
+                    9-20
+                  </span>
+                </div>
+              </div>
+              <div class="header-lk">
+                <a href="#"  data-toggle="modal" data-target="#log">
+                  Войти
+                </a>
+                <div class="header-lk-drop">
+                  <ul>
+                    <li><a href="#"  data-toggle="modal" data-target="#reg">Заказы</a></li>
+                    <li><a href="#">Избранное</a></li>
+                    <li><a href="#">Сравнение товаров</a></li>
+                    <li><a href="#">Мои вопросы</a></li>
+                    <li><a href="#">Мои данные</a></li>
+                    <li><a class="exit" href="#">Выйти</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="header-bask">
+                <a href="#">
+                  Корзина
+                </a>
+              </div>
+            </div>
+            <div class="menu_box">
+                      <div class="hamburger">
+                          <span class="line"></span>
+                          <span class="line"></span>
+                          <span class="line"></span>
+                      </div>
+                  </div>
+                        <div class="mob_nav">
+                            <div class="mob_nav-top">
+                                <ul>
+                                    <li>
+                                        <a href="#">
+                                            <img src="images/lang-ico.svg" alt="">
+                                            <span>Eng</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <img src="images/header-time.svg" alt="">
+                                            <span>
+                                                Пн-Пт: <small>9-20</small>
+                                            </span>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img src="images/header-user.svg" alt="">
+                                            <span>Войти</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img src="images/header-bask.svg" alt="">
+                                            <span>Корзина</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="mob_nav-middle">
+                                <a href="#" class="nav-link js-client">
+                                    <span>Клиентский<br/> сервис</span>
+                                </a>
+                                <a href="#" class="nav-link js-call">
+                                    <span>8 (800)<br/> 300 - 50 - 50</span>
+                                </a>
+                            </div>
+                            <div class="mob_nav-bottom">
+                                <ul class="main-menu nav-element">
+                                    <li>
+                                        <a href="#" class="active">
+                                            Экосистема Rossbrand
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            Цифровые решения
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            Услуги и сервисы
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            Каталог продукции
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            Бизнес вместе
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            Контакты
+                                        </a>
+                                    </li>
+                                </ul>
+                                <ul class="client-menu nav-element">
+                                    <li>
+                                        <a href="#">
+                                            Доставка и оплата
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            Возврат товара
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            Личный кабинет
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            Вопрос-ответ
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            О нас
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            Обратная связь
+                                        </a>
+                                    </li>
+                                </ul>
+                                <div class="call-me nav-element">
+                                    <form method="post">
+                                        <div class="call-me-from-inp">
+                                            <input class="phone-mask" type="text" placeholder="+7" inputmode="text">
+                                        </div>
+                                        <div class="call-me-from-bt">
+                                            <a href="#" class="first-bt">
+                                                Позвоните мне
+                                            </a>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="thnx-wrapper nav-element">
+                                    <p>
+                                        Заявка отправлена!
+                                    </p>
+                                    <span>
+                                        Менеджер перезвонит Вам через несколько минут
+                                    </span>
+                                    <a href="#" class="first-bt">
+                                        Спасибо
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+          </div>
+        </div>
+      </div>
+      <!-- / header-top desctop-->
+
+      <!-- header-bot -->
+      <div class="header-bot">
+        <div class="container">
+          <div class="header-bot-in">
+
+            <!-- nav -->
+            <nav>
+              <ul>
+                <li class="active_nav">
+                  <a href="#">
+                    <span>Экосистема Rossbrand</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <span>Цифровые решения</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <span>Услуги и сервисы</span>
+                  </a>
+                </li>
+                <li class="has-child main-drop">
+                  <a href="#">
+                    <span>Каталог продукции</span>
+                  </a>
+                  <!-- hide drop menu -->
+                  <span class="hide-menu">
+                    <span class="hide-menu-in">
+                      <span class="hide-menu-left part-4">
+                        <!-- one mini menu -->
+                        <span class="one-hide-menu">
+                          <span class="one-hide-menu-tit">
+                            <a href="#">Цифровые решения</a>
+                          </span>
+                          <ul>
+                            <li><a href="#">Летняя</a></li>
+                            <li><a href="#">Зимняя</a></li>
+                            <li><a href="#">Мужская</a></li>
+                            <li><a href="#">Женская</a></li>
+                            <li><a href="#">Головные уборы</a></li>
+                            <li><a href="#">Подшлемники</a></li>
+                            <li><a href="#">Жилеты</a></li>
+                            <li><a href="#">Фартуки</a></li>
+                          </ul>
+                        </span>
+                        <!-- / one mini menu -->
+                        <!-- one mini menu -->
+                        <span class="one-hide-menu">
+                          <span class="one-hide-menu-tit">
+                            <a href="#">Направления</a>
+                          </span>
+                          <ul>
+                            <li><a href="#">Сфера услуг</a></li>
+                            <li><a href="#">Охота, рыбалка, туризм</a></li>
+                            <li><a href="#">Охранные структуры</a></li>
+                            <li><a href="#">Медицина</a></li>
+                            <li><a href="#">Рестораны, кафе</a></li>
+                            <li><a href="#">Лабораторная</a></li>
+                            <li><a href="#">Спасательная</a></li>
+                          </ul>
+                        </span>
+                        <!-- / one mini menu -->
+                        <!-- one mini menu -->
+                        <span class="one-hide-menu">
+                          <span class="one-hide-menu-tit">
+                            <a href="#">Костюмы</a>
+                          </span>
+                          <ul>
+                            <li><a href="#">Огнезащитные</a></li>
+                            <li><a href="#">Термостойкие</a></li>
+                            <li><a href="#">Влагозащитные</a></li>
+                            <li><a href="#">Кислостойкие</a></li>
+                            <li><a href="#">Против насекомых</a></li>
+                            <li><a href="#">Противоэнцефалитные</a></li>
+                            <li><a href="#">Сварщика</a></li>
+                          </ul>
+                        </span>
+                        <!-- / one mini menu -->
+                        <!-- one mini menu -->
+                        <span class="one-hide-menu">
+                          <span class="one-hide-menu-tit">
+                            <a href="#">Трикотаж</a>
+                          </span>
+                          <ul>
+                            <li><a href="#">Белье нательное</a></li>
+                            <li><a href="#">Футболки</a></li>
+                            <li><a href="#">Рубашки</a></li>
+                            <li><a href="#">Свитера</a></li>
+                            <li><a href="#">Толстовки</a></li>
+                            <li><a href="#">Носки</a></li>
+                          </ul>
+                        </span>
+                        <!-- / one mini menu -->
+                      </span>
+
+                      <span class="hide-menu-right">
+                        <a href="#" class="cat-img" style="background-image: url(./images/menu-img-1.jpg);">
+                          <span class="cat-img-tit">
+                            <i>
+                              Сигнальный костюм
+                            </i>
+                          </span>
+                        </a>
+                        <a href="#" class="cat-img" style="background-image: url(./images/menu-img-2.jpg);">
+                          <span class="cat-img-tit">
+                            <i>
+                              Термостойкий костюм
+                            </i>
+                          </span>
+                        </a>
+                      </span>
+                    </span>
+                  </span>
+                  <!-- / hide drop menu -->
+                </li>
+                <li>
+                  <a href="#">
+                    <span>Бизнес вместе</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <span>Контакты</span>
+                  </a>
+                </li>
+              </ul>
+            </nav>
+            <!-- / nav -->
+
+            <!-- search -->
+            <div class="header_search search_w_photo w-photo">
+              <input class="search_header" type="search" placeholder="Я ищу" name="header_search">
+              <div class="search_photo__wrapper">
+                <button type="button">
+                  <svg width="14" height="15" viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                          d="M13.8086 12.8633L11.0742 10.1289C10.9375 10.0195 10.7734 9.9375 10.6094 9.9375H10.1719C10.9102 8.98047 11.375 7.77734 11.375 6.4375C11.375 3.32031 8.80469 0.75 5.6875 0.75C2.54297 0.75 0 3.32031 0 6.4375C0 9.58203 2.54297 12.125 5.6875 12.125C7 12.125 8.20312 11.6875 9.1875 10.9219V11.3867C9.1875 11.5508 9.24219 11.7148 9.37891 11.8516L12.0859 14.5586C12.3594 14.832 12.7695 14.832 13.0156 14.5586L13.7812 13.793C14.0547 13.5469 14.0547 13.1367 13.8086 12.8633ZM5.6875 9.9375C3.74609 9.9375 2.1875 8.37891 2.1875 6.4375C2.1875 4.52344 3.74609 2.9375 5.6875 2.9375C7.60156 2.9375 9.1875 4.52344 9.1875 6.4375C9.1875 8.37891 7.60156 9.9375 5.6875 9.9375Z"
+                          fill="#d2d6d8"/>
+                  </svg>
+                </button>
+                <p class="search_hidden__descr">
+                  Поиск по фото
+                </p>
+              </div>
+              <ul class="focus_search__wrapper">
+                <li>
+                  <a href="#">
+                    Костюм <span>Охрана</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Кепка <span>Охрана</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Рубашка <span>Охранника</span>
+                  </a>
+                </li>
+                <li class="all_search__result">
+                  <a href="#">
+                    Все результаты
+                  </a>
+                </li>
+              </ul>
+              <div class="photo_search__hidden">
+                <img src="images/close_search.svg" alt="" class="close_js">
+                <p class="title">
+                  Поиск по фотографии
+                </p>
+                <p class="descr_info">
+                  Максимальный размер: <span>8 МБ.</span>
+                </p>
+                <p class="descr_info">
+                  Поддерживаемые форматы: <span>JPG, JPEG, PNG, BMP, GIF.</span>
+                </p>
+                <div class="upload">
+                        <label for="file-upload" class="custom-file-upload btn btn_green">
+                      Выберите файл
+                  </label>
+                  <input id="file-upload" type="file"/>
+                      </div>
+              </div>
+            </div>
+            <!-- / search -->
+          </div>
+        </div>
+        <div class="photo-wrapper">
+          <a href="#" class="photo-close">
+            <img src="images/photo-cross.svg" alt="">
+          </a>
+          <div class="photo-main"></div>
+          <div class="bottom-nav">
+            <p>Сделайте фото или выберите из галереи</p>
+            <div class="photo-btns">
+              <a href="#" class="gallery">
+                <img src="images/photo-img.svg" alt="">
+              </a>
+              <a href="#" class="shot">
+                <img src="images/photo-btn.svg" alt="">
+              </a>
+              <a href="#" class="reverse">
+                <img src="images/photo-reverse.svg" alt="">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+            <div class="header-bot--cat--new--wrapper">
+                <div class="container">
+                    <a href="#" class="header-bot--cat--new">
+                        <span>Каталог товаров</span>
+                        <small class="cat_img__wrapper">
+                            <img src="images/cart_new.svg" alt="">
+                        </small>
+                    </a>
+                </div>
+            </div>
+      <!-- / header-bot -->
+
+            <div class="mob_nav__new">
+                <div class="mob_nav_bg"></div>
+        <div class="mob-nav__wrapper">
+          <div class="mob_nav__top">
+            <p>Каталог товаров</p>
+            <div class="close_mob_nav">
+              <img src="images/new_close.svg" alt="">
+            </div>
+          </div>
+          <div class="mob_nav__main">
+            <div class="mob_nav__cat">
+              <a href="#">
+                <img src="images/new_green.svg" alt="">
+                <span>Новинки</span>
+              </a>
+              <a href="#" class="red">
+                <img src="images/new_red.svg" alt="">
+                <span>Распродажа</span>
+              </a>
+            </div>
+            <div class="mob-nav__body">
+              <ul>
+                <li class="w-submenu">
+                  <a href="#">
+                    <img src="images/catalog/cat1.svg" alt="">
+                    Спецодежда
+                  </a>
+                  <div class="second-level">
+                    <p class="category-title">
+                      <a href="#" class="back">
+                        <img src="images/catalog/back-ico.svg" alt="">
+                      </a>
+                      Спецодежда
+                    </p>
+                    <div class="second-level-inner">
+                      <ul class="default-categories">
+                        <li>
+                          <a href="#">
+                            Летняя
+                          </a>
+                        </li>
+                        <li>
+                          <a href="about.html">
+                            Зимняя
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            Мужская
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            Женская
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            Головные уборы
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            Летняя
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            Головные уборы
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            Женская
+                          </a>
+                        </li>
+                      </ul>
+                      <div class="menu-dropdown">
+                        <a href="#">
+                          Направления
+                        </a>
+                        <ul>
+                          <li>
+                            <a href="#">Сфера услуг</a>
+                          </li>
+                          <li>
+                            <a href="#">Охота, рыбалка, туризм Sobol™</a>
+                          </li>
+                          <li>
+                            <a href="#">Медицина</a>
+                          </li>
+                          <li>
+                            <a href="#">Спасательная</a>
+                          </li>
+                          <li>
+                            <a href="#">Охранные структуры</a>
+                          </li>
+                          <li>
+                            <a href="#">Сфера услуг</a>
+                          </li>
+                          <li>
+                            <a href="#">Охота, рыбалка, туризм Sobol™</a>
+                          </li>
+                          <li>
+                            <a href="#">Медицина</a>
+                          </li>
+                          <li>
+                            <a href="#">Спасательная</a>
+                          </li>
+                          <li>
+                            <a href="#">Охранные структуры</a>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="menu-dropdown">
+                        <a href="#">
+                          Костюмы
+                        </a>
+                        <ul>
+                          <li>
+                            <a href="#">Сфера услуг</a>
+                          </li>
+                          <li>
+                            <a href="#">Охота, рыбалка, туризм Sobol™</a>
+                          </li>
+                          <li>
+                            <a href="#">Медицина</a>
+                          </li>
+                          <li>
+                            <a href="#">Спасательная</a>
+                          </li>
+                          <li>
+                            <a href="#">Охранные структуры</a>
+                          </li>
+                          <li>
+                            <a href="#">Сфера услуг</a>
+                          </li>
+                          <li>
+                            <a href="#">Охота, рыбалка, туризм Sobol™</a>
+                          </li>
+                          <li>
+                            <a href="#">Медицина</a>
+                          </li>
+                          <li>
+                            <a href="#">Спасательная</a>
+                          </li>
+                          <li>
+                            <a href="#">Охранные структуры</a>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="menu-dropdown">
+                        <a href="#">
+                          Трикотаж
+                        </a>
+                        <ul>
+                          <li>
+                            <a href="#">Сфера услуг</a>
+                          </li>
+                          <li>
+                            <a href="#">Охота, рыбалка, туризм Sobol™</a>
+                          </li>
+                          <li>
+                            <a href="#">Медицина</a>
+                          </li>
+                          <li>
+                            <a href="#">Спасательная</a>
+                          </li>
+                          <li>
+                            <a href="#">Охранные структуры</a>
+                          </li>
+                          <li>
+                            <a href="#">Сфера услуг</a>
+                          </li>
+                          <li>
+                            <a href="#">Охота, рыбалка, туризм Sobol™</a>
+                          </li>
+                          <li>
+                            <a href="#">Медицина</a>
+                          </li>
+                          <li>
+                            <a href="#">Спасательная</a>
+                          </li>
+                          <li>
+                            <a href="#">Охранные структуры</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="w-submenu">
+                  <a href="#">
+                    <img src="images/catalog/cat2.svg" alt="">
+                    Рабочая обувь
+                  </a>
+                  <div class="second-level">
+                    <p class="category-title">
+                      <a href="#" class="back">
+                        <img src="images/catalog/back-ico.svg" alt="">
+                      </a>
+                      Рабочая обувь
+                    </p>
+                    <div class="second-level-inner">
+                      <ul class="default-categories">
+                        <li>
+                          <a href="#">
+                            Летняя
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            Зимняя
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            Мужская
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            Женская
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            Головные уборы
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            Летняя
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            Головные уборы
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            Женская
+                          </a>
+                        </li>
+                      </ul>
+                      <div class="menu-dropdown">
+                        <a href="#">
+                          Направления
+                        </a>
+                        <ul>
+                          <li>
+                            <a href="#">Сфера услуг</a>
+                          </li>
+                          <li>
+                            <a href="#">Охота, рыбалка, туризм Sobol™</a>
+                          </li>
+                          <li>
+                            <a href="#">Медицина</a>
+                          </li>
+                          <li>
+                            <a href="#">Спасательная</a>
+                          </li>
+                          <li>
+                            <a href="#">Охранные структуры</a>
+                          </li>
+                          <li>
+                            <a href="#">Сфера услуг</a>
+                          </li>
+                          <li>
+                            <a href="#">Охота, рыбалка, туризм Sobol™</a>
+                          </li>
+                          <li>
+                            <a href="#">Медицина</a>
+                          </li>
+                          <li>
+                            <a href="#">Спасательная</a>
+                          </li>
+                          <li>
+                            <a href="#">Охранные структуры</a>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="menu-dropdown">
+                        <a href="#">
+                          Костюмы
+                        </a>
+                        <ul>
+                          <li>
+                            <a href="#">Сфера услуг</a>
+                          </li>
+                          <li>
+                            <a href="#">Охота, рыбалка, туризм Sobol™</a>
+                          </li>
+                          <li>
+                            <a href="#">Медицина</a>
+                          </li>
+                          <li>
+                            <a href="#">Спасательная</a>
+                          </li>
+                          <li>
+                            <a href="#">Охранные структуры</a>
+                          </li>
+                          <li>
+                            <a href="#">Сфера услуг</a>
+                          </li>
+                          <li>
+                            <a href="#">Охота, рыбалка, туризм Sobol™</a>
+                          </li>
+                          <li>
+                            <a href="#">Медицина</a>
+                          </li>
+                          <li>
+                            <a href="#">Спасательная</a>
+                          </li>
+                          <li>
+                            <a href="#">Охранные структуры</a>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="menu-dropdown">
+                        <a href="#">
+                          Трикотаж
+                        </a>
+                        <ul>
+                          <li>
+                            <a href="#">Сфера услуг</a>
+                          </li>
+                          <li>
+                            <a href="#">Охота, рыбалка, туризм Sobol™</a>
+                          </li>
+                          <li>
+                            <a href="#">Медицина</a>
+                          </li>
+                          <li>
+                            <a href="#">Спасательная</a>
+                          </li>
+                          <li>
+                            <a href="#">Охранные структуры</a>
+                          </li>
+                          <li>
+                            <a href="#">Сфера услуг</a>
+                          </li>
+                          <li>
+                            <a href="#">Охота, рыбалка, туризм Sobol™</a>
+                          </li>
+                          <li>
+                            <a href="#">Медицина</a>
+                          </li>
+                          <li>
+                            <a href="#">Спасательная</a>
+                          </li>
+                          <li>
+                            <a href="#">Охранные структуры</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="images/catalog/cat3.svg" alt="">
+                    Защита рук
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="images/catalog/cat4.svg" alt="">
+                    Средства инд. защиты
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="images/catalog/cat5.svg" alt="">
+                    Хозяйственная группа
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="images/catalog/cat6.svg" alt="">
+                    Защита от вирусов
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+            </div>
+
+    </header>
+    <!-- header -->
+
+    <!-- main -->
+    <main>
+
+      <!-- Intro -->
+
+      <section class="w-intro t-intro t-intro--bg-mb d-flex align-items-md-center" style="background-image: url('images/t-new-img/intro.png');">
+        <div class="container">
+          <div class="w-title">
+            <h1>Полноценная защита сотрудников от термических рисков электрической дуги</h1>
+          </div>
+          <p class="w-intro__txt">Профессиональные костюмы с комплексными защитными свойствами от электродуги и термических рисков</p>
+          <i class="w-intro__img-mob" style="background: url('images/t-new-img/intro-mob.png') center/cover no-repeat;"></i>
+        </div>
+      </section>
+
+      <!-- Product -->
+
+      <section class="t-protection">
+        <div class="container">
+          <p class="section_title">Товары для  защиты от дуги</p>
+          <div class="page-cat">
+            <div class="page-cat-in">
+
+              <!-- Item -->
+              
+              <div class="one-item">
+                  <div class="one-item-in">
+                      <div class="one-item-thumb">
+                          <div class="one-item-fav">
+                              <div class="hover-tool">
+                                  В Избранное
+                              </div>
+                              <a href="#" data-toggle="modal" data-target="#fav">
+                                  <svg width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                      <path fill-rule="evenodd" clip-rule="evenodd" d="M13.3005 4.69702L8.88767 4.28652L7.13517 0.213142C7.00887 -0.0710473 6.60627 -0.0710473 6.48785 0.213142L4.73535 4.28652L0.322527 4.69702C0.0146556 4.72859 -0.111651 5.10751 0.117279 5.31276L3.44861 8.24149L2.47763 12.5675C2.40658 12.8675 2.73024 13.1122 2.99864 12.9464L6.81151 10.6808L10.6244 12.9464C10.8928 13.1043 11.2164 12.8675 11.1533 12.5675L10.1823 8.24149L13.5136 5.31276C13.7347 5.10751 13.6084 4.72859 13.3005 4.69702Z" fill="#7C7C7C"/>
+                                  </svg>                          
+                              </a>
+                          </div>
+                          <div class="one-item-comp">
+                              <div class="hover-tool">
+                                  В Сравнение
+                              </div>
+                              <a href="#" data-toggle="modal" data-target="#comp">
+                                  <svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                      <path fill-rule="evenodd" clip-rule="evenodd" d="M9.5659 2.95986V1.34048C9.5659 0.602768 8.95082 0 8.19803 0H1.36787C0.615082 0 0 0.602768 0 1.34048V8.74464C0 9.48235 0.615082 10.0851 1.36787 10.0851H3.70885V5.64083C3.70885 4.1654 4.97574 2.95986 6.49049 2.95986H9.5659ZM12.6321 4.30035H6.53639C5.78361 4.30035 5.16852 4.90311 5.16852 5.64083V11.6685C5.16852 12.4062 5.78361 13.009 6.53639 13.009H12.6413C13.3941 13.009 14.0092 12.4062 14.0092 11.6685V5.64083C14 4.89412 13.3849 4.30035 12.6321 4.30035Z" fill="#7C7C7C"/>
+                                  </svg>                          
+                              </a>
+                          </div>
+                          <a href="#">
+                              <img src="./images/t-new-img/product/1.png" alt="">
+                          </a>
+                      </div>
+                      <div class="one-item-descr">
+                          <div class="one-item-tit">
+                              <a href="#">
+                                  Костюм сварщика со спилком
+                              </a>
+                          </div>
+                          <div class="one-item-cat">
+                              <a href="#">
+                                  Одежда специальная
+                              </a>
+                          </div>
+                          <div class="one-item-price">
+                              3 200 ₽
+                          </div>
+                          <div class="one-item-info">
+                              <div class="one-item-stat">
+                                  <span class="has">
+                                      В наличии
+                                  </span>
+                              </div>
+                              <div class="one-item-size">
+                                  <span>Размеры: 96-170</span>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="one-item-bt">
+                          <a href="#" class="first-bt">
+                              Подробнее
+                          </a>
+                      </div>
+                  </div>
+              </div>
+
+              <!-- Item -->
+              
+              <div class="one-item">
+                  <div class="one-item-in">
+                      <div class="one-item-thumb">
+                          <div class="one-item-fav">
+                              <div class="hover-tool">
+                                  В Избранное
+                              </div>
+                              <a href="#" data-toggle="modal" data-target="#fav">
+                                  <svg width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                      <path fill-rule="evenodd" clip-rule="evenodd" d="M13.3005 4.69702L8.88767 4.28652L7.13517 0.213142C7.00887 -0.0710473 6.60627 -0.0710473 6.48785 0.213142L4.73535 4.28652L0.322527 4.69702C0.0146556 4.72859 -0.111651 5.10751 0.117279 5.31276L3.44861 8.24149L2.47763 12.5675C2.40658 12.8675 2.73024 13.1122 2.99864 12.9464L6.81151 10.6808L10.6244 12.9464C10.8928 13.1043 11.2164 12.8675 11.1533 12.5675L10.1823 8.24149L13.5136 5.31276C13.7347 5.10751 13.6084 4.72859 13.3005 4.69702Z" fill="#7C7C7C"/>
+                                  </svg>                          
+                              </a>
+                          </div>
+                          <div class="one-item-comp">
+                              <div class="hover-tool">
+                                  В Сравнение
+                              </div>
+                              <a href="#" data-toggle="modal" data-target="#comp">
+                                  <svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                      <path fill-rule="evenodd" clip-rule="evenodd" d="M9.5659 2.95986V1.34048C9.5659 0.602768 8.95082 0 8.19803 0H1.36787C0.615082 0 0 0.602768 0 1.34048V8.74464C0 9.48235 0.615082 10.0851 1.36787 10.0851H3.70885V5.64083C3.70885 4.1654 4.97574 2.95986 6.49049 2.95986H9.5659ZM12.6321 4.30035H6.53639C5.78361 4.30035 5.16852 4.90311 5.16852 5.64083V11.6685C5.16852 12.4062 5.78361 13.009 6.53639 13.009H12.6413C13.3941 13.009 14.0092 12.4062 14.0092 11.6685V5.64083C14 4.89412 13.3849 4.30035 12.6321 4.30035Z" fill="#7C7C7C"/>
+                                  </svg>                          
+                              </a>
+                          </div>
+                          <a href="#">
+                              <img src="./images/t-new-img/product/2.png" alt="">
+                          </a>
+                      </div>
+                      <div class="one-item-descr">
+                          <div class="one-item-tit">
+                              <a href="#">
+                                  Жилет утепленный
+                              </a>
+                          </div>
+                          <div class="one-item-cat">
+                              <a href="#">
+                                  Летняя одежда
+                              </a>
+                          </div>
+                          <div class="one-item-price">
+                              3 150 ₽
+                          </div>
+                          <div class="one-item-info">
+                              <div class="one-item-stat">
+                                  <span class="has">
+                                      В наличии
+                                  </span>
+                              </div>
+                              <div class="one-item-size">
+                                  <span>Размеры: 96-170</span>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="one-item-bt">
+                          <a href="#" class="first-bt">
+                              Подробнее
+                          </a>
+                      </div>
+                  </div>
+              </div>
+
+              <!-- Item -->
+              
+              <div class="one-item">
+                  <div class="one-item-in">
+                      <div class="one-item-thumb">
+                          <div class="one-item-fav">
+                              <div class="hover-tool">
+                                  В Избранное
+                              </div>
+                              <a href="#" data-toggle="modal" data-target="#fav">
+                                  <svg width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                      <path fill-rule="evenodd" clip-rule="evenodd" d="M13.3005 4.69702L8.88767 4.28652L7.13517 0.213142C7.00887 -0.0710473 6.60627 -0.0710473 6.48785 0.213142L4.73535 4.28652L0.322527 4.69702C0.0146556 4.72859 -0.111651 5.10751 0.117279 5.31276L3.44861 8.24149L2.47763 12.5675C2.40658 12.8675 2.73024 13.1122 2.99864 12.9464L6.81151 10.6808L10.6244 12.9464C10.8928 13.1043 11.2164 12.8675 11.1533 12.5675L10.1823 8.24149L13.5136 5.31276C13.7347 5.10751 13.6084 4.72859 13.3005 4.69702Z" fill="#7C7C7C"/>
+                                  </svg>                          
+                              </a>
+                          </div>
+                          <div class="one-item-comp">
+                              <div class="hover-tool">
+                                  В Сравнение
+                              </div>
+                              <a href="#" data-toggle="modal" data-target="#comp">
+                                  <svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                      <path fill-rule="evenodd" clip-rule="evenodd" d="M9.5659 2.95986V1.34048C9.5659 0.602768 8.95082 0 8.19803 0H1.36787C0.615082 0 0 0.602768 0 1.34048V8.74464C0 9.48235 0.615082 10.0851 1.36787 10.0851H3.70885V5.64083C3.70885 4.1654 4.97574 2.95986 6.49049 2.95986H9.5659ZM12.6321 4.30035H6.53639C5.78361 4.30035 5.16852 4.90311 5.16852 5.64083V11.6685C5.16852 12.4062 5.78361 13.009 6.53639 13.009H12.6413C13.3941 13.009 14.0092 12.4062 14.0092 11.6685V5.64083C14 4.89412 13.3849 4.30035 12.6321 4.30035Z" fill="#7C7C7C"/>
+                                  </svg>                          
+                              </a>
+                          </div>
+                          <a href="#">
+                              <img src="./images/t-new-img/product/3.png" alt="">
+                          </a>
+                      </div>
+                      <div class="one-item-descr">
+                          <div class="one-item-tit">
+                              <a href="#">
+                                  Костюм Лада
+                              </a>
+                          </div>
+                          <div class="one-item-cat">
+                              <a href="#">
+                                  Летняя одежда
+                              </a>
+                          </div>
+                          <div class="one-item-price">
+                              1040 ₽
+                          </div>
+                          <div class="one-item-info">
+                              <div class="one-item-stat">
+                                  <span class="has">
+                                      В наличии
+                                  </span>
+                              </div>
+                              <div class="one-item-size">
+                                  <span>Размеры: 96-170</span>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="one-item-bt">
+                          <a href="#" class="first-bt">
+                              Подробнее
+                          </a>
+                      </div>
+                  </div>
+              </div>
+
+              <!-- Item -->
+              
+              <div class="one-item">
+                  <div class="one-item-in">
+                      <div class="one-item-thumb">
+                          <div class="one-item-fav">
+                              <div class="hover-tool">
+                                  В Избранное
+                              </div>
+                              <a href="#" data-toggle="modal" data-target="#fav">
+                                  <svg width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                      <path fill-rule="evenodd" clip-rule="evenodd" d="M13.3005 4.69702L8.88767 4.28652L7.13517 0.213142C7.00887 -0.0710473 6.60627 -0.0710473 6.48785 0.213142L4.73535 4.28652L0.322527 4.69702C0.0146556 4.72859 -0.111651 5.10751 0.117279 5.31276L3.44861 8.24149L2.47763 12.5675C2.40658 12.8675 2.73024 13.1122 2.99864 12.9464L6.81151 10.6808L10.6244 12.9464C10.8928 13.1043 11.2164 12.8675 11.1533 12.5675L10.1823 8.24149L13.5136 5.31276C13.7347 5.10751 13.6084 4.72859 13.3005 4.69702Z" fill="#7C7C7C"/>
+                                  </svg>                          
+                              </a>
+                          </div>
+                          <div class="one-item-comp">
+                              <div class="hover-tool">
+                                  В Сравнение
+                              </div>
+                              <a href="#" data-toggle="modal" data-target="#comp">
+                                  <svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                      <path fill-rule="evenodd" clip-rule="evenodd" d="M9.5659 2.95986V1.34048C9.5659 0.602768 8.95082 0 8.19803 0H1.36787C0.615082 0 0 0.602768 0 1.34048V8.74464C0 9.48235 0.615082 10.0851 1.36787 10.0851H3.70885V5.64083C3.70885 4.1654 4.97574 2.95986 6.49049 2.95986H9.5659ZM12.6321 4.30035H6.53639C5.78361 4.30035 5.16852 4.90311 5.16852 5.64083V11.6685C5.16852 12.4062 5.78361 13.009 6.53639 13.009H12.6413C13.3941 13.009 14.0092 12.4062 14.0092 11.6685V5.64083C14 4.89412 13.3849 4.30035 12.6321 4.30035Z" fill="#7C7C7C"/>
+                                  </svg>                          
+                              </a>
+                          </div>
+                          <a href="#">
+                              <img src="./images/t-new-img/product/4.png" alt="">
+                          </a>
+                      </div>
+                      <div class="one-item-descr">
+                          <div class="one-item-tit">
+                              <a href="#">
+                                  Костюм Габарит
+                              </a>
+                          </div>
+                          <div class="one-item-cat">
+                              <a href="#">
+                                  Костюм рабочего
+                              </a>
+                          </div>
+                          <div class="one-item-price">
+                              2 329 ₽
+                          </div>
+                          <div class="one-item-info">
+                              <div class="one-item-stat">
+                                  <span class="has">
+                                      В наличии
+                                  </span>
+                              </div>
+                              <div class="one-item-size">
+                                  <span>Размеры: 96-170</span>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="one-item-bt">
+                          <a href="#" class="first-bt">
+                              Подробнее
+                          </a>
+                      </div>
+                  </div>
+              </div>
+
+              <!-- Item -->
+              
+              <div class="one-item">
+                  <div class="one-item-in">
+                      <div class="one-item-thumb">
+                          <div class="one-item-fav">
+                              <div class="hover-tool">
+                                  В Избранное
+                              </div>
+                              <a href="#" data-toggle="modal" data-target="#fav">
+                                  <svg width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                      <path fill-rule="evenodd" clip-rule="evenodd" d="M13.3005 4.69702L8.88767 4.28652L7.13517 0.213142C7.00887 -0.0710473 6.60627 -0.0710473 6.48785 0.213142L4.73535 4.28652L0.322527 4.69702C0.0146556 4.72859 -0.111651 5.10751 0.117279 5.31276L3.44861 8.24149L2.47763 12.5675C2.40658 12.8675 2.73024 13.1122 2.99864 12.9464L6.81151 10.6808L10.6244 12.9464C10.8928 13.1043 11.2164 12.8675 11.1533 12.5675L10.1823 8.24149L13.5136 5.31276C13.7347 5.10751 13.6084 4.72859 13.3005 4.69702Z" fill="#7C7C7C"/>
+                                  </svg>                          
+                              </a>
+                          </div>
+                          <div class="one-item-comp">
+                              <div class="hover-tool">
+                                  В Сравнение
+                              </div>
+                              <a href="#" data-toggle="modal" data-target="#comp">
+                                  <svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                      <path fill-rule="evenodd" clip-rule="evenodd" d="M9.5659 2.95986V1.34048C9.5659 0.602768 8.95082 0 8.19803 0H1.36787C0.615082 0 0 0.602768 0 1.34048V8.74464C0 9.48235 0.615082 10.0851 1.36787 10.0851H3.70885V5.64083C3.70885 4.1654 4.97574 2.95986 6.49049 2.95986H9.5659ZM12.6321 4.30035H6.53639C5.78361 4.30035 5.16852 4.90311 5.16852 5.64083V11.6685C5.16852 12.4062 5.78361 13.009 6.53639 13.009H12.6413C13.3941 13.009 14.0092 12.4062 14.0092 11.6685V5.64083C14 4.89412 13.3849 4.30035 12.6321 4.30035Z" fill="#7C7C7C"/>
+                                  </svg>                          
+                              </a>
+                          </div>
+                          <a href="#">
+                              <img src="./images/t-new-img/product/5.png" alt="">
+                          </a>
+                      </div>
+                      <div class="one-item-descr">
+                          <div class="one-item-tit">
+                              <a href="#">
+                                  Костюм Бисто
+                              </a>
+                          </div>
+                          <div class="one-item-cat">
+                              <a href="#">
+                                  Одежда сферы услуг
+                              </a>
+                          </div>
+                          <div class="one-item-price">
+                              283 ₽
+                          </div>
+                          <div class="one-item-info">
+                              <div class="one-item-stat">
+                                  <span class="has">
+                                      В наличии
+                                  </span>
+                              </div>
+                              <div class="one-item-size">
+                                  <span>Размеры: 96-170</span>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="one-item-bt">
+                          <a href="#" class="first-bt">
+                              Подробнее
+                          </a>
+                      </div>
+                  </div>
+              </div>
+
+              <!-- Item -->
+              
+              <div class="one-item">
+                  <div class="one-item-in">
+                      <div class="one-item-thumb">
+                          <div class="one-item-fav">
+                              <div class="hover-tool">
+                                  В Избранное
+                              </div>
+                              <a href="#" data-toggle="modal" data-target="#fav">
+                                  <svg width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                      <path fill-rule="evenodd" clip-rule="evenodd" d="M13.3005 4.69702L8.88767 4.28652L7.13517 0.213142C7.00887 -0.0710473 6.60627 -0.0710473 6.48785 0.213142L4.73535 4.28652L0.322527 4.69702C0.0146556 4.72859 -0.111651 5.10751 0.117279 5.31276L3.44861 8.24149L2.47763 12.5675C2.40658 12.8675 2.73024 13.1122 2.99864 12.9464L6.81151 10.6808L10.6244 12.9464C10.8928 13.1043 11.2164 12.8675 11.1533 12.5675L10.1823 8.24149L13.5136 5.31276C13.7347 5.10751 13.6084 4.72859 13.3005 4.69702Z" fill="#7C7C7C"/>
+                                  </svg>                          
+                              </a>
+                          </div>
+                          <div class="one-item-comp">
+                              <div class="hover-tool">
+                                  В Сравнение
+                              </div>
+                              <a href="#" data-toggle="modal" data-target="#comp">
+                                  <svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                      <path fill-rule="evenodd" clip-rule="evenodd" d="M9.5659 2.95986V1.34048C9.5659 0.602768 8.95082 0 8.19803 0H1.36787C0.615082 0 0 0.602768 0 1.34048V8.74464C0 9.48235 0.615082 10.0851 1.36787 10.0851H3.70885V5.64083C3.70885 4.1654 4.97574 2.95986 6.49049 2.95986H9.5659ZM12.6321 4.30035H6.53639C5.78361 4.30035 5.16852 4.90311 5.16852 5.64083V11.6685C5.16852 12.4062 5.78361 13.009 6.53639 13.009H12.6413C13.3941 13.009 14.0092 12.4062 14.0092 11.6685V5.64083C14 4.89412 13.3849 4.30035 12.6321 4.30035Z" fill="#7C7C7C"/>
+                                  </svg>                          
+                              </a>
+                          </div>
+                          <a href="#">
+                              <img src="./images/t-new-img/product/6.png" alt="">
+                          </a>
+                      </div>
+                      <div class="one-item-descr">
+                          <div class="one-item-tit">
+                              <a href="#">
+                                  Куртка - накидка из огнезащитной ткани WORKER
+                              </a>
+                          </div>
+                          <div class="one-item-cat">
+                              <a href="#">
+                                  Одежда специальная
+                              </a>
+                          </div>
+                          <div class="one-item-price">
+                              7 739 ₽
+                          </div>
+                          <div class="one-item-info">
+                              <div class="one-item-stat">
+                                  <span class="has">
+                                      В наличии
+                                  </span>
+                              </div>
+                              <div class="one-item-size">
+                                  <span>Размеры: 96-170</span>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="one-item-bt">
+                          <a href="#" class="first-bt">
+                              Подробнее
+                          </a>
+                      </div>
+                  </div>
+              </div>
+
+              <!-- Item -->
+              
+              <div class="one-item">
+                  <div class="one-item-in">
+                      <div class="one-item-thumb">
+                          <div class="one-item-fav">
+                              <div class="hover-tool">
+                                  В Избранное
+                              </div>
+                              <a href="#" data-toggle="modal" data-target="#fav">
+                                  <svg width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                      <path fill-rule="evenodd" clip-rule="evenodd" d="M13.3005 4.69702L8.88767 4.28652L7.13517 0.213142C7.00887 -0.0710473 6.60627 -0.0710473 6.48785 0.213142L4.73535 4.28652L0.322527 4.69702C0.0146556 4.72859 -0.111651 5.10751 0.117279 5.31276L3.44861 8.24149L2.47763 12.5675C2.40658 12.8675 2.73024 13.1122 2.99864 12.9464L6.81151 10.6808L10.6244 12.9464C10.8928 13.1043 11.2164 12.8675 11.1533 12.5675L10.1823 8.24149L13.5136 5.31276C13.7347 5.10751 13.6084 4.72859 13.3005 4.69702Z" fill="#7C7C7C"/>
+                                  </svg>                          
+                              </a>
+                          </div>
+                          <div class="one-item-comp">
+                              <div class="hover-tool">
+                                  В Сравнение
+                              </div>
+                              <a href="#" data-toggle="modal" data-target="#comp">
+                                  <svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                      <path fill-rule="evenodd" clip-rule="evenodd" d="M9.5659 2.95986V1.34048C9.5659 0.602768 8.95082 0 8.19803 0H1.36787C0.615082 0 0 0.602768 0 1.34048V8.74464C0 9.48235 0.615082 10.0851 1.36787 10.0851H3.70885V5.64083C3.70885 4.1654 4.97574 2.95986 6.49049 2.95986H9.5659ZM12.6321 4.30035H6.53639C5.78361 4.30035 5.16852 4.90311 5.16852 5.64083V11.6685C5.16852 12.4062 5.78361 13.009 6.53639 13.009H12.6413C13.3941 13.009 14.0092 12.4062 14.0092 11.6685V5.64083C14 4.89412 13.3849 4.30035 12.6321 4.30035Z" fill="#7C7C7C"/>
+                                  </svg>                          
+                              </a>
+                          </div>
+                          <a href="#">
+                              <img src="./images/t-new-img/product/7.png" alt="">
+                          </a>
+                      </div>
+                      <div class="one-item-descr">
+                          <div class="one-item-tit">
+                              <a href="#">
+                                  Куртка - накидка из огнезащитной ткани WORKER
+                              </a>
+                          </div>
+                          <div class="one-item-cat">
+                              <a href="#">
+                                  Одежда специальная
+                              </a>
+                          </div>
+                          <div class="one-item-price">
+                              7 739 ₽
+                          </div>
+                          <div class="one-item-info">
+                              <div class="one-item-stat">
+                                  <span class="has">
+                                      В наличии
+                                  </span>
+                              </div>
+                              <div class="one-item-size">
+                                  <span>Размеры: 96-170</span>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="one-item-bt">
+                          <a href="#" class="first-bt">
+                              Подробнее
+                          </a>
+                      </div>
+                  </div>
+              </div>
+
+              <!-- Item -->
+              
+              <div class="one-item">
+                  <div class="one-item-in">
+                      <div class="one-item-thumb">
+                          <div class="one-item-fav">
+                              <div class="hover-tool">
+                                  В Избранное
+                              </div>
+                              <a href="#" data-toggle="modal" data-target="#fav">
+                                  <svg width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                      <path fill-rule="evenodd" clip-rule="evenodd" d="M13.3005 4.69702L8.88767 4.28652L7.13517 0.213142C7.00887 -0.0710473 6.60627 -0.0710473 6.48785 0.213142L4.73535 4.28652L0.322527 4.69702C0.0146556 4.72859 -0.111651 5.10751 0.117279 5.31276L3.44861 8.24149L2.47763 12.5675C2.40658 12.8675 2.73024 13.1122 2.99864 12.9464L6.81151 10.6808L10.6244 12.9464C10.8928 13.1043 11.2164 12.8675 11.1533 12.5675L10.1823 8.24149L13.5136 5.31276C13.7347 5.10751 13.6084 4.72859 13.3005 4.69702Z" fill="#7C7C7C"/>
+                                  </svg>                          
+                              </a>
+                          </div>
+                          <div class="one-item-comp">
+                              <div class="hover-tool">
+                                  В Сравнение
+                              </div>
+                              <a href="#" data-toggle="modal" data-target="#comp">
+                                  <svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                      <path fill-rule="evenodd" clip-rule="evenodd" d="M9.5659 2.95986V1.34048C9.5659 0.602768 8.95082 0 8.19803 0H1.36787C0.615082 0 0 0.602768 0 1.34048V8.74464C0 9.48235 0.615082 10.0851 1.36787 10.0851H3.70885V5.64083C3.70885 4.1654 4.97574 2.95986 6.49049 2.95986H9.5659ZM12.6321 4.30035H6.53639C5.78361 4.30035 5.16852 4.90311 5.16852 5.64083V11.6685C5.16852 12.4062 5.78361 13.009 6.53639 13.009H12.6413C13.3941 13.009 14.0092 12.4062 14.0092 11.6685V5.64083C14 4.89412 13.3849 4.30035 12.6321 4.30035Z" fill="#7C7C7C"/>
+                                  </svg>                          
+                              </a>
+                          </div>
+                          <a href="#">
+                              <img src="./images/t-new-img/product/8.png" alt="">
+                          </a>
+                      </div>
+                      <div class="one-item-descr">
+                          <div class="one-item-tit">
+                              <a href="#">
+                                  Костюм Графит
+                              </a>
+                          </div>
+                          <div class="one-item-cat">
+                              <a href="#">
+                                  Летняя одежда
+                              </a>
+                          </div>
+                          <div class="one-item-price">
+                              2 287 ₽
+                          </div>
+                          <div class="one-item-info">
+                              <div class="one-item-stat">
+                                  <span class="has">
+                                      В наличии
+                                  </span>
+                              </div>
+                              <div class="one-item-size">
+                                  <span>Размеры: 96-170</span>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="one-item-bt">
+                          <a href="#" class="first-bt">
+                              Подробнее
+                          </a>
+                      </div>
+                  </div>
+              </div>
+
+              <!-- Item -->
+              
+              <div class="one-item">
+                  <div class="one-item-in">
+                      <div class="one-item-thumb">
+                          <div class="one-item-fav">
+                              <div class="hover-tool">
+                                  В Избранное
+                              </div>
+                              <a href="#" data-toggle="modal" data-target="#fav">
+                                  <svg width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                      <path fill-rule="evenodd" clip-rule="evenodd" d="M13.3005 4.69702L8.88767 4.28652L7.13517 0.213142C7.00887 -0.0710473 6.60627 -0.0710473 6.48785 0.213142L4.73535 4.28652L0.322527 4.69702C0.0146556 4.72859 -0.111651 5.10751 0.117279 5.31276L3.44861 8.24149L2.47763 12.5675C2.40658 12.8675 2.73024 13.1122 2.99864 12.9464L6.81151 10.6808L10.6244 12.9464C10.8928 13.1043 11.2164 12.8675 11.1533 12.5675L10.1823 8.24149L13.5136 5.31276C13.7347 5.10751 13.6084 4.72859 13.3005 4.69702Z" fill="#7C7C7C"/>
+                                  </svg>                          
+                              </a>
+                          </div>
+                          <div class="one-item-comp">
+                              <div class="hover-tool">
+                                  В Сравнение
+                              </div>
+                              <a href="#" data-toggle="modal" data-target="#comp">
+                                  <svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                      <path fill-rule="evenodd" clip-rule="evenodd" d="M9.5659 2.95986V1.34048C9.5659 0.602768 8.95082 0 8.19803 0H1.36787C0.615082 0 0 0.602768 0 1.34048V8.74464C0 9.48235 0.615082 10.0851 1.36787 10.0851H3.70885V5.64083C3.70885 4.1654 4.97574 2.95986 6.49049 2.95986H9.5659ZM12.6321 4.30035H6.53639C5.78361 4.30035 5.16852 4.90311 5.16852 5.64083V11.6685C5.16852 12.4062 5.78361 13.009 6.53639 13.009H12.6413C13.3941 13.009 14.0092 12.4062 14.0092 11.6685V5.64083C14 4.89412 13.3849 4.30035 12.6321 4.30035Z" fill="#7C7C7C"/>
+                                  </svg>                          
+                              </a>
+                          </div>
+                          <div class="vob">
+                              <span class="sal-vob">
+                                  -5%
+                              </span>
+                          </div>
+                          <a href="#">
+                              <img src="./images/t-new-img/product/9.png" alt="">
+                          </a>
+                      </div>
+                      <div class="one-item-descr">
+                          <div class="one-item-tit">
+                              <a href="#">
+                                  Перчатки полиэтиленовые 100 шт.
+                              </a>
+                          </div>
+                          <div class="one-item-cat">
+                              <a href="#">
+                                  Средства защиты рук
+                              </a>
+                          </div>
+                          <div class="one-item-price">
+                              <span class="was-price">
+                                  70 ₽
+                              </span>
+                              <span class="now-price">
+                                  51 ₽
+                              </span>
+                          </div>
+                          <div class="one-item-info">
+                              <div class="one-item-stat">
+                                  <span class="has">
+                                      В наличии
+                                  </span>
+                              </div>
+                              <div class="one-item-size">
+                                  <span>Размеры: 96-170</span>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="one-item-bt">
+                          <a href="#" class="first-bt">
+                              Подробнее
+                          </a>
+                      </div>
+                  </div>
+              </div>
+
+              <!-- Item -->
+              
+              <div class="one-item">
+                  <div class="one-item-in">
+                      <div class="one-item-thumb">
+                          <div class="one-item-fav">
+                              <div class="hover-tool">
+                                  В Избранное
+                              </div>
+                              <a href="#" data-toggle="modal" data-target="#fav">
+                                  <svg width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                      <path fill-rule="evenodd" clip-rule="evenodd" d="M13.3005 4.69702L8.88767 4.28652L7.13517 0.213142C7.00887 -0.0710473 6.60627 -0.0710473 6.48785 0.213142L4.73535 4.28652L0.322527 4.69702C0.0146556 4.72859 -0.111651 5.10751 0.117279 5.31276L3.44861 8.24149L2.47763 12.5675C2.40658 12.8675 2.73024 13.1122 2.99864 12.9464L6.81151 10.6808L10.6244 12.9464C10.8928 13.1043 11.2164 12.8675 11.1533 12.5675L10.1823 8.24149L13.5136 5.31276C13.7347 5.10751 13.6084 4.72859 13.3005 4.69702Z" fill="#7C7C7C"/>
+                                  </svg>                          
+                              </a>
+                          </div>
+                          <div class="one-item-comp">
+                              <div class="hover-tool">
+                                  В Сравнение
+                              </div>
+                              <a href="#" data-toggle="modal" data-target="#comp">
+                                  <svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                      <path fill-rule="evenodd" clip-rule="evenodd" d="M9.5659 2.95986V1.34048C9.5659 0.602768 8.95082 0 8.19803 0H1.36787C0.615082 0 0 0.602768 0 1.34048V8.74464C0 9.48235 0.615082 10.0851 1.36787 10.0851H3.70885V5.64083C3.70885 4.1654 4.97574 2.95986 6.49049 2.95986H9.5659ZM12.6321 4.30035H6.53639C5.78361 4.30035 5.16852 4.90311 5.16852 5.64083V11.6685C5.16852 12.4062 5.78361 13.009 6.53639 13.009H12.6413C13.3941 13.009 14.0092 12.4062 14.0092 11.6685V5.64083C14 4.89412 13.3849 4.30035 12.6321 4.30035Z" fill="#7C7C7C"/>
+                                  </svg>                          
+                              </a>
+                          </div>
+                          <a href="#">
+                              <img src="./images/t-new-img/product/10.png" alt="">
+                          </a>
+                      </div>
+                      <div class="one-item-descr">
+                          <div class="one-item-tit">
+                              <a href="#">
+                                  Сапоги мужские Step с МП
+                              </a>
+                          </div>
+                          <div class="one-item-cat">
+                              <a href="#">
+                                  Обувь
+                              </a>
+                          </div>
+                          <div class="one-item-price">
+                              551 ₽
+                          </div>
+                          <div class="one-item-info">
+                              <div class="one-item-stat">
+                                  <span class="has">
+                                      В наличии
+                                  </span>
+                              </div>
+                              <div class="one-item-size">
+                                  <span>Размеры: 96-170</span>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="one-item-bt">
+                          <a href="#" class="first-bt">
+                              Подробнее
+                          </a>
+                      </div>
+                  </div>
+              </div>
+
+              <!-- Item -->
+              
+              <div class="one-item">
+                  <div class="one-item-in">
+                      <div class="one-item-thumb">
+                          <div class="one-item-fav">
+                              <div class="hover-tool">
+                                  В Избранное
+                              </div>
+                              <a href="#" data-toggle="modal" data-target="#fav">
+                                  <svg width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                      <path fill-rule="evenodd" clip-rule="evenodd" d="M13.3005 4.69702L8.88767 4.28652L7.13517 0.213142C7.00887 -0.0710473 6.60627 -0.0710473 6.48785 0.213142L4.73535 4.28652L0.322527 4.69702C0.0146556 4.72859 -0.111651 5.10751 0.117279 5.31276L3.44861 8.24149L2.47763 12.5675C2.40658 12.8675 2.73024 13.1122 2.99864 12.9464L6.81151 10.6808L10.6244 12.9464C10.8928 13.1043 11.2164 12.8675 11.1533 12.5675L10.1823 8.24149L13.5136 5.31276C13.7347 5.10751 13.6084 4.72859 13.3005 4.69702Z" fill="#7C7C7C"/>
+                                  </svg>                          
+                              </a>
+                          </div>
+                          <div class="one-item-comp">
+                              <div class="hover-tool">
+                                  В Сравнение
+                              </div>
+                              <a href="#" data-toggle="modal" data-target="#comp">
+                                  <svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                      <path fill-rule="evenodd" clip-rule="evenodd" d="M9.5659 2.95986V1.34048C9.5659 0.602768 8.95082 0 8.19803 0H1.36787C0.615082 0 0 0.602768 0 1.34048V8.74464C0 9.48235 0.615082 10.0851 1.36787 10.0851H3.70885V5.64083C3.70885 4.1654 4.97574 2.95986 6.49049 2.95986H9.5659ZM12.6321 4.30035H6.53639C5.78361 4.30035 5.16852 4.90311 5.16852 5.64083V11.6685C5.16852 12.4062 5.78361 13.009 6.53639 13.009H12.6413C13.3941 13.009 14.0092 12.4062 14.0092 11.6685V5.64083C14 4.89412 13.3849 4.30035 12.6321 4.30035Z" fill="#7C7C7C"/>
+                                  </svg>                          
+                              </a>
+                          </div>
+                          <a href="#">
+                              <img src="./images/t-new-img/product/11.png" alt="">
+                          </a>
+                      </div>
+                      <div class="one-item-descr">
+                          <div class="one-item-tit">
+                              <a href="#">
+                                  Куртка утепленная Турист
+                              </a>
+                          </div>
+                          <div class="one-item-cat">
+                              <a href="#">
+                                  Зимняя одежда
+                              </a>
+                          </div>
+                          <div class="one-item-price">
+                              2 365 ₽
+                          </div>
+                          <div class="one-item-info">
+                              <div class="one-item-stat">
+                                  <span class="has">
+                                      В наличии
+                                  </span>
+                              </div>
+                              <div class="one-item-size">
+                                  <span>Размеры: 96-170</span>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="one-item-bt">
+                          <a href="#" class="first-bt">
+                              Подробнее
+                          </a>
+                      </div>
+                  </div>
+              </div>
+
+              <!-- Item -->
+              
+              <div class="one-item">
+                  <div class="one-item-in">
+                      <div class="one-item-thumb">
+                          <div class="one-item-fav">
+                              <div class="hover-tool">
+                                  В Избранное
+                              </div>
+                              <a href="#" data-toggle="modal" data-target="#fav">
+                                  <svg width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                      <path fill-rule="evenodd" clip-rule="evenodd" d="M13.3005 4.69702L8.88767 4.28652L7.13517 0.213142C7.00887 -0.0710473 6.60627 -0.0710473 6.48785 0.213142L4.73535 4.28652L0.322527 4.69702C0.0146556 4.72859 -0.111651 5.10751 0.117279 5.31276L3.44861 8.24149L2.47763 12.5675C2.40658 12.8675 2.73024 13.1122 2.99864 12.9464L6.81151 10.6808L10.6244 12.9464C10.8928 13.1043 11.2164 12.8675 11.1533 12.5675L10.1823 8.24149L13.5136 5.31276C13.7347 5.10751 13.6084 4.72859 13.3005 4.69702Z" fill="#7C7C7C"/>
+                                  </svg>                          
+                              </a>
+                          </div>
+                          <div class="one-item-comp">
+                              <div class="hover-tool">
+                                  В Сравнение
+                              </div>
+                              <a href="#" data-toggle="modal" data-target="#comp">
+                                  <svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                      <path fill-rule="evenodd" clip-rule="evenodd" d="M9.5659 2.95986V1.34048C9.5659 0.602768 8.95082 0 8.19803 0H1.36787C0.615082 0 0 0.602768 0 1.34048V8.74464C0 9.48235 0.615082 10.0851 1.36787 10.0851H3.70885V5.64083C3.70885 4.1654 4.97574 2.95986 6.49049 2.95986H9.5659ZM12.6321 4.30035H6.53639C5.78361 4.30035 5.16852 4.90311 5.16852 5.64083V11.6685C5.16852 12.4062 5.78361 13.009 6.53639 13.009H12.6413C13.3941 13.009 14.0092 12.4062 14.0092 11.6685V5.64083C14 4.89412 13.3849 4.30035 12.6321 4.30035Z" fill="#7C7C7C"/>
+                                  </svg>                          
+                              </a>
+                          </div>
+                          <div class="vob">
+                              <span class="sal-vob">
+                                  -17%
+                              </span>
+                          </div>
+                          <a href="#">
+                              <img src="./images/t-new-img/product/12.png" alt="">
+                          </a>
+                      </div>
+                      <div class="one-item-descr">
+                          <div class="one-item-tit">
+                              <a href="#">
+                                  Костюм Шеф-повар
+                              </a>
+                          </div>
+                          <div class="one-item-cat">
+                              <a href="#">
+                                  Одежда сферы услуг
+                              </a>
+                          </div>
+                          <div class="one-item-price">
+                              <span class="was-price">
+                                  1900 ₽
+                              </span>
+                              <span class="now-price">
+                                  1311 ₽
+                              </span>
+                          </div>
+                          <div class="one-item-info">
+                              <div class="one-item-stat">
+                                  <span class="has">
+                                      В наличии
+                                  </span>
+                              </div>
+                              <div class="one-item-size">
+                                  <span>Размеры: 96-170</span>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="one-item-bt">
+                          <a href="#" class="first-bt">
+                              Подробнее
+                          </a>
+                      </div>
+                  </div>
+              </div>
+
+              <!-- Item -->
+              
+              <div class="one-item">
+                  <div class="one-item-in">
+                      <div class="one-item-thumb">
+                          <div class="one-item-fav">
+                              <div class="hover-tool">
+                                  В Избранное
+                              </div>
+                              <a href="#" data-toggle="modal" data-target="#fav">
+                                  <svg width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                      <path fill-rule="evenodd" clip-rule="evenodd" d="M13.3005 4.69702L8.88767 4.28652L7.13517 0.213142C7.00887 -0.0710473 6.60627 -0.0710473 6.48785 0.213142L4.73535 4.28652L0.322527 4.69702C0.0146556 4.72859 -0.111651 5.10751 0.117279 5.31276L3.44861 8.24149L2.47763 12.5675C2.40658 12.8675 2.73024 13.1122 2.99864 12.9464L6.81151 10.6808L10.6244 12.9464C10.8928 13.1043 11.2164 12.8675 11.1533 12.5675L10.1823 8.24149L13.5136 5.31276C13.7347 5.10751 13.6084 4.72859 13.3005 4.69702Z" fill="#7C7C7C"/>
+                                  </svg>                          
+                              </a>
+                          </div>
+                          <div class="one-item-comp">
+                              <div class="hover-tool">
+                                  В Сравнение
+                              </div>
+                              <a href="#" data-toggle="modal" data-target="#comp">
+                                  <svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                      <path fill-rule="evenodd" clip-rule="evenodd" d="M9.5659 2.95986V1.34048C9.5659 0.602768 8.95082 0 8.19803 0H1.36787C0.615082 0 0 0.602768 0 1.34048V8.74464C0 9.48235 0.615082 10.0851 1.36787 10.0851H3.70885V5.64083C3.70885 4.1654 4.97574 2.95986 6.49049 2.95986H9.5659ZM12.6321 4.30035H6.53639C5.78361 4.30035 5.16852 4.90311 5.16852 5.64083V11.6685C5.16852 12.4062 5.78361 13.009 6.53639 13.009H12.6413C13.3941 13.009 14.0092 12.4062 14.0092 11.6685V5.64083C14 4.89412 13.3849 4.30035 12.6321 4.30035Z" fill="#7C7C7C"/>
+                                  </svg>                          
+                              </a>
+                          </div>
+                          <a href="#">
+                              <img src="./images/t-new-img/product/13.png" alt="">
+                          </a>
+                      </div>
+                      <div class="one-item-descr">
+                          <div class="one-item-tit">
+                              <a href="#">
+                                  Перчатки Hоneywell Электрософт-1
+                              </a>
+                          </div>
+                          <div class="one-item-cat">
+                              <a href="#">
+                                  Средства защиты рук
+                              </a>
+                          </div>
+                          <div class="one-item-price">
+                              4 296 ₽
+                          </div>
+                          <div class="one-item-info">
+                              <div class="one-item-stat">
+                                  <span class="has">
+                                      В наличии
+                                  </span>
+                              </div>
+                              <div class="one-item-size">
+                                  <span>Размеры: 96-170</span>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="one-item-bt">
+                          <a href="#" class="first-bt">
+                              Подробнее
+                          </a>
+                      </div>
+                  </div>
+              </div>
+
+              <!-- Item -->
+              
+              <div class="one-item">
+                  <div class="one-item-in">
+                      <div class="one-item-thumb">
+                          <div class="one-item-fav">
+                              <div class="hover-tool">
+                                  В Избранное
+                              </div>
+                              <a href="#" data-toggle="modal" data-target="#fav">
+                                  <svg width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                      <path fill-rule="evenodd" clip-rule="evenodd" d="M13.3005 4.69702L8.88767 4.28652L7.13517 0.213142C7.00887 -0.0710473 6.60627 -0.0710473 6.48785 0.213142L4.73535 4.28652L0.322527 4.69702C0.0146556 4.72859 -0.111651 5.10751 0.117279 5.31276L3.44861 8.24149L2.47763 12.5675C2.40658 12.8675 2.73024 13.1122 2.99864 12.9464L6.81151 10.6808L10.6244 12.9464C10.8928 13.1043 11.2164 12.8675 11.1533 12.5675L10.1823 8.24149L13.5136 5.31276C13.7347 5.10751 13.6084 4.72859 13.3005 4.69702Z" fill="#7C7C7C"/>
+                                  </svg>                          
+                              </a>
+                          </div>
+                          <div class="one-item-comp">
+                              <div class="hover-tool">
+                                  В Сравнение
+                              </div>
+                              <a href="#" data-toggle="modal" data-target="#comp">
+                                  <svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                      <path fill-rule="evenodd" clip-rule="evenodd" d="M9.5659 2.95986V1.34048C9.5659 0.602768 8.95082 0 8.19803 0H1.36787C0.615082 0 0 0.602768 0 1.34048V8.74464C0 9.48235 0.615082 10.0851 1.36787 10.0851H3.70885V5.64083C3.70885 4.1654 4.97574 2.95986 6.49049 2.95986H9.5659ZM12.6321 4.30035H6.53639C5.78361 4.30035 5.16852 4.90311 5.16852 5.64083V11.6685C5.16852 12.4062 5.78361 13.009 6.53639 13.009H12.6413C13.3941 13.009 14.0092 12.4062 14.0092 11.6685V5.64083C14 4.89412 13.3849 4.30035 12.6321 4.30035Z" fill="#7C7C7C"/>
+                                  </svg>                          
+                              </a>
+                          </div>
+                          <a href="#">
+                              <img src="./images/t-new-img/product/14.png" alt="">
+                          </a>
+                      </div>
+                      <div class="one-item-descr">
+                          <div class="one-item-tit">
+                              <a href="#">
+                                  Перчатки Hоneywell Электрософт-1
+                              </a>
+                          </div>
+                          <div class="one-item-cat">
+                              <a href="#">
+                                  Средства защиты рук
+                              </a>
+                          </div>
+                          <div class="one-item-price">
+                              4 296 ₽
+                          </div>
+                          <div class="one-item-info">
+                              <div class="one-item-stat">
+                                  <span class="has">
+                                      В наличии
+                                  </span>
+                              </div>
+                              <div class="one-item-size">
+                                  <span>Размеры: 96-170</span>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="one-item-bt">
+                          <a href="#" class="first-bt">
+                              Подробнее
+                          </a>
+                      </div>
+                  </div>
+              </div>
+
+            </div>
+          </div>
+          <div class="t-protection__btn">
+            <div class="btn_wrapper">
+              <a href="#" class="btn btn_green">
+                Смотреть все товары
+                <svg width="14" height="12" viewBox="0 0 14 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M13.7188 6.71875L8.71875 11.7188C8.51042 11.9062 8.27083 12 8 12C7.72917 12 7.48958 11.9062 7.28125 11.7188C7.09375 11.5104 7 11.2708 7 11C7 10.7292 7.09375 10.4896 7.28125 10.2812L10.5938 7H1C0.708333 7 0.46875 6.90625 0.28125 6.71875C0.09375 6.53125 0 6.29167 0 6C0 5.70833 0.09375 5.46875 0.28125 5.28125C0.46875 5.09375 0.708333 5 1 5H10.5938L7.28125 1.71875C7.09375 1.51042 7 1.27083 7 1C7 0.729167 7.09375 0.489583 7.28125 0.28125C7.48958 0.09375 7.72917 0 8 0C8.27083 0 8.51042 0.09375 8.71875 0.28125L13.7188 5.28125C13.9062 5.48958 14 5.72917 14 6C14 6.27083 13.9062 6.51042 13.7188 6.71875Z" fill="white"/>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Siz -->
+
+      <section class="t-siz">
+        <div class="container">
+          <p class="section_title t-title">Как выбрать СИЗ для энергетика</p>
+          <div class="row">
+            <div class="col-12 col-md-6">
+              <div class="t-siz__item">
+                <i class="t-siz__img" style="background: url('images/t-new-img/t-siz-1.png') center 0/cover no-repeat;"></i>
+                <div class="t-siz__body">
+                  <span>Перечень СИЗ, которыми работодатель обязан обеспечить специалистов, определен Типовыми нормами бесплатной выдачи спецодежды, утвержденными Приказом Минздравсоцразвития России № 340н</span>
+                  <p>Для электромонтеров обязательны к закупке термостойкий костюм, куртка-накидка и куртка-рубашка, нательное белье, перчатки, подшлемник, термостойкая обувь, каска и многое другое. Зимой монтерам полагается утепленный комплект защитной одежды в зависимости от того или иного климатического пояса.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6">
+              <div class="t-siz__item">
+                <i class="t-siz__img" style="background: url('images/t-new-img/t-siz-2.png') center 0/cover no-repeat;"></i>
+                <div class="t-siz__body">
+                  <h2 class="t-siz__title">Обратитесь к специалистам</h2>
+                  <p>В нашем каталоге представлен полный спектр товаров для комплексной защиты сотрудников от рисков электрической дуги. При необходимости получения дополнительной информации вы всегда можете обратиться за консультацией к нашим  специалистам</p>
+                  <div class="btn_wrapper">
+                    <a href="#" class="btn btn_green">
+                      Каталог СИЗ
+                      <svg width="14" height="12" viewBox="0 0 14 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M13.7188 6.71875L8.71875 11.7188C8.51042 11.9062 8.27083 12 8 12C7.72917 12 7.48958 11.9062 7.28125 11.7188C7.09375 11.5104 7 11.2708 7 11C7 10.7292 7.09375 10.4896 7.28125 10.2812L10.5938 7H1C0.708333 7 0.46875 6.90625 0.28125 6.71875C0.09375 6.53125 0 6.29167 0 6C0 5.70833 0.09375 5.46875 0.28125 5.28125C0.46875 5.09375 0.708333 5 1 5H10.5938L7.28125 1.71875C7.09375 1.51042 7 1.27083 7 1C7 0.729167 7.09375 0.489583 7.28125 0.28125C7.48958 0.09375 7.72917 0 8 0C8.27083 0 8.51042 0.09375 8.71875 0.28125L13.7188 5.28125C13.9062 5.48958 14 5.72917 14 6C14 6.27083 13.9062 6.51042 13.7188 6.71875Z" fill="white"/>
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Info -->
+
+      <section class="t-info">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-md-6">
+              <p class="section_title t-title">Комплексный подход к защите</p>
+              <div class="t-info__item">
+                <div class="t-info__head">
+                  <span class="t-info__icon">
+                    <svg width="21" height="23" viewBox="0 0 21 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M10.625 0.75C11.026 0.75 11.3555 0.878906 11.6133 1.13672C11.8711 1.39453 12 1.72396 12 2.125V2.94141C13.6042 3.28516 14.9076 4.07292 15.9102 5.30469C16.9414 6.53646 17.4714 7.9974 17.5 9.6875V10.5039C17.5286 12.5951 18.2305 14.4141 19.6055 15.9609L19.9062 16.3477C20.2786 16.7773 20.3503 17.2643 20.1211 17.8086C19.8633 18.3242 19.4479 18.5964 18.875 18.625H2.375C1.80208 18.5964 1.38672 18.3242 1.12891 17.8086C0.89974 17.2643 0.971354 16.7773 1.34375 16.3477L1.6875 15.9609C3.03385 14.3854 3.72135 12.5664 3.75 10.5039V9.6875C3.77865 7.9974 4.30859 6.53646 5.33984 5.30469C6.34245 4.07292 7.64583 3.28516 9.25 2.94141V2.125C9.25 1.72396 9.37891 1.39453 9.63672 1.13672C9.89453 0.878906 10.224 0.75 10.625 0.75ZM12.5586 21.9336C12.0143 22.4779 11.3698 22.75 10.625 22.75C9.88021 22.75 9.23568 22.4779 8.69141 21.9336C8.14714 21.3893 7.875 20.7448 7.875 20H10.625H13.375C13.375 20.7448 13.1029 21.3893 12.5586 21.9336ZM12 14.5C12 14.099 11.8711 13.7695 11.6133 13.5117C11.3555 13.2539 11.026 13.125 10.625 13.125C10.224 13.125 9.89453 13.2539 9.63672 13.5117C9.37891 13.7695 9.25 14.099 9.25 14.5C9.25 14.901 9.37891 15.2305 9.63672 15.4883C9.89453 15.7461 10.224 15.875 10.625 15.875C11.026 15.875 11.3555 15.7461 11.6133 15.4883C11.8711 15.2305 12 14.901 12 14.5ZM11.6562 6.59375C11.599 5.96354 11.2552 5.61979 10.625 5.5625C9.99479 5.61979 9.65104 5.96354 9.59375 6.59375V10.7188C9.65104 11.349 9.99479 11.6927 10.625 11.75C11.2552 11.6927 11.599 11.349 11.6562 10.7188V6.59375Z" fill="#1D2A3D"/>
+                    </svg>
+                  </span>
+                  <p>Далеко не все понимают, что для того, чтобы обеспечить нужный уровень безопасности, необходимо подходить к решению проблемы комплексно.</p>
+                </div>
+                <div class="t-info__body">
+                  <p>Прежде всего, при подборе защитного комплекта необходимо точно определить требуемый уровень защиты по результатам проведения оценки риска по параметрам оборудования и условиям работы</p>
+                  <span>С этим вам обязательно помогут специалисты нашей группы компаний</span>
+                  <p>Также стоит учитывать — если работник обслуживает несколько электроустановок с разной степенью риска, то комплект подбирается по наибольшему уровню защиты.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6">
+              <p class="section_title t-title">Разговор с сотрудником</p>
+              <div class="t-info__item">
+                <div class="t-info__head">
+                  <span class="t-info__icon">
+                    <svg width="22" height="23" viewBox="0 0 22 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M0 3.5C0.0286458 2.72656 0.300781 2.08203 0.816406 1.56641C1.33203 1.05078 1.97656 0.778646 2.75 0.75H19.25C20.0234 0.778646 20.668 1.05078 21.1836 1.56641C21.6992 2.08203 21.9714 2.72656 22 3.5V15.875C21.9714 16.6484 21.6992 17.293 21.1836 17.8086C20.668 18.3242 20.0234 18.5964 19.25 18.625H13.2773L7.99219 22.6211C7.76302 22.7643 7.51953 22.7786 7.26172 22.6641C7.00391 22.5495 6.875 22.349 6.875 22.0625V18.625H2.75C1.97656 18.5964 1.33203 18.3242 0.816406 17.8086C0.300781 17.293 0.0286458 16.6484 0 15.875V3.5ZM11 4.1875C10.3698 4.24479 10.026 4.58854 9.96875 5.21875V10.0312C10.026 10.6615 10.3698 11.0052 11 11.0625C11.6302 11.0052 11.974 10.6615 12.0312 10.0312V5.21875C11.974 4.58854 11.6302 4.24479 11 4.1875ZM12.375 13.8125C12.375 13.4115 12.2461 13.082 11.9883 12.8242C11.7305 12.5664 11.401 12.4375 11 12.4375C10.599 12.4375 10.2695 12.5664 10.0117 12.8242C9.75391 13.082 9.625 13.4115 9.625 13.8125C9.625 14.2135 9.75391 14.543 10.0117 14.8008C10.2695 15.0586 10.599 15.1875 11 15.1875C11.401 15.1875 11.7305 15.0586 11.9883 14.8008C12.2461 14.543 12.375 14.2135 12.375 13.8125Z" fill="#1D2A3D"/>
+                    </svg>
+                  </span>
+                  <p>Важно объяснять работникам, что даже самый качественный защитный костюм не гарантирует защиту, если используется неправильно</p>
+                </div>
+                <div class="t-info__body">
+                  <span>По статистике, примерно 70% ожоговых травм можно было бы избежать, если бы электромонтеры надевали полный комплект СИЗ. </span>
+                  <p>А в него входят костюм, нательное белье, ботинки, подшлемник, который защищает от ожогов часть лица и шею, а также термостойкие перчатки и каска с защитным экраном. И если что-то из этого человек забыл надеть или нарушил правила эксплуатации, например, не застегнул куртку или подвернул рукава, то он становится уязвим.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Data -->
+
+      <section class="t-data">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-md-6">
+              <div class="t-data__item">
+                <i class="t-data__img" style="background: url('images/t-new-img/t-data-1.png') center 0/cover no-repeat;"></i>
+                <div class="t-data__body">
+                  <span>Электроэнергетика считается одной из самых опасных отраслей промышленности</span>
+                  <p>Нередко аварии на электрических установках заканчиваются не только сильнейшими ожогами, но и  летальным исходом. Одна из причин — электрическая дуга, о котором энергетики знают не понаслышке. К счастью, благодаря современным технологиям работники могут быть в безопасности, используя средства индивидуальной защиты (СИЗ) от термических рисков электрической дуги.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6">
+              <div class="t-data__item">
+                <i class="t-data__img" style="background: url('images/t-new-img/t-data-2.png') center 0/cover no-repeat;"></i>
+                <div class="t-data__body">
+                  <span>Причины возникновения электрической дуги</span>
+                  <div class="t-data__list">
+                    <div class="t-data__inner">
+                      <i class="t-data__icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M22.5273 17.7656C23.1289 18.4102 23.1289 19.3984 22.5273 20.043L20.25 22.3203C19.6055 22.9219 18.6172 22.9219 17.9727 22.3203L12.9453 17.25C11.957 16.2617 11.7852 14.8008 12.3438 13.5977L7.78906 9H5.125L1 3.5L3.75 0.75L9.25 4.875V7.58203L13.8047 12.1367C15.0078 11.5352 16.4688 11.75 17.5 12.7383L22.5273 17.7656ZM15.2227 10.418C14.8789 10.418 14.5352 10.4609 14.1914 10.5469L10.625 7.02344C10.625 5.43359 11.1836 3.80078 12.4297 2.59766C14.0195 1.00781 16.2539 0.449219 18.2734 0.964844C18.6602 1.05078 18.832 1.52344 18.5312 1.82422L15.3516 5.00391L15.8242 7.92578L18.7461 8.44141L21.9258 5.21875C22.2266 4.96094 22.6992 5.08984 22.7852 5.47656C23.3008 7.49609 22.7422 9.73047 21.1523 11.3203C20.5938 11.8789 19.9492 12.3086 19.3047 12.6094L18.4453 11.75C17.5859 10.8906 16.4688 10.418 15.2227 10.418ZM10.7539 13.9414C10.5391 14.8867 10.668 15.7891 10.9688 16.6484L5.68359 21.9766C4.60938 23.0508 2.84766 23.0508 1.77344 21.9766C0.699219 20.9023 0.699219 19.1406 1.77344 18.0664L8.34766 11.5352L10.7539 13.9414ZM3.75 21.0312C4.30859 21.0312 4.78125 20.6016 4.78125 20C4.78125 19.4414 4.30859 18.9688 3.75 18.9688C3.14844 18.9688 2.71875 19.4414 2.71875 20C2.71875 20.6016 3.14844 21.0312 3.75 21.0312Z" fill="#1D2A3D"/>
+                        </svg>
+                      </i>
+                      <p>Отказ или неисправность оборудования <br>и человеческий фактор</p>
+                    </div>
+                    <div class="t-data__inner">
+                      <i class="t-data__icon">
+                        <svg width="28" height="21" viewBox="0 0 28 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M2.96484 1.29688L5.02734 2.67188C5.51432 3.07292 5.61458 3.54557 5.32812 4.08984C4.92708 4.57682 4.45443 4.67708 3.91016 4.39062L1.84766 3.01562C1.36068 2.61458 1.26042 2.14193 1.54688 1.59766C1.94792 1.11068 2.42057 1.01042 2.96484 1.29688ZM25.6523 3.01562L23.5898 4.39062C23.0456 4.70573 22.5729 4.60547 22.1719 4.08984C21.8568 3.54557 21.957 3.07292 22.4727 2.67188L24.5352 1.29688C25.0794 0.981771 25.5521 1.08203 25.9531 1.59766C26.2682 2.14193 26.168 2.61458 25.6523 3.01562ZM1.03125 8H3.78125C4.41146 8.05729 4.75521 8.40104 4.8125 9.03125C4.75521 9.66146 4.41146 10.0052 3.78125 10.0625H1.03125C0.401042 10.0052 0.0572917 9.66146 0 9.03125C0.0572917 8.40104 0.401042 8.05729 1.03125 8ZM23.7188 8H26.4688C27.099 8.05729 27.4427 8.40104 27.5 9.03125C27.4427 9.66146 27.099 10.0052 26.4688 10.0625H23.7188C23.0885 10.0052 22.7448 9.66146 22.6875 9.03125C22.7448 8.40104 23.0885 8.05729 23.7188 8ZM6.1875 14.875L7.26172 6.28125C7.3763 5.59375 7.67708 5.02083 8.16406 4.5625C8.67969 4.13281 9.29557 3.90365 10.0117 3.875H17.5312C18.2188 3.875 18.8203 4.10417 19.3359 4.5625C19.8229 5.02083 20.1237 5.59375 20.2383 6.28125L21.3125 14.875H10.0547L11 7.39844C11 6.96875 10.7995 6.71094 10.3984 6.625C9.96875 6.625 9.71094 6.82552 9.625 7.22656L8.67969 14.875H6.1875ZM4.125 17.625C4.125 17.224 4.25391 16.8945 4.51172 16.6367C4.76953 16.3789 5.09896 16.25 5.5 16.25H22C22.401 16.25 22.7305 16.3789 22.9883 16.6367C23.2461 16.8945 23.375 17.224 23.375 17.625V19C23.375 19.401 23.2461 19.7305 22.9883 19.9883C22.7305 20.2461 22.401 20.375 22 20.375H5.5C5.09896 20.375 4.76953 20.2461 4.51172 19.9883C4.25391 19.7305 4.125 19.401 4.125 19V17.625Z" fill="#1D2A3D"/>
+                        </svg>
+                      </i>
+                      <p>Ошибочные действия персонала, допущенные при производстве оперативных переключений или выполнении ремонтных работ</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Barrier -->
+
+      <section class="t-barrier">
+        <div class="container">
+          <div class="t-barrier__img">
+            <i class="t-barrier__img-layer" style="background: url('images/t-new-img/t-barrier.png') 100% 0/cover no-repeat;"></i>
+          </div>
+          <div class="t-barrier__box">
+            <p class="section_title t-title">Последняя преграда на пути дуги</p>
+            <div class="t-barrier__info">
+              <svg width="25" height="22" viewBox="0 0 25 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M23.7317 18.7203C24.4508 19.9988 23.532 21.5568 22.0538 21.5568H2.91761C1.43945 21.5568 0.520597 19.9588 1.2397 18.7203L10.8278 2.06108C11.5469 0.782672 13.4245 0.822622 14.1436 2.06108L23.7317 18.7203ZM12.5057 15.2447C11.467 15.2447 10.668 16.0836 10.668 17.0824C10.668 18.1211 11.467 18.9201 12.5057 18.9201C13.5044 18.9201 14.3434 18.1211 14.3434 17.0824C14.3434 16.0836 13.5044 15.2447 12.5057 15.2447ZM10.7479 8.65288L11.0275 14.0861C11.0675 14.3658 11.2672 14.5256 11.5069 14.5256H13.4645C13.7042 14.5256 13.9039 14.3658 13.9439 14.0861L14.2235 8.65288C14.2635 8.37323 14.0238 8.13352 13.7441 8.13352H11.2273C10.9476 8.13352 10.7079 8.37323 10.7479 8.65288Z" fill="#1D2A3D"/>
+              </svg>
+              Средства индивидуальной защиты — последняя и наиболее важная преграда на пути электрической дуги. Чтобы человек остался цел и невредим, они должны быть правильно подобраны и изготовлены из качественных материалов. 
+            </div>
+            <p class="t-barrier__text">При воздействии электрической дуги, температура которой может достигать нескольких тысяч градусов, происходит распространение мощнейшего теплового потока, а это значит, что термостойкий комплект должен быть максимально надежным, чтобы выдержать его, защитив человека и дав ему возможность эвакуироваться из опасной зоны.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Presentation -->
+
+      <section class="w-solutions t-presentation">
+        <div class="container">
+          <div class="row mt-0">
+
+            <!-- Col -->
+
+            <div class="col-12 col-md-6">
+              <div class="w-solutions__item">
+                <i class="w-solutions__img" style="background: url(images/t-new-img/t-presentation-1.png) center/cover no-repeat;"></i>
+                <div class="w-solutions__desc">
+                  <div class="w-solutions__btns mt-0">
+                    <a href="#" class="btn btn_white">
+                      <svg width="27" height="29" viewBox="0 0 27 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M3.86409 29C3.05335 29 2.07796 28.7307 1.04117 27.862C-0.065388 26.9324 -0.0598063 25.8737 0.043454 25.3253C0.162064 24.689 0.509521 24.0754 1.10397 23.4504C1.5505 22.9799 2.1282 22.5108 2.87195 22.0148C4.03433 21.2396 5.5916 20.412 7.50052 19.556C7.98473 19.3392 8.46615 19.1309 8.935 18.9353C9.29641 18.1247 10.3667 15.6914 11.4063 12.9789C11.5319 12.6502 11.6519 12.3341 11.7649 12.028C10.7002 10.5939 9.9397 9.17669 9.50573 7.81054C8.96849 6.12412 8.9057 4.46603 9.31735 2.88164C9.56712 1.92364 10.0081 1.18104 10.629 0.672282C11.2472 0.167772 12.0217 -0.0660608 12.8101 0.0161348C13.2664 0.0629013 13.7115 0.210286 14.1343 0.454039C14.5348 0.685037 14.8976 0.992562 15.2088 1.36811C15.5227 1.74649 15.7753 2.18015 15.9595 2.65773C16.1507 3.15374 16.2623 3.68659 16.293 4.2407C16.3488 5.2639 16.1004 6.71508 15.5339 8.67927C15.2855 9.5409 14.9757 10.5017 14.6073 11.5519C15.9748 13.1589 17.5893 14.6172 18.9833 15.8246C19.014 15.8189 19.0447 15.8133 19.0741 15.809C20.6746 15.5327 22.0393 15.425 23.1277 15.4873C23.8519 15.5284 24.4548 15.6432 24.9724 15.8345C25.6646 16.091 26.1892 16.4907 26.5311 17.0193C26.9316 17.6372 27.0795 18.3217 26.9595 18.9976C26.8493 19.6198 26.52 20.181 26.0078 20.6217C25.3548 21.1829 24.4589 21.4919 23.5045 21.4919C23.3761 21.4919 23.2463 21.4862 23.1166 21.4749C21.936 21.3728 20.7834 20.823 19.7857 19.8848C19.388 19.5121 18.8717 19.0671 18.2745 18.5541C16.367 18.9565 14.7887 19.4469 14.6673 19.4837C14.5348 19.5277 12.8449 20.0945 10.7504 20.9377C10.4937 21.6648 10.1016 22.6837 9.58806 23.7451C9.01175 24.937 8.39917 25.9403 7.76705 26.7297C6.89212 27.8223 5.95301 28.5295 4.97623 28.8328C4.65947 28.9277 4.2841 29 3.86409 29ZM2.51333 25.7731C2.53147 25.7986 2.56915 25.8411 2.63752 25.8978C3.41197 26.5483 3.92548 26.4916 4.24364 26.3938C4.72505 26.245 5.26787 25.8085 5.81347 25.1311C6.32419 24.4962 6.83212 23.6615 7.32331 22.6497C7.36796 22.5562 7.41261 22.464 7.45587 22.3705C6.10232 23.0167 4.99158 23.6332 4.14875 24.2071C3.58082 24.5926 3.14405 24.954 2.84962 25.2771C2.60682 25.5464 2.53426 25.7108 2.51333 25.7731ZM21.5328 18.051C22.8417 19.2513 24.0194 18.9934 24.3878 18.676C24.4659 18.6079 24.491 18.5555 24.4924 18.5413C24.4938 18.5357 24.4868 18.4931 24.4366 18.4152C24.3794 18.3273 24.0082 18.085 22.9938 18.0255C22.5682 18.0014 22.0784 18.0099 21.5328 18.051ZM13.6152 14.2261C13.1296 15.4788 12.644 16.6622 12.2296 17.6443C13.2036 17.2885 13.8427 17.076 13.8999 17.0575L13.9152 17.0533C13.9724 17.0349 14.765 16.7855 15.9218 16.4893C15.1599 15.792 14.3729 15.0353 13.6152 14.2261ZM12.5045 2.54436C12.0649 2.54436 11.8375 3.15657 11.7412 3.5307C11.2556 5.39711 11.7761 7.2706 12.8017 9.04064C13.6961 6.22899 13.8203 4.94362 13.7896 4.37817C13.7268 3.21043 13.0152 2.59538 12.5547 2.54719C12.538 2.54577 12.5212 2.54436 12.5045 2.54436Z" fill="#FE0606"/>
+                      </svg>
+                      Презентация PDF
+                      <svg width="9" height="15" viewBox="0 0 9 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1 1L7 7.5L1 14" stroke="#1D2A3D" stroke-width="2"/>
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Col -->
+
+            <div class="col-12 col-md-6">
+              <div class="w-solutions__item">
+                <i class="w-solutions__img" style="background: url(images/t-new-img/t-presentation-2.png) center/cover no-repeat;"></i>
+                <div class="w-solutions__desc">
+                  <div class="w-solutions__btns mt-0">
+                    <a href="#" class="btn btn_white">
+                      <svg width="27" height="29" viewBox="0 0 27 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M3.86409 29C3.05335 29 2.07796 28.7307 1.04117 27.862C-0.065388 26.9324 -0.0598063 25.8737 0.043454 25.3253C0.162064 24.689 0.509521 24.0754 1.10397 23.4504C1.5505 22.9799 2.1282 22.5108 2.87195 22.0148C4.03433 21.2396 5.5916 20.412 7.50052 19.556C7.98473 19.3392 8.46615 19.1309 8.935 18.9353C9.29641 18.1247 10.3667 15.6914 11.4063 12.9789C11.5319 12.6502 11.6519 12.3341 11.7649 12.028C10.7002 10.5939 9.9397 9.17669 9.50573 7.81054C8.96849 6.12412 8.9057 4.46603 9.31735 2.88164C9.56712 1.92364 10.0081 1.18104 10.629 0.672282C11.2472 0.167772 12.0217 -0.0660608 12.8101 0.0161348C13.2664 0.0629013 13.7115 0.210286 14.1343 0.454039C14.5348 0.685037 14.8976 0.992562 15.2088 1.36811C15.5227 1.74649 15.7753 2.18015 15.9595 2.65773C16.1507 3.15374 16.2623 3.68659 16.293 4.2407C16.3488 5.2639 16.1004 6.71508 15.5339 8.67927C15.2855 9.5409 14.9757 10.5017 14.6073 11.5519C15.9748 13.1589 17.5893 14.6172 18.9833 15.8246C19.014 15.8189 19.0447 15.8133 19.0741 15.809C20.6746 15.5327 22.0393 15.425 23.1277 15.4873C23.8519 15.5284 24.4548 15.6432 24.9724 15.8345C25.6646 16.091 26.1892 16.4907 26.5311 17.0193C26.9316 17.6372 27.0795 18.3217 26.9595 18.9976C26.8493 19.6198 26.52 20.181 26.0078 20.6217C25.3548 21.1829 24.4589 21.4919 23.5045 21.4919C23.3761 21.4919 23.2463 21.4862 23.1166 21.4749C21.936 21.3728 20.7834 20.823 19.7857 19.8848C19.388 19.5121 18.8717 19.0671 18.2745 18.5541C16.367 18.9565 14.7887 19.4469 14.6673 19.4837C14.5348 19.5277 12.8449 20.0945 10.7504 20.9377C10.4937 21.6648 10.1016 22.6837 9.58806 23.7451C9.01175 24.937 8.39917 25.9403 7.76705 26.7297C6.89212 27.8223 5.95301 28.5295 4.97623 28.8328C4.65947 28.9277 4.2841 29 3.86409 29ZM2.51333 25.7731C2.53147 25.7986 2.56915 25.8411 2.63752 25.8978C3.41197 26.5483 3.92548 26.4916 4.24364 26.3938C4.72505 26.245 5.26787 25.8085 5.81347 25.1311C6.32419 24.4962 6.83212 23.6615 7.32331 22.6497C7.36796 22.5562 7.41261 22.464 7.45587 22.3705C6.10232 23.0167 4.99158 23.6332 4.14875 24.2071C3.58082 24.5926 3.14405 24.954 2.84962 25.2771C2.60682 25.5464 2.53426 25.7108 2.51333 25.7731ZM21.5328 18.051C22.8417 19.2513 24.0194 18.9934 24.3878 18.676C24.4659 18.6079 24.491 18.5555 24.4924 18.5413C24.4938 18.5357 24.4868 18.4931 24.4366 18.4152C24.3794 18.3273 24.0082 18.085 22.9938 18.0255C22.5682 18.0014 22.0784 18.0099 21.5328 18.051ZM13.6152 14.2261C13.1296 15.4788 12.644 16.6622 12.2296 17.6443C13.2036 17.2885 13.8427 17.076 13.8999 17.0575L13.9152 17.0533C13.9724 17.0349 14.765 16.7855 15.9218 16.4893C15.1599 15.792 14.3729 15.0353 13.6152 14.2261ZM12.5045 2.54436C12.0649 2.54436 11.8375 3.15657 11.7412 3.5307C11.2556 5.39711 11.7761 7.2706 12.8017 9.04064C13.6961 6.22899 13.8203 4.94362 13.7896 4.37817C13.7268 3.21043 13.0152 2.59538 12.5547 2.54719C12.538 2.54577 12.5212 2.54436 12.5045 2.54436Z" fill="#FE0606"/>
+                      </svg>
+                      Презентация PDF
+                      <svg width="9" height="15" viewBox="0 0 9 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1 1L7 7.5L1 14" stroke="#1D2A3D" stroke-width="2"/>
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </section>
+      
+      <!-- Business -->
+
+      <section class="t-business">
+        <div class="container">
+          <p class="section_title">Бизнес и партнерство</p>
+          <div class="t-business__box">
+            <div class="t-business__left" style="background: url('images/t-new-img/t-business.png') center/cover no-repeat;"></div>
+            <div class="t-business__right">
+              Объединение вендоров,  производителей и дилеров
+              <div class="t-business__link">
+                <a href="#">
+                  <svg width="13" height="12" viewBox="0 0 13 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1 6H12M12 6L7.5 1.5M12 6L7.5 10.5" stroke="#B6B8BC" stroke-width="1.4" stroke-linecap="round"/>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="partnership_wrapper">
+            <div class="partnership_block">
+              <div class="partnership_block_first">
+                <p class="partnership_title">
+                  Мы всегда готовы к сотрудничеству
+                </p>
+                <button type="button" class="btn btn_green calling_form">
+                  Предложить сотрудничество
+                </button>
+              </div>
+              <form class="form_hidden">
+                <div class="form_input">
+                  <input type="text" name="name" placeholder="Имя Фамилия ">
+                </div>
+                <div class="form_input">
+                  <input type="text" name="companyName" placeholder="Компания">
+                </div>
+                <div class="form_input">
+                  <input type="tel" name="phone" placeholder="Телефон">
+                </div>
+                <div class="form_input">
+                  <input type="email" name="email" placeholder="E-mail">
+                </div>
+                <label class="check">
+                                  Соглашаюсь с <a href="#">условиями обработки персональных данных</a>
+                                  <input type="checkbox">
+                                  <span class="checkmark"></span>
+                              </label> 
+                <div class="error_info">
+                  Ошибка! Не заполнено поле E-mail
+                </div>
+                <button type="submit" class="btn btn_green">
+                  Отправить заявку
+                </button>
+              </form>
+              <div class="partnership_success">
+                <p class="partnership_title">
+                  Ваше письмо отправлено!
+                </p>
+                <button type="button" class="btn btn_green thx_button">
+                  Спасибо
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </main>
+    <!-- / main -->
+
+    <!-- footer -->
+    <footer>
+      <div class="container">
+        <div class="footer-in">
+          <div class="footer-cont">
+            <div class="footer-phone">
+              <a href="#">
+                +7 (965) 318-90-83
+              </a>
+            </div>
+            <div class="footer-mail">
+              <a href="mailto:info@rossbrand.ru">
+                info@rossbrand.ru
+              </a>
+            </div>
+
+          </div>
+
+          <div class="footer-menu">
+            <div class="one-footer-menu">
+              <ul>
+                <li><a href="#">Доставка и оплата</a></li>
+                <li><a href="#">Личный кабинет</a></li>
+                <li><a href="#">Вопросы</a></li>
+              </ul>
+            </div>
+            <div class="one-footer-menu">
+              <ul>
+                <li><a href="#">Каталог товаров</a></li>
+                <li><a href="#">Акции</a></li>
+                <li><a href="#">Услуги</a></li>
+                <li><a href="#">Бренды</a></li>
+              </ul>
+            </div>
+            <div class="one-footer-menu">
+              <ul>
+                <li><a href="#">О компании</a></li>
+                <li><a href="#">Партнеры</a></li>
+                <li><a href="#">Контактная информация</a></li>
+                <li class="active"><a href="#">Участие в тендерах</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer-lang">
+            <a class="eng" href="#">
+              Eng
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-copy">
+          © ООО «РБ», 2021 <br>
+          Все права защищены. Предложение<br>
+          не является публичной офертой <a href="#">Условия обработки персональных данных</a>
+        </div>
+      </div>
+    </footer>
+    <!-- / footer -->
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+  <script src="js/jquery.inputmask.min.js"></script>
+
+  <script src="js/jquery.easy-autocomplete.min.js"></script>
+
+  <script src="js/init.js"></script>
+
+
+  <!-- ================ -->
+
+  <script src="js/swiper/swiper.min.js"></script>
+
+  <script src="js/ionRangeSlider/ion.rangeSlider.min.js"></script>
+
+  <script src="new-js.js"></script>
+
+  <!-- ================ -->
+
+</body>
+                                  
+</html>

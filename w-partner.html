@@ -1,0 +1,2144 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Сайт</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+
+    <link href="css/easy-autocomplete.css" rel="stylesheet" type="text/css" />
+    <link href="css/app.css" rel="stylesheet" type="text/css" />
+
+    <link href="style.css" rel="stylesheet" type="text/css" />
+
+    <!-- ============================== -->
+
+    <link href="js/swiper/swiper.min.css" rel="stylesheet" type="text/css" />
+
+    <link href="js/ionRangeSlider/ion.rangeSlider.min.css" rel="stylesheet" type="text/css" />
+
+    <link href="new-style.css" rel="stylesheet" type="text/css" />
+
+    <!-- ============================== -->
+
+  </head>
+
+<body>
+
+  <!-- Modal add to favorite -->
+  <div class="modal fade mini-mod thank-mod" id="thank-return" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+  aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-mini-body">
+          <span class="close-modal" data-dismiss="modal" aria-label="Close"></span>
+          <div class="modal-mini-wrap">
+            <div class="modal-mini-tit">
+              Ваша заявка отправлена
+            </div>
+            <div class="modal-mini-bt">
+              <a href="#" class="first-bt" data-dismiss="modal">
+                Хорошо
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- / Modal add to favorite -->
+
+  <!-- Modal call-me -->
+  <div class="modal fade" id="return-items" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-return-body">
+          <span class="close-modal" data-dismiss="modal" aria-label="Close"></span>
+          <div class="modal-return-wrap">
+            <div class="modal-return-tit">
+              Вернуть товар
+            </div>
+            
+                        <div class="list-return">
+                            <!-- one item -->
+                            <div class="list-return-one">
+                                <div class="return-one-thumb">
+                                    <img src="./images/LK-fav/thumb-1.png" alt="">
+                                </div>
+                                <div class="return-one-descr">
+                                    <div class="return-one-tit">
+                                        <a href="#">
+                                            Костюм Extra-Vision WPL влагозащитный
+                                        </a>
+                                    </div>
+                                    <div class="return-one-cat">
+                                        <a href="#">
+                                            Одежда влагозащитная
+                                        </a>
+                                    </div>
+                                    <div class="return-one-info">
+                                        <div class="return-one-price">
+                                            1 980 ₽
+                                        </div>
+                                        <div class="return-one-info-right">
+                                            <!-- one size -->
+                                            <div class="return-one-order-size">
+                                                <div class="return-one-order-size-left">
+                                                    88-92, 170-176
+                                                </div>
+                                                <div class="return-one-order-size-euro">
+                                                    M
+                                                </div>
+                                                <div class="return-one-order-size-count">
+                                                    <div class="num-block skin-6">
+                                                        <div class="num-in">
+                                                            <span class="minus dis">
+                                                                <svg width="10" height="2" viewBox="0 0 10 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                    <path d="M0 0V2H10V0H0Z" fill="#B0B0B0"/>
+                                                                </svg>                                                                            
+                                                            </span>
+                                                            <input type="text" class="in-num" value="4" readonly="">
+                                                            <span class="plus">
+                                                                <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                    <path d="M6 0H4V4H0V6H4V10H6V6H10V4H6V0Z" fill="#B0B0B0"/>
+                                                                </svg>
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- / one size -->
+                                            <!-- one size -->
+                                            <div class="return-one-order-size">
+                                                <div class="return-one-order-size-left">
+                                                    88-92, 170-176
+                                                </div>
+                                                <div class="return-one-order-size-euro">
+                                                    M
+                                                </div>
+                                                <div class="return-one-order-size-count">
+                                                    <div class="num-block skin-6">
+                                                        <div class="num-in">
+                                                            <span class="minus dis">
+                                                                <svg width="10" height="2" viewBox="0 0 10 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                    <path d="M0 0V2H10V0H0Z" fill="#B0B0B0"/>
+                                                                </svg>                                                                            
+                                                            </span>
+                                                            <input type="text" class="in-num" value="4" readonly="">
+                                                            <span class="plus">
+                                                                <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                    <path d="M6 0H4V4H0V6H4V10H6V6H10V4H6V0Z" fill="#B0B0B0"/>
+                                                                </svg>
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- / one size -->
+                                            
+                                            <div class="return-one-order-price">
+                                                7 970 ₽
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- / one item -->
+                            <!-- one item -->
+                            <div class="list-return-one">
+                                <div class="return-one-thumb">
+                                    <img src="./images/LK-fav/thumb-2.png" alt="">
+                                </div>
+                                <div class="return-one-descr">
+                                    <div class="return-one-tit">
+                                        <a href="#">
+                                            Сапоги мужские Step
+                                        </a>
+                                    </div>
+                                    <div class="return-one-cat">
+                                        <a href="#">
+                                            Одежда влагозащитная
+                                        </a>
+                                    </div>
+                                    <div class="return-one-info">
+                                        <div class="return-one-price">
+                                            1 980 ₽
+                                        </div>
+                                        <div class="return-one-info-right">
+                                            <!-- one size -->
+                                            <div class="return-one-order-size">
+                                                <div class="return-one-order-size-euro">
+                                                    43
+                                                </div>
+                                                <div class="return-one-order-size-count">
+                                                    <div class="num-block skin-6">
+                                                        <div class="num-in">
+                                                            <span class="minus dis">
+                                                                <svg width="10" height="2" viewBox="0 0 10 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                    <path d="M0 0V2H10V0H0Z" fill="#B0B0B0"/>
+                                                                </svg>                                                                            
+                                                            </span>
+                                                            <input type="text" class="in-num" value="4" readonly="">
+                                                            <span class="plus">
+                                                                <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                    <path d="M6 0H4V4H0V6H4V10H6V6H10V4H6V0Z" fill="#B0B0B0"/>
+                                                                </svg>
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- / one size -->
+                                            
+                                            <div class="return-one-order-price">
+                                                70 ₽
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- / one item -->
+                        </div>
+                        <div class="area-ret">
+                            <textarea placeholder="Укажите причину возврата"></textarea>
+                        </div>
+                        <div class="ret-bt">
+                            <button class="first-bt" data-dismiss="modal" data-toggle="modal" data-target="#thank-return">
+                                Отправить заявку 
+                            </button>
+                        </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- / Modal acall-me -->
+
+    <!-- Modal login -->
+  <div class="modal fade log-reg-mod" id="cancel" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+              <div class="modal-mini-body">
+                  <span class="close-modal" data-dismiss="modal" aria-label="Close"></span>
+                  <div class="cancel-modal-wrap">
+                      <div class="cancel-modal-body">
+                          <div class="cancel-modal-tit">
+                              Отмена заказа
+                          </div>
+                          <div class="cancel-modal-ico">
+                              <svg width="105" height="105" viewBox="0 0 105 105" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                  <circle cx="52.5" cy="52.5" r="51.5" fill="white" stroke="#CAB49A" stroke-width="2"/>
+                                  <path d="M55.535 59.2956C58.9844 58.7594 62.1411 57.1329 64.6043 54.5802C67.6575 51.416 69.2111 47.2723 68.9769 42.907C68.5446 34.7171 61.6728 28.167 53.3284 28.003C45.2363 27.8479 38.2744 33.6668 37.1531 41.5509C37.054 42.2733 37 43.0089 37 43.7446C37 45.1185 38.1348 46.2397 39.5353 46.2397C40.9358 46.2397 42.0706 45.1229 42.0706 43.7446C42.0706 43.2394 42.1066 42.7342 42.1741 42.2422C42.9397 36.8577 47.6905 32.8824 53.2249 32.9932C58.9259 33.104 63.6182 37.5756 63.9154 43.1729C64.073 46.1555 63.0102 48.9918 60.9253 51.1545C58.8403 53.3172 56.0258 54.5093 52.9997 54.5093C51.5992 54.5093 50.4644 55.6261 50.4644 57.0044V64.5871C50.4644 65.9654 51.5992 67.0822 52.9997 67.0822C54.4002 67.0822 55.535 65.9654 55.535 64.5871V59.2956Z" fill="#CAB49A"/>
+                                  <path d="M52.9995 71.8547C51.5991 71.8547 50.4643 72.9715 50.4643 74.3498V74.5049C50.4643 75.8832 51.5991 77 52.9995 77C54.4 77 55.5348 75.8832 55.5348 74.5049V74.3498C55.5348 72.9715 54.4 71.8547 52.9995 71.8547Z" fill="#CAB49A"/>
+                              </svg>                                
+                          </div>
+                          <div class="cancel-modal-quest">
+                              Вы уверены, что хотите <br>отменить заказ?
+                          </div>
+                          <div class="cancel-modal-check">
+                              <label>
+                                  <input type="checkbox">
+                                  <i></i>
+                                  <span>
+                                      Подтверждаю
+                                  </span>
+                              </label>
+                          </div>
+                          <div class="cancel-modal-bt">
+                              <a href="#" class="first-bt" data-dismiss="modal" data-toggle="modal" data-target="#thank-question">
+                                  Отменить заказ
+                              </a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <!-- / Modal login -->
+
+  <!-- Modal add to favorite -->
+  <div class="modal fade mini-mod thank-mod" id="thank-question" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-mini-body">
+          <span class="close-modal" data-dismiss="modal" aria-label="Close"></span>
+          <div class="modal-mini-wrap">
+            <div class="modal-mini-tit">
+              Заказ №1231234 отменен
+            </div>
+            <div class="modal-mini-bt">
+              <a href="#" class="first-bt" data-dismiss="modal">
+                Хорошо
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- / Modal add to favorite -->
+
+  <!-- Modal banner -->
+  <div class="modal fade mini-ban" id="bann" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-mini-body">
+          <span class="close-modal" data-dismiss="modal" aria-label="Close"></span>
+          <div class="modal-mini-wrap">
+            <div class="thumb-action">
+              <a href="#">
+                <img src="./images/bann-modal.jpg" alt="">
+              </a>
+            </div>
+            <div class="mod-action-descr">
+              <div class="mod-action-tit">
+                <a href="#">
+                  Антисептик в подарок к каждому заказу
+                </a>
+              </div>
+              <div class="mod-action-text">
+                До конца акции осталось  
+                <span>
+                  5 дней
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- / Modal banner -->
+
+  <!-- Modal add to favorite -->
+  <div class="modal fade mini-mod" id="fav" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-mini-body">
+          <span class="close-modal" data-dismiss="modal" aria-label="Close"></span>
+          <div class="modal-mini-wrap">
+            <div class="modal-mini-tit">
+              Товар добавлен в Избранное
+            </div>
+            <div class="modal-mini-bt">
+              <a href="#" class="first-bt" data-dismiss="modal">
+                Хорошо
+              </a>
+              <a href="#" class="third-bt">
+                Перейти в Избранное
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- / Modal add to favorite -->
+
+  <!-- Modal add to compare -->
+  <div class="modal fade mini-mod" id="comp" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-mini-body">
+          <span class="close-modal" data-dismiss="modal" aria-label="Close"></span>
+          <div class="modal-mini-wrap">
+            <div class="modal-mini-tit">
+              Товар добавлен к сравнению
+            </div>
+            <div class="modal-mini-bt">
+              <a href="#" class="first-bt" data-dismiss="modal">
+                Хорошо
+              </a>
+              <a href="#" class="third-bt">
+                Перейти к Сравнению
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- / Modal add to compare -->
+
+  <!-- Modal login -->
+  <div class="modal fade log-reg-mod" id="log" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-mini-body">
+          <span class="close-modal" data-dismiss="modal" aria-label="Close"></span>
+          <div class="modal-reg-log">
+            <div class="modal-reg-body">
+              <div class="modal-reg-tit">
+                Вход
+              </div>
+              <div class="modal-reg-soc">
+                <div class="modal-reg-soc-name">
+                  Через соцсети
+                </div>
+                <div class="modal-reg-bt">
+                  <a class="vk" href="#">
+                    <span>
+                      Вконтакте
+                    </span>
+                  </a>
+                  <a class="face" href="#">
+                    <span>
+                      Facebook
+                    </span>
+                  </a>
+                </div>
+              </div>
+
+              <div class="modal-reg-form">
+                <div class="modal-reg-form-tit">
+                  С помощью аккаунта Rossbrand
+                </div>
+                <div class="modal-reg-in">
+                  <form action="">
+                    <div class="modal-reg-inp">
+                      <input type="text" placeholder="E-mail">
+                    </div>
+                    <div class="modal-reg-inp">
+                      <input type="text" placeholder="Пароль">
+                    </div>
+                    <div class="modal-reg-btns">
+                      <div class="modal-log-bt">
+                        <button class="first-bt">
+                          Войти
+                        </button>
+                      </div>
+                      <div class="modal-reg-frog">
+                        <a href="#">
+                          Забыли пароль?
+                        </a>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+            <div class="modal-reg-bottom">
+              <a class="first-bt" data-dismiss="modal" data-toggle="modal" data-target="#reg" href="#">
+                <span>
+                  Создать аккаунт
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- / Modal login -->
+
+  <!-- Modal login -->
+  <div class="modal fade log-reg-mod" id="reg" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-mini-body">
+          <span class="close-modal" data-dismiss="modal" aria-label="Close"></span>
+          <div class="modal-reg-log">
+            <div class="modal-reg-body">
+              <div class="modal-reg-tit">
+                Регистрация
+              </div>
+              
+              <div class="modal-reg-form">
+                
+                <div class="modal-reg-in">
+                  <form action="">
+                    <div class="modal-reg-inp">
+                      <input type="text" placeholder="Ваше имя">
+                    </div>
+                    <div class="modal-reg-inp">
+                      <input type="text" placeholder="Ваш E-mail">
+                    </div>
+                    <div class="modal-reg-inp">
+                      <input type="text" placeholder="Придумайте пароль">
+                    </div>
+                    <div class="modal-reg-inp">
+                      <input type="text" placeholder="Повторите пароль">
+                    </div>
+                    <div class="modal-check">
+                      <label>
+                        <input type="checkbox" checked>
+                        <i></i>
+                        <span>
+                          Подписаться на новости и скидки
+                        </span>
+                      </label>
+                    </div>
+                    <div class="modal-reg-btns">
+                      <div class="modal-log-bt">
+                        <button class="first-bt">
+                          Создать аккаунт
+                        </button>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+            <div class="modal-reg-bottom">
+              <a class="first-bt" data-dismiss="modal" data-toggle="modal" data-target="#log" href="#">
+                <span>
+                  Уже есть аккаунт?
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- / Modal login -->
+
+  <!-- Modal call-me -->
+  <div class="modal fade mini-mod" id="call" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-mini-body">
+          <span class="close-modal" data-dismiss="modal" aria-label="Close"></span>
+          <div class="modal-call-wrap">
+            <div class="modal-call-tit">
+              Заказать звонок
+            </div>
+            <div class="modal-call-inp">
+              <input type="text" class="phone-mask" placeholder="+7">
+            </div>
+            <div class="modal-call-bt">
+              <button href="#" class="first-bt" data-dismiss="modal">
+                Позвоните мне
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- / Modal acall-me -->
+
+  <!-- New Modals -->
+  <div class="modal fade new_modal new_modal__reg" id="new_reg" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <button data-dismiss="modal" class="close-modal">
+                   
+              </button>
+              <p class="modal_title">
+                Регистрация
+              </p>
+              <div class="modal-reg-in">
+          <form method="post">
+            <div class="modal-reg-inp">
+              <input type="text" placeholder="Имя">
+            </div>
+            <div class="modal-reg-inp">
+              <input type="email" placeholder="E-mail">
+            </div>
+            <div class="modal-reg-inp">
+              <input type="password" placeholder="Пароль">
+            </div>
+            <div class="modal-reg-inp">
+              <input type="password" placeholder="Повторите пароль">
+            </div>
+            <div class="modal-check">
+              <label>
+                <input type="checkbox" checked>
+                <i></i>
+                <span>
+                  Подписаться на новости и скидки
+                </span>
+              </label>
+            </div>
+            <p class="error_info">
+              Ошибка! Пароли не совпадают
+            </p>
+            <button type="submit" class="btn btn_green modal_btn">
+              Зарегистрироваться
+            </button>
+            <a href="#" class="btn btn_white__bordered modal_btn">
+              Уже есть аккаунт?
+            </a>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade new_modal new_modal__login" id="new_login" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <button data-dismiss="modal" class="close-modal">
+                   
+              </button>
+              <p class="modal_title">
+                Вход
+              </p>
+              <div class="modal-reg-in">
+          <form method="post">
+            <div class="modal-reg-inp">
+              <input type="email" placeholder="E-mail">
+            </div>
+            <div class="modal-reg-inp">
+              <input type="password" placeholder="Пароль">
+            </div>
+            <div class="modal-check">
+              <label>
+                <input type="checkbox" checked>
+                <i></i>
+                <span>
+                  Соглашаюсь с <a href="#">условиями</a>
+                </span>
+              </label>
+            </div>
+            <p class="error_info">
+              Ошибка! Пароли не совпадают
+            </p>
+            <button type="submit" class="btn btn_green modal_btn">
+              Войти
+            </button>
+            <a href="#" class="forgot_pswrd">
+              Забыли пароль?
+            </a>
+            <p class="modal_subtitle">
+              Войти с помощью
+            </p>
+            <div class="login_socials__wrapper">
+              <a href="#" class="btn btn_vk">
+                Вконтакте
+              </a>
+              <a href="#" class="btn btn_fb">
+                Facebook
+              </a>
+            </div>
+            <a href="#" class="btn btn_white__bordered modal_btn">
+              Еще не зарегистрированы?
+            </a>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade new_modal new_modal__forgot" id="new_forgot" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <button data-dismiss="modal" class="close-modal">
+                   
+              </button>
+              <p class="modal_title">
+                Забыли пароль?
+              </p>
+              <div class="modal-reg-in">
+          <form method="post">
+            <div class="modal-reg-inp">
+              <input type="email" placeholder="E-mail">
+            </div>
+            <p class="error_info">
+              Ошибка! E-mail не найден
+            </p>
+            <button type="submit" class="btn btn_green modal_btn">
+              Выслать на E-mail
+            </button>
+            <a href="#" class="btn btn_white__bordered modal_btn">
+              Отмена
+            </a>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+    
+  <div class="modal fade new_modal new_modal__forgot__success" id="new_forgot__success" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <button data-dismiss="modal" class="close-modal">
+                   
+              </button>
+              <p class="modal_title">
+                Забыли пароль?
+              </p>
+              <div class="modal-reg-in">
+          <p class="modal_descr">
+            Письмо отправлено
+          </p>
+          <a href="#" class="btn btn_green modal_btn">
+            Спасибо
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="wrapper">
+    <!-- header -->
+    <header>
+
+      <!-- header-top desctop -->
+      <div class="header-top">
+        <div class="container">
+          <div class="header-top-in">
+            <div class="header_left_wrapper">
+              <a href="#" class="logo_inner">
+                <img src="images/logo_inner.svg" alt="">
+              </a>
+              <!-- one drop -->
+                <div class="one-top-drop drop-serv">
+                  <div class="one-top-drop-bt">
+                    <span>Клиентский сервис</span>
+                  </div>
+                  <div class="one-top-drop-hide">
+                    <ul>
+                      <li><a href="#">Доставка и оплата</a></li>
+                      <li><a href="#">Возврат товара</a></li>
+                      <li><a href="#">Личный кабинет</a></li>
+                      <li><a href="#">Вопрос-ответ</a></li>
+                      <li><a href="#">О нас</a></li>
+                      <li><a href="#">Обратная связь</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <!-- / one drop -->
+                <!-- one drop -->
+                <div class="one-top-drop drop-phone">
+                  <div class="one-top-drop-bt">
+                    <span>8 (800) 300 - 50 - 50</span>
+                  </div>
+                  <div class="one-top-drop-hide">
+                    <div class="call-me-from">
+                      <form class="header_callback">
+                        <div class="call-me-from-inp">
+                          <input class="phone-mask" type="text" placeholder="+7">
+                        </div>
+                        <div class="call-me-from-bt">
+                          <button class="first-bt">
+                            Позвоните мне
+                          </button>
+                        </div>
+                      </form>
+                    </div>
+                    <div class="call_me_form_thx">
+                      <p class="title">
+                        Заявка отправлена!
+                      </p>
+                      <p class="subtitle">
+                        Менеджер перезвонит Вам через несколько минут
+                      </p>
+                      <div class="btn_wrapper">
+                        <a href="#" class="btn btn_green btn_green__thx">
+                          Спасибо
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- / one drop -->
+            </div>
+            <div class="logo">
+              <a href="#">
+                <img src="./images/logo.svg" alt="">
+              </a>
+            </div>
+            <div class="header-right">
+              <div class="lang">
+                <a href="#">
+                  Eng
+                </a>
+              </div>
+              <div class="header-time">
+                <div class="header-time-top">
+                  <img src="./images/header-time.svg" alt="">
+                </div>
+                <div class="header-time-bot">
+                  Пн-Пт: 
+                  <span>
+                    9-20
+                  </span>
+                </div>
+              </div>
+              <div class="header-lk">
+                <a href="#"  data-toggle="modal" data-target="#log">
+                  Войти
+                </a>
+                <div class="header-lk-drop">
+                  <ul>
+                    <li><a href="#"  data-toggle="modal" data-target="#reg">Заказы</a></li>
+                    <li><a href="#">Избранное</a></li>
+                    <li><a href="#">Сравнение товаров</a></li>
+                    <li><a href="#">Мои вопросы</a></li>
+                    <li><a href="#">Мои данные</a></li>
+                    <li><a class="exit" href="#">Выйти</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="header-bask">
+                <a href="#">
+                  Корзина
+                </a>
+              </div>
+            </div>
+            <div class="menu_box">
+                      <div class="hamburger">
+                          <span class="line"></span>
+                          <span class="line"></span>
+                          <span class="line"></span>
+                      </div>
+                  </div>
+                        <div class="mob_nav">
+                            <div class="mob_nav-top">
+                                <ul>
+                                    <li>
+                                        <a href="#">
+                                            <img src="images/lang-ico.svg" alt="">
+                                            <span>Eng</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <img src="images/header-time.svg" alt="">
+                                            <span>
+                                                Пн-Пт: <small>9-20</small>
+                                            </span>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img src="images/header-user.svg" alt="">
+                                            <span>Войти</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img src="images/header-bask.svg" alt="">
+                                            <span>Корзина</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="mob_nav-middle">
+                                <a href="#" class="nav-link js-client">
+                                    <span>Клиентский<br/> сервис</span>
+                                </a>
+                                <a href="#" class="nav-link js-call">
+                                    <span>8 (800)<br/> 300 - 50 - 50</span>
+                                </a>
+                            </div>
+                            <div class="mob_nav-bottom">
+                                <ul class="main-menu nav-element">
+                                    <li>
+                                        <a href="#" class="active">
+                                            Экосистема Rossbrand
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            Цифровые решения
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            Услуги и сервисы
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            Каталог продукции
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            Бизнес вместе
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            Контакты
+                                        </a>
+                                    </li>
+                                </ul>
+                                <ul class="client-menu nav-element">
+                                    <li>
+                                        <a href="#">
+                                            Доставка и оплата
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            Возврат товара
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            Личный кабинет
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            Вопрос-ответ
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            О нас
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            Обратная связь
+                                        </a>
+                                    </li>
+                                </ul>
+                                <div class="call-me nav-element">
+                                    <form method="post">
+                                        <div class="call-me-from-inp">
+                                            <input class="phone-mask" type="text" placeholder="+7" inputmode="text">
+                                        </div>
+                                        <div class="call-me-from-bt">
+                                            <a href="#" class="first-bt">
+                                                Позвоните мне
+                                            </a>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="thnx-wrapper nav-element">
+                                    <p>
+                                        Заявка отправлена!
+                                    </p>
+                                    <span>
+                                        Менеджер перезвонит Вам через несколько минут
+                                    </span>
+                                    <a href="#" class="first-bt">
+                                        Спасибо
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+          </div>
+        </div>
+      </div>
+      <!-- / header-top desctop-->
+
+      <!-- header-bot -->
+      <div class="header-bot">
+        <div class="container">
+          <div class="header-bot-in">
+
+            <!-- nav -->
+            <nav>
+              <ul>
+                <li class="active_nav">
+                  <a href="#">
+                    <span>Экосистема Rossbrand</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <span>Цифровые решения</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <span>Услуги и сервисы</span>
+                  </a>
+                </li>
+                <li class="has-child main-drop">
+                  <a href="#">
+                    <span>Каталог продукции</span>
+                  </a>
+                  <!-- hide drop menu -->
+                  <span class="hide-menu">
+                    <span class="hide-menu-in">
+                      <span class="hide-menu-left part-4">
+                        <!-- one mini menu -->
+                        <span class="one-hide-menu">
+                          <span class="one-hide-menu-tit">
+                            <a href="#">Цифровые решения</a>
+                          </span>
+                          <ul>
+                            <li><a href="#">Летняя</a></li>
+                            <li><a href="#">Зимняя</a></li>
+                            <li><a href="#">Мужская</a></li>
+                            <li><a href="#">Женская</a></li>
+                            <li><a href="#">Головные уборы</a></li>
+                            <li><a href="#">Подшлемники</a></li>
+                            <li><a href="#">Жилеты</a></li>
+                            <li><a href="#">Фартуки</a></li>
+                          </ul>
+                        </span>
+                        <!-- / one mini menu -->
+                        <!-- one mini menu -->
+                        <span class="one-hide-menu">
+                          <span class="one-hide-menu-tit">
+                            <a href="#">Направления</a>
+                          </span>
+                          <ul>
+                            <li><a href="#">Сфера услуг</a></li>
+                            <li><a href="#">Охота, рыбалка, туризм</a></li>
+                            <li><a href="#">Охранные структуры</a></li>
+                            <li><a href="#">Медицина</a></li>
+                            <li><a href="#">Рестораны, кафе</a></li>
+                            <li><a href="#">Лабораторная</a></li>
+                            <li><a href="#">Спасательная</a></li>
+                          </ul>
+                        </span>
+                        <!-- / one mini menu -->
+                        <!-- one mini menu -->
+                        <span class="one-hide-menu">
+                          <span class="one-hide-menu-tit">
+                            <a href="#">Костюмы</a>
+                          </span>
+                          <ul>
+                            <li><a href="#">Огнезащитные</a></li>
+                            <li><a href="#">Термостойкие</a></li>
+                            <li><a href="#">Влагозащитные</a></li>
+                            <li><a href="#">Кислостойкие</a></li>
+                            <li><a href="#">Против насекомых</a></li>
+                            <li><a href="#">Противоэнцефалитные</a></li>
+                            <li><a href="#">Сварщика</a></li>
+                          </ul>
+                        </span>
+                        <!-- / one mini menu -->
+                        <!-- one mini menu -->
+                        <span class="one-hide-menu">
+                          <span class="one-hide-menu-tit">
+                            <a href="#">Трикотаж</a>
+                          </span>
+                          <ul>
+                            <li><a href="#">Белье нательное</a></li>
+                            <li><a href="#">Футболки</a></li>
+                            <li><a href="#">Рубашки</a></li>
+                            <li><a href="#">Свитера</a></li>
+                            <li><a href="#">Толстовки</a></li>
+                            <li><a href="#">Носки</a></li>
+                          </ul>
+                        </span>
+                        <!-- / one mini menu -->
+                      </span>
+
+                      <span class="hide-menu-right">
+                        <a href="#" class="cat-img" style="background-image: url(./images/menu-img-1.jpg);">
+                          <span class="cat-img-tit">
+                            <i>
+                              Сигнальный костюм
+                            </i>
+                          </span>
+                        </a>
+                        <a href="#" class="cat-img" style="background-image: url(./images/menu-img-2.jpg);">
+                          <span class="cat-img-tit">
+                            <i>
+                              Термостойкий костюм
+                            </i>
+                          </span>
+                        </a>
+                      </span>
+                    </span>
+                  </span>
+                  <!-- / hide drop menu -->
+                </li>
+                <li>
+                  <a href="#">
+                    <span>Бизнес вместе</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <span>Контакты</span>
+                  </a>
+                </li>
+              </ul>
+            </nav>
+            <!-- / nav -->
+
+            <!-- search -->
+            <div class="header_search search_w_photo w-photo">
+              <input class="search_header" type="search" placeholder="Я ищу" name="header_search">
+              <div class="search_photo__wrapper">
+                <button type="button">
+                  <svg width="14" height="15" viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                          d="M13.8086 12.8633L11.0742 10.1289C10.9375 10.0195 10.7734 9.9375 10.6094 9.9375H10.1719C10.9102 8.98047 11.375 7.77734 11.375 6.4375C11.375 3.32031 8.80469 0.75 5.6875 0.75C2.54297 0.75 0 3.32031 0 6.4375C0 9.58203 2.54297 12.125 5.6875 12.125C7 12.125 8.20312 11.6875 9.1875 10.9219V11.3867C9.1875 11.5508 9.24219 11.7148 9.37891 11.8516L12.0859 14.5586C12.3594 14.832 12.7695 14.832 13.0156 14.5586L13.7812 13.793C14.0547 13.5469 14.0547 13.1367 13.8086 12.8633ZM5.6875 9.9375C3.74609 9.9375 2.1875 8.37891 2.1875 6.4375C2.1875 4.52344 3.74609 2.9375 5.6875 2.9375C7.60156 2.9375 9.1875 4.52344 9.1875 6.4375C9.1875 8.37891 7.60156 9.9375 5.6875 9.9375Z"
+                          fill="#d2d6d8"/>
+                  </svg>
+                </button>
+                <p class="search_hidden__descr">
+                  Поиск по фото
+                </p>
+              </div>
+              <ul class="focus_search__wrapper">
+                <li>
+                  <a href="#">
+                    Костюм <span>Охрана</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Кепка <span>Охрана</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Рубашка <span>Охранника</span>
+                  </a>
+                </li>
+                <li class="all_search__result">
+                  <a href="#">
+                    Все результаты
+                  </a>
+                </li>
+              </ul>
+              <div class="photo_search__hidden">
+                <img src="images/close_search.svg" alt="" class="close_js">
+                <p class="title">
+                  Поиск по фотографии
+                </p>
+                <p class="descr_info">
+                  Максимальный размер: <span>8 МБ.</span>
+                </p>
+                <p class="descr_info">
+                  Поддерживаемые форматы: <span>JPG, JPEG, PNG, BMP, GIF.</span>
+                </p>
+                <div class="upload">
+                        <label for="file-upload" class="custom-file-upload btn btn_green">
+                      Выберите файл
+                  </label>
+                  <input id="file-upload" type="file"/>
+                      </div>
+              </div>
+            </div>
+            <!-- / search -->
+          </div>
+        </div>
+        <div class="photo-wrapper">
+          <a href="#" class="photo-close">
+            <img src="images/photo-cross.svg" alt="">
+          </a>
+          <div class="photo-main"></div>
+          <div class="bottom-nav">
+            <p>Сделайте фото или выберите из галереи</p>
+            <div class="photo-btns">
+              <a href="#" class="gallery">
+                <img src="images/photo-img.svg" alt="">
+              </a>
+              <a href="#" class="shot">
+                <img src="images/photo-btn.svg" alt="">
+              </a>
+              <a href="#" class="reverse">
+                <img src="images/photo-reverse.svg" alt="">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+            <div class="header-bot--cat--new--wrapper">
+                <div class="container">
+                    <a href="#" class="header-bot--cat--new">
+                        <span>Каталог товаров</span>
+                        <small class="cat_img__wrapper">
+                            <img src="images/cart_new.svg" alt="">
+                        </small>
+                    </a>
+                </div>
+            </div>
+      <!-- / header-bot -->
+
+            <div class="mob_nav__new">
+                <div class="mob_nav_bg"></div>
+        <div class="mob-nav__wrapper">
+          <div class="mob_nav__top">
+            <p>Каталог товаров</p>
+            <div class="close_mob_nav">
+              <img src="images/new_close.svg" alt="">
+            </div>
+          </div>
+          <div class="mob_nav__main">
+            <div class="mob_nav__cat">
+              <a href="#">
+                <img src="images/new_green.svg" alt="">
+                <span>Новинки</span>
+              </a>
+              <a href="#" class="red">
+                <img src="images/new_red.svg" alt="">
+                <span>Распродажа</span>
+              </a>
+            </div>
+            <div class="mob-nav__body">
+              <ul>
+                <li class="w-submenu">
+                  <a href="#">
+                    <img src="images/catalog/cat1.svg" alt="">
+                    Спецодежда
+                  </a>
+                  <div class="second-level">
+                    <p class="category-title">
+                      <a href="#" class="back">
+                        <img src="images/catalog/back-ico.svg" alt="">
+                      </a>
+                      Спецодежда
+                    </p>
+                    <div class="second-level-inner">
+                      <ul class="default-categories">
+                        <li>
+                          <a href="#">
+                            Летняя
+                          </a>
+                        </li>
+                        <li>
+                          <a href="about.html">
+                            Зимняя
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            Мужская
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            Женская
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            Головные уборы
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            Летняя
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            Головные уборы
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            Женская
+                          </a>
+                        </li>
+                      </ul>
+                      <div class="menu-dropdown">
+                        <a href="#">
+                          Направления
+                        </a>
+                        <ul>
+                          <li>
+                            <a href="#">Сфера услуг</a>
+                          </li>
+                          <li>
+                            <a href="#">Охота, рыбалка, туризм Sobol™</a>
+                          </li>
+                          <li>
+                            <a href="#">Медицина</a>
+                          </li>
+                          <li>
+                            <a href="#">Спасательная</a>
+                          </li>
+                          <li>
+                            <a href="#">Охранные структуры</a>
+                          </li>
+                          <li>
+                            <a href="#">Сфера услуг</a>
+                          </li>
+                          <li>
+                            <a href="#">Охота, рыбалка, туризм Sobol™</a>
+                          </li>
+                          <li>
+                            <a href="#">Медицина</a>
+                          </li>
+                          <li>
+                            <a href="#">Спасательная</a>
+                          </li>
+                          <li>
+                            <a href="#">Охранные структуры</a>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="menu-dropdown">
+                        <a href="#">
+                          Костюмы
+                        </a>
+                        <ul>
+                          <li>
+                            <a href="#">Сфера услуг</a>
+                          </li>
+                          <li>
+                            <a href="#">Охота, рыбалка, туризм Sobol™</a>
+                          </li>
+                          <li>
+                            <a href="#">Медицина</a>
+                          </li>
+                          <li>
+                            <a href="#">Спасательная</a>
+                          </li>
+                          <li>
+                            <a href="#">Охранные структуры</a>
+                          </li>
+                          <li>
+                            <a href="#">Сфера услуг</a>
+                          </li>
+                          <li>
+                            <a href="#">Охота, рыбалка, туризм Sobol™</a>
+                          </li>
+                          <li>
+                            <a href="#">Медицина</a>
+                          </li>
+                          <li>
+                            <a href="#">Спасательная</a>
+                          </li>
+                          <li>
+                            <a href="#">Охранные структуры</a>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="menu-dropdown">
+                        <a href="#">
+                          Трикотаж
+                        </a>
+                        <ul>
+                          <li>
+                            <a href="#">Сфера услуг</a>
+                          </li>
+                          <li>
+                            <a href="#">Охота, рыбалка, туризм Sobol™</a>
+                          </li>
+                          <li>
+                            <a href="#">Медицина</a>
+                          </li>
+                          <li>
+                            <a href="#">Спасательная</a>
+                          </li>
+                          <li>
+                            <a href="#">Охранные структуры</a>
+                          </li>
+                          <li>
+                            <a href="#">Сфера услуг</a>
+                          </li>
+                          <li>
+                            <a href="#">Охота, рыбалка, туризм Sobol™</a>
+                          </li>
+                          <li>
+                            <a href="#">Медицина</a>
+                          </li>
+                          <li>
+                            <a href="#">Спасательная</a>
+                          </li>
+                          <li>
+                            <a href="#">Охранные структуры</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="w-submenu">
+                  <a href="#">
+                    <img src="images/catalog/cat2.svg" alt="">
+                    Рабочая обувь
+                  </a>
+                  <div class="second-level">
+                    <p class="category-title">
+                      <a href="#" class="back">
+                        <img src="images/catalog/back-ico.svg" alt="">
+                      </a>
+                      Рабочая обувь
+                    </p>
+                    <div class="second-level-inner">
+                      <ul class="default-categories">
+                        <li>
+                          <a href="#">
+                            Летняя
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            Зимняя
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            Мужская
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            Женская
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            Головные уборы
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            Летняя
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            Головные уборы
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            Женская
+                          </a>
+                        </li>
+                      </ul>
+                      <div class="menu-dropdown">
+                        <a href="#">
+                          Направления
+                        </a>
+                        <ul>
+                          <li>
+                            <a href="#">Сфера услуг</a>
+                          </li>
+                          <li>
+                            <a href="#">Охота, рыбалка, туризм Sobol™</a>
+                          </li>
+                          <li>
+                            <a href="#">Медицина</a>
+                          </li>
+                          <li>
+                            <a href="#">Спасательная</a>
+                          </li>
+                          <li>
+                            <a href="#">Охранные структуры</a>
+                          </li>
+                          <li>
+                            <a href="#">Сфера услуг</a>
+                          </li>
+                          <li>
+                            <a href="#">Охота, рыбалка, туризм Sobol™</a>
+                          </li>
+                          <li>
+                            <a href="#">Медицина</a>
+                          </li>
+                          <li>
+                            <a href="#">Спасательная</a>
+                          </li>
+                          <li>
+                            <a href="#">Охранные структуры</a>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="menu-dropdown">
+                        <a href="#">
+                          Костюмы
+                        </a>
+                        <ul>
+                          <li>
+                            <a href="#">Сфера услуг</a>
+                          </li>
+                          <li>
+                            <a href="#">Охота, рыбалка, туризм Sobol™</a>
+                          </li>
+                          <li>
+                            <a href="#">Медицина</a>
+                          </li>
+                          <li>
+                            <a href="#">Спасательная</a>
+                          </li>
+                          <li>
+                            <a href="#">Охранные структуры</a>
+                          </li>
+                          <li>
+                            <a href="#">Сфера услуг</a>
+                          </li>
+                          <li>
+                            <a href="#">Охота, рыбалка, туризм Sobol™</a>
+                          </li>
+                          <li>
+                            <a href="#">Медицина</a>
+                          </li>
+                          <li>
+                            <a href="#">Спасательная</a>
+                          </li>
+                          <li>
+                            <a href="#">Охранные структуры</a>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="menu-dropdown">
+                        <a href="#">
+                          Трикотаж
+                        </a>
+                        <ul>
+                          <li>
+                            <a href="#">Сфера услуг</a>
+                          </li>
+                          <li>
+                            <a href="#">Охота, рыбалка, туризм Sobol™</a>
+                          </li>
+                          <li>
+                            <a href="#">Медицина</a>
+                          </li>
+                          <li>
+                            <a href="#">Спасательная</a>
+                          </li>
+                          <li>
+                            <a href="#">Охранные структуры</a>
+                          </li>
+                          <li>
+                            <a href="#">Сфера услуг</a>
+                          </li>
+                          <li>
+                            <a href="#">Охота, рыбалка, туризм Sobol™</a>
+                          </li>
+                          <li>
+                            <a href="#">Медицина</a>
+                          </li>
+                          <li>
+                            <a href="#">Спасательная</a>
+                          </li>
+                          <li>
+                            <a href="#">Охранные структуры</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="images/catalog/cat3.svg" alt="">
+                    Защита рук
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="images/catalog/cat4.svg" alt="">
+                    Средства инд. защиты
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="images/catalog/cat5.svg" alt="">
+                    Хозяйственная группа
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="images/catalog/cat6.svg" alt="">
+                    Защита от вирусов
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+            </div>
+
+    </header>
+    <!-- header -->
+
+    <!-- main -->
+    <main>
+
+      <!-- Intro -->
+
+      <section class="w-intro d-flex align-items-md-center">
+        <div class="container">
+          <div class="w-title">
+            <h1>Партнерская программа для профессиональных участников рынка СИЗ</h1>
+          </div>
+          <p class="w-intro__txt">Комплексная поставка СИЗ на промышленные предприятия</p>
+          <i class="w-intro__img-mob"></i>
+        </div>
+      </section>
+
+      <!-- Info -->
+
+      <section class="w-info">
+        <div class="container">
+          <div class="row">
+
+            <!-- Col -->
+
+            <div class="col-12 col-lg-4">
+              <div class="w-info__left">
+                <p class="w-title__h1">Более 20 лет</p>
+                <div class="w-paragraph">
+                  <p>Мы являемся разработчиком, производителем и поставщиком высокотехнологичных решений и средств индивидуальной защиты.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Col -->
+
+            <div class="col-12 col-lg-8">
+              <div class="w-info__right">
+                <p class="section_title">Мы работаем совместно с партнерами</p>
+                <div class="row">
+                  <div class="col-12 col-md-6">
+                    <div class="w-info__item d-flex align-items-start">
+                      <i class="w-info__icon w-i-cooperation"></i>
+                      <p>Приглашаем к сотрудничеству партнеров, понимающих ключевые потребности клиентов</p>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-6">
+                    <div class="w-info__item d-flex align-items-start">
+                      <i class="w-info__icon  w-i-security"></i>
+                      <p>Обеспечим партнеров всем необходимым для организации бизнеса и взаимодействия с клиентом</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- Scheme -->
+
+      <section class="w-scheme">
+        <div class="container">
+          <p class="section_title">Схема работы партнерской программы</p>
+          <div class="swiper w-scheme__sl">
+            <div class="swiper-wrapper row">
+
+              <!-- Item -->
+
+              <div class="swiper-slide col-4">
+                <div class="w-scheme__item">
+                  <span class="w-scheme__num"></span>
+                  <p>Партнер инициирует и утверждает в Rossbrand проект по обеспечению СИЗ Клиента</p>
+                </div>
+              </div>
+
+              <!-- Item -->
+
+              <div class="swiper-slide col-4">
+                <div class="w-scheme__item">
+                  <span class="w-scheme__num"></span>
+                  <p>Рабочая группа Rossbrand совместно с Партнером разрабатывает оптимальное решение комплексной поставки согласно потребности клиента.</p>
+                </div>
+              </div>
+
+              <!-- Item -->
+
+              <div class="swiper-slide col-4">
+                <div class="w-scheme__item">
+                  <span class="w-scheme__num"></span>
+                  <p>Организация участия в тендерной процедуре Клиента.</p>
+                </div>
+              </div>
+
+              <!-- Item -->
+
+              <div class="swiper-slide col-4">
+                <div class="w-scheme__item">
+                  <span class="w-scheme__num"></span>
+                  <p>Заключение договора на обеспечение СИЗ Rossbrand и Клиента.</p>
+                </div>
+              </div>
+
+              <!-- Item -->
+
+              <div class="swiper-slide col-4">
+                <div class="w-scheme__item">
+                  <span class="w-scheme__num"></span>
+                  <p>Поставка продукции и обеспечение взаиморасчетов между Rossbrand и Клиентом.</p>
+                </div>
+              </div>
+
+              <!-- Item -->
+
+              <div class="swiper-slide col-4">
+                <div class="w-scheme__item">
+                  <span class="w-scheme__num"></span>
+                  <p>Ежемесячная или единовременная выплата вознаграждение Партнеру по факту закрытия очередной поставки.</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Reward -->
+
+      <section class="w-reward">
+        <div class="container">
+          <div class="row">
+            
+            <!-- Col -->
+
+            <div class="col-xl-8 w-reward__big-box">
+              <p class="section_title">Калькулятор вознаграждения</p>
+              <div class="w-reward__left">
+                <div class="w-calc__inner w-calc__inner--head d-lg-flex align-items-center">
+                  <p class="w-calc__text"><b>Сумма проекта</b> (рублей)</p>
+                  <div class="w-calc__range">
+                    <input type="text" class="w-js-range-slider" name="my_range" value="" />
+                  </div>
+                </div>
+                <div class="w-calc__inner w-calc__inner--body">
+                  <p class="w-calc__text"><b>Структура комплексной поставки</b></p>
+                  <div class="row">
+                    <div class="col-12 col-lg-9">
+                      <div class="w-calc__group d-flex">
+                        <div class="w-calc__select w-calc__select--left">
+                          <div class="w-calc__select-item">
+                            <p>Каталог Rossbrand</p>
+                            <div class="w-calc__select-box">
+                              <select>
+                                <option>25%</option>
+                                <option>50%</option>
+                                <option>100%</option>
+                              </select>
+                            </div>
+                          </div>
+                          <div class="w-calc__select-item">
+                            <p>Готовые решения</p>
+                            <div class="w-calc__select-box">
+                              <select>
+                                <option>25%</option>
+                                <option>50%</option>
+                                <option>100%</option>
+                              </select>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="w-calc__select w-calc__select--right">
+                          <div class="w-calc__select-item">
+                            <p>Спецпошив</p>
+                            <div class="w-calc__select-box">
+                              <select>
+                                <option>25%</option>
+                                <option>50%</option>
+                                <option>100%</option>
+                              </select>
+                            </div>
+                          </div>
+                          <div class="w-calc__select-item">
+                            <p>Спецзаказ</p>
+                            <div class="w-calc__select-box">
+                              <select>
+                                <option>25%</option>
+                                <option>50%</option>
+                                <option>100%</option>
+                              </select>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-3 d-none d-lg-block">
+                      <p class="w-calc__info">Для уточнения вознаграждения выберите процент в структуре комплексной поставке</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="w-calc__total">
+                  <div class="row">
+                    <div class="col-12 col-md-4">
+                      <div class="w-calc__total-box">
+                        <p>Сумма вознаграждения</p>
+                        <span>751 211,38 руб</span>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                      <div class="w-calc__total-box">
+                        <p>% от суммы контракта</p>
+                        <span>12.50%</span>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                      <div class="btn_wrapper">
+                        <a href="#" class="btn btn_green">
+                          Стать партнером
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Col -->
+
+            <div class="col-xl-4 w-reward__small-box">
+              <p class="section_title">Вознаграждение Партнера</p>
+              <div class="w-reward__right d-flex justify-content-between">
+                <div class="w-reward__percent">
+                  <span>50%</span>
+                </div>
+                <p>Вознаграждение партнера по проекту составляет 50% от расчетной прибыли и согласовывается с Партнером на этапе утверждения проекта. В среднем вознаграждение составляет 10.2% от суммы реализованной продукции по проекту.</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- Base -->
+
+      <section class="w-base">
+        <div class="container">
+          <p class="section_title">Ресурсная база Rossbrand для реализации самого амбициозного проекта</p>
+          <div class="row">
+            <div class="col-12 col-lg-4 order-lg-2">
+              <div class="w-base__item w-base__item--big">
+                <i class="w-base__icon w-i-logo"></i>
+              </div>
+            </div>
+            <div class="col-12 col-lg-4 order-lg-1">
+              <div class="w-base__item">
+                <i class="w-base__icon w-i-team"></i>
+                <p>Команда проекта</p>
+              </div>
+              <div class="w-base__item">
+                <i class="w-base__icon w-i-capital"></i>
+                <p>Необходимый оборотный капитал для финансирования проекта</p>
+              </div>
+              <div class="w-base__item">
+                <i class="w-base__icon w-i-matrix"></i>
+                <p>Ассортиментная матрица</p>
+              </div>
+              <div class="w-base__item">
+                <i class="w-base__icon w-i-production"></i>
+                <p>Экспериментальное производство</p>
+              </div>
+            </div>
+            <div class="col-12 col-lg-4 order-lg-3">
+              <div class="w-base__item">
+                <i class="w-base__icon w-i-manufacture"></i>
+                <p>Собственное швейное и трикотажное производство</p>
+              </div>
+              <div class="w-base__item">
+                <i class="w-base__icon w-i-logistics"></i>
+                <p>Логистический центр</p>
+              </div>
+              <div class="w-base__item">
+                <i class="w-base__icon w-i-tender"></i>
+                <p>Тендерный отдел</p>
+              </div>
+              <div class="w-base__item">
+                <i class="w-base__icon w-i-legal"></i>
+                <p>Юридический отдел</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Vantage -->
+
+      <section class="w-vantage">
+        <div class="container">
+          <p class="section_title">Преимущества программы для Партнера</p>
+          <div class="swiper w-vantage__sl">
+            <div class="swiper-wrapper row">
+
+              <!-- Item -->
+
+              <div class="swiper-slide col-3">
+                <div class="w-vantage__item">
+                  <i class="w-vantage__img" style="background: url(images/w-new-img/w-vantage-1.png) center/cover no-repeat;"></i>
+                  <p>Высокая доходность без финансовых рисков</p>
+                </div>
+              </div>
+
+              <!-- Item -->
+
+              <div class="swiper-slide col-3">
+                <div class="w-vantage__item">
+                  <i class="w-vantage__img" style="background: url(images/w-new-img/w-vantage-2.png) center/cover no-repeat;"></i>
+                  <p>Фокус на главном</p>
+                </div>
+              </div>
+
+              <!-- Item -->
+
+              <div class="swiper-slide col-3">
+                <div class="w-vantage__item">
+                  <i class="w-vantage__img" style="background: url(images/w-new-img/w-vantage-3.png) center/cover no-repeat;"></i>
+                  <p>Проверенные готовые решения востребованные рынком</p>
+                </div>
+              </div>
+
+              <!-- Item -->
+
+              <div class="swiper-slide col-3">
+                <div class="w-vantage__item">
+                  <i class="w-vantage__img" style="background: url(images/w-new-img/w-vantage-4.png) center/cover no-repeat;"></i>
+                  <p>Бизнес на равных</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Solutions -->
+
+      <section class="w-solutions">
+        <div class="container">
+          <p class="section_title">Готовые бизнес решения</p>
+          <p class="w-solutions__subtext">Высоко востребованные решения на корпоративном рынке и которые легко продавать. Мы уже подготовили уникальные коллекции для защиты от основных профессиональных рисков.</p>
+          <div class="row">
+
+            <!-- Col -->
+
+            <div class="col-12 col-lg-6">
+              <div class="w-solutions__item">
+                <i class="w-solutions__img" style="background: url(images/w-new-img/w-solutions-1.png) center/cover no-repeat;"></i>
+                <div class="w-solutions__desc">
+                  <p class="w-solutions__title">Защита от термических рисков электрической дуги</p>
+                  <p class="w-solutions__text">Нашей гордостью является новая линейка комплектов по защите от воздействия электрической дуги. Это революционный продукт, опередивший время и не имеющий аналогов на рынке.</p>
+                  <div class="w-solutions__btns">
+                    <a href="#" class="btn btn_white">В каталог
+                      <svg width="9" height="15" viewBox="0 0 9 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1.5 1L7.5 7.5L1.5 14" stroke="#1D2A3D" stroke-width="2"/>
+                      </svg>
+                    </a>
+                    <a href="#" class="btn btn_white">
+                      <svg width="27" height="29" viewBox="0 0 27 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M3.86409 29C3.05335 29 2.07796 28.7307 1.04117 27.862C-0.065388 26.9324 -0.0598063 25.8737 0.043454 25.3253C0.162064 24.689 0.509521 24.0754 1.10397 23.4504C1.5505 22.9799 2.1282 22.5108 2.87195 22.0148C4.03433 21.2396 5.5916 20.412 7.50052 19.556C7.98473 19.3392 8.46615 19.1309 8.935 18.9353C9.29641 18.1247 10.3667 15.6914 11.4063 12.9789C11.5319 12.6502 11.6519 12.3341 11.7649 12.028C10.7002 10.5939 9.9397 9.17669 9.50573 7.81054C8.96849 6.12412 8.9057 4.46603 9.31735 2.88164C9.56712 1.92364 10.0081 1.18104 10.629 0.672282C11.2472 0.167772 12.0217 -0.0660608 12.8101 0.0161348C13.2664 0.0629013 13.7115 0.210286 14.1343 0.454039C14.5348 0.685037 14.8976 0.992562 15.2088 1.36811C15.5227 1.74649 15.7753 2.18015 15.9595 2.65773C16.1507 3.15374 16.2623 3.68659 16.293 4.2407C16.3488 5.2639 16.1004 6.71508 15.5339 8.67927C15.2855 9.5409 14.9757 10.5017 14.6073 11.5519C15.9748 13.1589 17.5893 14.6172 18.9833 15.8246C19.014 15.8189 19.0447 15.8133 19.0741 15.809C20.6746 15.5327 22.0393 15.425 23.1277 15.4873C23.8519 15.5284 24.4548 15.6432 24.9724 15.8345C25.6646 16.091 26.1892 16.4907 26.5311 17.0193C26.9316 17.6372 27.0795 18.3217 26.9595 18.9976C26.8493 19.6198 26.52 20.181 26.0078 20.6217C25.3548 21.1829 24.4589 21.4919 23.5045 21.4919C23.3761 21.4919 23.2463 21.4862 23.1166 21.4749C21.936 21.3728 20.7834 20.823 19.7857 19.8848C19.388 19.5121 18.8717 19.0671 18.2745 18.5541C16.367 18.9565 14.7887 19.4469 14.6673 19.4837C14.5348 19.5277 12.8449 20.0945 10.7504 20.9377C10.4937 21.6648 10.1016 22.6837 9.58806 23.7451C9.01175 24.937 8.39917 25.9403 7.76705 26.7297C6.89212 27.8223 5.95301 28.5295 4.97623 28.8328C4.65947 28.9277 4.2841 29 3.86409 29ZM2.51333 25.7731C2.53147 25.7986 2.56915 25.8411 2.63752 25.8978C3.41197 26.5483 3.92548 26.4916 4.24364 26.3938C4.72505 26.245 5.26787 25.8085 5.81347 25.1311C6.32419 24.4962 6.83212 23.6615 7.32331 22.6497C7.36796 22.5562 7.41261 22.464 7.45587 22.3705C6.10232 23.0167 4.99158 23.6332 4.14875 24.2071C3.58082 24.5926 3.14405 24.954 2.84962 25.2771C2.60682 25.5464 2.53426 25.7108 2.51333 25.7731ZM21.5328 18.051C22.8417 19.2513 24.0194 18.9934 24.3878 18.676C24.4659 18.6079 24.491 18.5555 24.4924 18.5413C24.4938 18.5357 24.4868 18.4931 24.4366 18.4152C24.3794 18.3273 24.0082 18.085 22.9938 18.0255C22.5682 18.0014 22.0784 18.0099 21.5328 18.051ZM13.6152 14.2261C13.1296 15.4788 12.644 16.6622 12.2296 17.6443C13.2036 17.2885 13.8427 17.076 13.8999 17.0575L13.9152 17.0533C13.9724 17.0349 14.765 16.7855 15.9218 16.4893C15.1599 15.792 14.3729 15.0353 13.6152 14.2261ZM12.5045 2.54436C12.0649 2.54436 11.8375 3.15657 11.7412 3.5307C11.2556 5.39711 11.7761 7.2706 12.8017 9.04064C13.6961 6.22899 13.8203 4.94362 13.7896 4.37817C13.7268 3.21043 13.0152 2.59538 12.5547 2.54719C12.538 2.54577 12.5212 2.54436 12.5045 2.54436Z" fill="#FE0606"/>
+                      </svg>
+                    PDF</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Col -->
+
+            <div class="col-12 col-lg-6">
+              <div class="w-solutions__item">
+                <i class="w-solutions__img" style="background: url(images/w-new-img/w-solutions-2.png) center/cover no-repeat;"></i>
+                <div class="w-solutions__desc">
+                  <p class="w-solutions__title">Спецодежда и обувь для сварщика</p>
+                  <p class="w-solutions__text">Комплексная защита сварщика: У нас можно купить специальные костюмы и обувь для сварщиков, сварочные щитки, перчатки-краги, респираторы и другие средства индивидуальной защиты при сварочных работах</p>
+                  <div class="w-solutions__btns">
+                    <a href="#" class="btn btn_white">В каталог
+                      <svg width="9" height="15" viewBox="0 0 9 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1.5 1L7.5 7.5L1.5 14" stroke="#1D2A3D" stroke-width="2"/>
+                      </svg>
+                    </a>
+                    <a href="#" class="btn btn_white">
+                      <svg width="27" height="29" viewBox="0 0 27 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M3.86409 29C3.05335 29 2.07796 28.7307 1.04117 27.862C-0.065388 26.9324 -0.0598063 25.8737 0.043454 25.3253C0.162064 24.689 0.509521 24.0754 1.10397 23.4504C1.5505 22.9799 2.1282 22.5108 2.87195 22.0148C4.03433 21.2396 5.5916 20.412 7.50052 19.556C7.98473 19.3392 8.46615 19.1309 8.935 18.9353C9.29641 18.1247 10.3667 15.6914 11.4063 12.9789C11.5319 12.6502 11.6519 12.3341 11.7649 12.028C10.7002 10.5939 9.9397 9.17669 9.50573 7.81054C8.96849 6.12412 8.9057 4.46603 9.31735 2.88164C9.56712 1.92364 10.0081 1.18104 10.629 0.672282C11.2472 0.167772 12.0217 -0.0660608 12.8101 0.0161348C13.2664 0.0629013 13.7115 0.210286 14.1343 0.454039C14.5348 0.685037 14.8976 0.992562 15.2088 1.36811C15.5227 1.74649 15.7753 2.18015 15.9595 2.65773C16.1507 3.15374 16.2623 3.68659 16.293 4.2407C16.3488 5.2639 16.1004 6.71508 15.5339 8.67927C15.2855 9.5409 14.9757 10.5017 14.6073 11.5519C15.9748 13.1589 17.5893 14.6172 18.9833 15.8246C19.014 15.8189 19.0447 15.8133 19.0741 15.809C20.6746 15.5327 22.0393 15.425 23.1277 15.4873C23.8519 15.5284 24.4548 15.6432 24.9724 15.8345C25.6646 16.091 26.1892 16.4907 26.5311 17.0193C26.9316 17.6372 27.0795 18.3217 26.9595 18.9976C26.8493 19.6198 26.52 20.181 26.0078 20.6217C25.3548 21.1829 24.4589 21.4919 23.5045 21.4919C23.3761 21.4919 23.2463 21.4862 23.1166 21.4749C21.936 21.3728 20.7834 20.823 19.7857 19.8848C19.388 19.5121 18.8717 19.0671 18.2745 18.5541C16.367 18.9565 14.7887 19.4469 14.6673 19.4837C14.5348 19.5277 12.8449 20.0945 10.7504 20.9377C10.4937 21.6648 10.1016 22.6837 9.58806 23.7451C9.01175 24.937 8.39917 25.9403 7.76705 26.7297C6.89212 27.8223 5.95301 28.5295 4.97623 28.8328C4.65947 28.9277 4.2841 29 3.86409 29ZM2.51333 25.7731C2.53147 25.7986 2.56915 25.8411 2.63752 25.8978C3.41197 26.5483 3.92548 26.4916 4.24364 26.3938C4.72505 26.245 5.26787 25.8085 5.81347 25.1311C6.32419 24.4962 6.83212 23.6615 7.32331 22.6497C7.36796 22.5562 7.41261 22.464 7.45587 22.3705C6.10232 23.0167 4.99158 23.6332 4.14875 24.2071C3.58082 24.5926 3.14405 24.954 2.84962 25.2771C2.60682 25.5464 2.53426 25.7108 2.51333 25.7731ZM21.5328 18.051C22.8417 19.2513 24.0194 18.9934 24.3878 18.676C24.4659 18.6079 24.491 18.5555 24.4924 18.5413C24.4938 18.5357 24.4868 18.4931 24.4366 18.4152C24.3794 18.3273 24.0082 18.085 22.9938 18.0255C22.5682 18.0014 22.0784 18.0099 21.5328 18.051ZM13.6152 14.2261C13.1296 15.4788 12.644 16.6622 12.2296 17.6443C13.2036 17.2885 13.8427 17.076 13.8999 17.0575L13.9152 17.0533C13.9724 17.0349 14.765 16.7855 15.9218 16.4893C15.1599 15.792 14.3729 15.0353 13.6152 14.2261ZM12.5045 2.54436C12.0649 2.54436 11.8375 3.15657 11.7412 3.5307C11.2556 5.39711 11.7761 7.2706 12.8017 9.04064C13.6961 6.22899 13.8203 4.94362 13.7896 4.37817C13.7268 3.21043 13.0152 2.59538 12.5547 2.54719C12.538 2.54577 12.5212 2.54436 12.5045 2.54436Z" fill="#FE0606"/>
+                      </svg>
+                    PDF</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Col -->
+
+            <div class="col-12 col-lg-6">
+              <div class="w-solutions__item">
+                <i class="w-solutions__img" style="background: url(images/w-new-img/w-solutions-3.png) center/cover no-repeat;"></i>
+                <div class="w-solutions__desc">
+                  <p class="w-solutions__title">Дерматологические средства индивидуальной защиты</p>
+                  <p class="w-solutions__text">Мы создали и собрали в готовые комплексные решения уникальные коллекции для защиты от основных профессиональных рисков. которые высоко востребованы на корпоративном рынке и которые легко и удобно продавать.</p>
+                  <div class="w-solutions__btns">
+                    <a href="#" class="btn btn_white">В каталог
+                      <svg width="9" height="15" viewBox="0 0 9 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1.5 1L7.5 7.5L1.5 14" stroke="#1D2A3D" stroke-width="2"/>
+                      </svg>
+                    </a>
+                    <a href="#" class="btn btn_white">
+                      <svg width="27" height="29" viewBox="0 0 27 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M3.86409 29C3.05335 29 2.07796 28.7307 1.04117 27.862C-0.065388 26.9324 -0.0598063 25.8737 0.043454 25.3253C0.162064 24.689 0.509521 24.0754 1.10397 23.4504C1.5505 22.9799 2.1282 22.5108 2.87195 22.0148C4.03433 21.2396 5.5916 20.412 7.50052 19.556C7.98473 19.3392 8.46615 19.1309 8.935 18.9353C9.29641 18.1247 10.3667 15.6914 11.4063 12.9789C11.5319 12.6502 11.6519 12.3341 11.7649 12.028C10.7002 10.5939 9.9397 9.17669 9.50573 7.81054C8.96849 6.12412 8.9057 4.46603 9.31735 2.88164C9.56712 1.92364 10.0081 1.18104 10.629 0.672282C11.2472 0.167772 12.0217 -0.0660608 12.8101 0.0161348C13.2664 0.0629013 13.7115 0.210286 14.1343 0.454039C14.5348 0.685037 14.8976 0.992562 15.2088 1.36811C15.5227 1.74649 15.7753 2.18015 15.9595 2.65773C16.1507 3.15374 16.2623 3.68659 16.293 4.2407C16.3488 5.2639 16.1004 6.71508 15.5339 8.67927C15.2855 9.5409 14.9757 10.5017 14.6073 11.5519C15.9748 13.1589 17.5893 14.6172 18.9833 15.8246C19.014 15.8189 19.0447 15.8133 19.0741 15.809C20.6746 15.5327 22.0393 15.425 23.1277 15.4873C23.8519 15.5284 24.4548 15.6432 24.9724 15.8345C25.6646 16.091 26.1892 16.4907 26.5311 17.0193C26.9316 17.6372 27.0795 18.3217 26.9595 18.9976C26.8493 19.6198 26.52 20.181 26.0078 20.6217C25.3548 21.1829 24.4589 21.4919 23.5045 21.4919C23.3761 21.4919 23.2463 21.4862 23.1166 21.4749C21.936 21.3728 20.7834 20.823 19.7857 19.8848C19.388 19.5121 18.8717 19.0671 18.2745 18.5541C16.367 18.9565 14.7887 19.4469 14.6673 19.4837C14.5348 19.5277 12.8449 20.0945 10.7504 20.9377C10.4937 21.6648 10.1016 22.6837 9.58806 23.7451C9.01175 24.937 8.39917 25.9403 7.76705 26.7297C6.89212 27.8223 5.95301 28.5295 4.97623 28.8328C4.65947 28.9277 4.2841 29 3.86409 29ZM2.51333 25.7731C2.53147 25.7986 2.56915 25.8411 2.63752 25.8978C3.41197 26.5483 3.92548 26.4916 4.24364 26.3938C4.72505 26.245 5.26787 25.8085 5.81347 25.1311C6.32419 24.4962 6.83212 23.6615 7.32331 22.6497C7.36796 22.5562 7.41261 22.464 7.45587 22.3705C6.10232 23.0167 4.99158 23.6332 4.14875 24.2071C3.58082 24.5926 3.14405 24.954 2.84962 25.2771C2.60682 25.5464 2.53426 25.7108 2.51333 25.7731ZM21.5328 18.051C22.8417 19.2513 24.0194 18.9934 24.3878 18.676C24.4659 18.6079 24.491 18.5555 24.4924 18.5413C24.4938 18.5357 24.4868 18.4931 24.4366 18.4152C24.3794 18.3273 24.0082 18.085 22.9938 18.0255C22.5682 18.0014 22.0784 18.0099 21.5328 18.051ZM13.6152 14.2261C13.1296 15.4788 12.644 16.6622 12.2296 17.6443C13.2036 17.2885 13.8427 17.076 13.8999 17.0575L13.9152 17.0533C13.9724 17.0349 14.765 16.7855 15.9218 16.4893C15.1599 15.792 14.3729 15.0353 13.6152 14.2261ZM12.5045 2.54436C12.0649 2.54436 11.8375 3.15657 11.7412 3.5307C11.2556 5.39711 11.7761 7.2706 12.8017 9.04064C13.6961 6.22899 13.8203 4.94362 13.7896 4.37817C13.7268 3.21043 13.0152 2.59538 12.5547 2.54719C12.538 2.54577 12.5212 2.54436 12.5045 2.54436Z" fill="#FE0606"/>
+                      </svg>
+                    PDF</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Col -->
+
+            <div class="col-12 col-lg-6">
+              <div class="w-solutions__item">
+                <i class="w-solutions__img" style="background: url(images/w-new-img/w-solutions-4.png) center/cover no-repeat;"></i>
+                <div class="w-solutions__desc">
+                  <p class="w-solutions__title">Разработка и внедрение систем безопасности при работе на высоте</p>
+                  <p class="w-solutions__text">Мы предлагаем комплексный подход для обеспечения безопасности при работе на высоте. Специалисты центра выполняют оценку производственных рисков, связанных с возможным падением работника с высоты.</p>
+                  <div class="w-solutions__btns">
+                    <a href="#" class="btn btn_white">В каталог
+                      <svg width="9" height="15" viewBox="0 0 9 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1.5 1L7.5 7.5L1.5 14" stroke="#1D2A3D" stroke-width="2"/>
+                      </svg>
+                    </a>
+                    <a href="#" class="btn btn_white">
+                      <svg width="27" height="29" viewBox="0 0 27 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M3.86409 29C3.05335 29 2.07796 28.7307 1.04117 27.862C-0.065388 26.9324 -0.0598063 25.8737 0.043454 25.3253C0.162064 24.689 0.509521 24.0754 1.10397 23.4504C1.5505 22.9799 2.1282 22.5108 2.87195 22.0148C4.03433 21.2396 5.5916 20.412 7.50052 19.556C7.98473 19.3392 8.46615 19.1309 8.935 18.9353C9.29641 18.1247 10.3667 15.6914 11.4063 12.9789C11.5319 12.6502 11.6519 12.3341 11.7649 12.028C10.7002 10.5939 9.9397 9.17669 9.50573 7.81054C8.96849 6.12412 8.9057 4.46603 9.31735 2.88164C9.56712 1.92364 10.0081 1.18104 10.629 0.672282C11.2472 0.167772 12.0217 -0.0660608 12.8101 0.0161348C13.2664 0.0629013 13.7115 0.210286 14.1343 0.454039C14.5348 0.685037 14.8976 0.992562 15.2088 1.36811C15.5227 1.74649 15.7753 2.18015 15.9595 2.65773C16.1507 3.15374 16.2623 3.68659 16.293 4.2407C16.3488 5.2639 16.1004 6.71508 15.5339 8.67927C15.2855 9.5409 14.9757 10.5017 14.6073 11.5519C15.9748 13.1589 17.5893 14.6172 18.9833 15.8246C19.014 15.8189 19.0447 15.8133 19.0741 15.809C20.6746 15.5327 22.0393 15.425 23.1277 15.4873C23.8519 15.5284 24.4548 15.6432 24.9724 15.8345C25.6646 16.091 26.1892 16.4907 26.5311 17.0193C26.9316 17.6372 27.0795 18.3217 26.9595 18.9976C26.8493 19.6198 26.52 20.181 26.0078 20.6217C25.3548 21.1829 24.4589 21.4919 23.5045 21.4919C23.3761 21.4919 23.2463 21.4862 23.1166 21.4749C21.936 21.3728 20.7834 20.823 19.7857 19.8848C19.388 19.5121 18.8717 19.0671 18.2745 18.5541C16.367 18.9565 14.7887 19.4469 14.6673 19.4837C14.5348 19.5277 12.8449 20.0945 10.7504 20.9377C10.4937 21.6648 10.1016 22.6837 9.58806 23.7451C9.01175 24.937 8.39917 25.9403 7.76705 26.7297C6.89212 27.8223 5.95301 28.5295 4.97623 28.8328C4.65947 28.9277 4.2841 29 3.86409 29ZM2.51333 25.7731C2.53147 25.7986 2.56915 25.8411 2.63752 25.8978C3.41197 26.5483 3.92548 26.4916 4.24364 26.3938C4.72505 26.245 5.26787 25.8085 5.81347 25.1311C6.32419 24.4962 6.83212 23.6615 7.32331 22.6497C7.36796 22.5562 7.41261 22.464 7.45587 22.3705C6.10232 23.0167 4.99158 23.6332 4.14875 24.2071C3.58082 24.5926 3.14405 24.954 2.84962 25.2771C2.60682 25.5464 2.53426 25.7108 2.51333 25.7731ZM21.5328 18.051C22.8417 19.2513 24.0194 18.9934 24.3878 18.676C24.4659 18.6079 24.491 18.5555 24.4924 18.5413C24.4938 18.5357 24.4868 18.4931 24.4366 18.4152C24.3794 18.3273 24.0082 18.085 22.9938 18.0255C22.5682 18.0014 22.0784 18.0099 21.5328 18.051ZM13.6152 14.2261C13.1296 15.4788 12.644 16.6622 12.2296 17.6443C13.2036 17.2885 13.8427 17.076 13.8999 17.0575L13.9152 17.0533C13.9724 17.0349 14.765 16.7855 15.9218 16.4893C15.1599 15.792 14.3729 15.0353 13.6152 14.2261ZM12.5045 2.54436C12.0649 2.54436 11.8375 3.15657 11.7412 3.5307C11.2556 5.39711 11.7761 7.2706 12.8017 9.04064C13.6961 6.22899 13.8203 4.94362 13.7896 4.37817C13.7268 3.21043 13.0152 2.59538 12.5547 2.54719C12.538 2.54577 12.5212 2.54436 12.5045 2.54436Z" fill="#FE0606"/>
+                      </svg>
+                    PDF</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </section>
+
+      <!-- Become -->
+
+      <section class="w-become">
+        <div class="container">
+          <p class="section_title">Стать партнером</p>
+          <div class="w-become__box">
+            <div class="row">
+              
+              <!-- Col -->
+
+              <div class="col-12 col-lg-6 w-become__left">
+                <div class="w-become__inner">
+                  <span class="w-become__num">1</span>
+                  <p class="w-become__title">Вы связываетесь с нами или оставляете заявку для аккредитации</p>
+                  <form action="#" class="w-form w-become__form">
+                    <div class="form_input"><input type="text" placeholder="Имя Фамилия"></div>
+                    <div class="form_input"><input type="text" placeholder="Телефон"></div>
+                    <div class="form_input"><input type="text" placeholder="E-mail"></div>
+                    <label class="check">
+                      Соглашаюсь с <a href="#">условиями обработки персональных данных</a>
+                      <input type="checkbox" name="pdcheck">
+                      <span class="checkmark"></span>
+                    </label>
+                    <button type="submit" class="btn btn_green">Отправить заявку</button>
+                  </form> 
+                </div>
+              </div>
+
+              <!-- Col -->
+
+              <div class="col-12 col-lg-6 w-become__right">
+                <div class="w-become__inner w-become__inner--small w-become__inner--border">
+                  <div class="w-become__num-bg"><span class="w-become__num">2</span></div>
+                  <p class="w-become__title"><i class="w-i-check"></i>Обсуждаем перспективу сотрудничества</p>
+                </div>
+                <div class="w-become__inner w-become__inner--small w-become__inner--border">
+                  <div class="w-become__num-bg"><span class="w-become__num">3</span></div>
+                  <p class="w-become__title"><i class="w-i-check"></i>Заключаем партнерское соглашение</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </main>
+    <!-- / main -->
+
+    <!-- footer -->
+    <footer>
+      <div class="container">
+        <div class="footer-in">
+          <div class="footer-cont">
+            <div class="footer-phone">
+              <a href="#">
+                +7 (965) 318-90-83
+              </a>
+            </div>
+            <div class="footer-mail">
+              <a href="mailto:info@rossbrand.ru">
+                info@rossbrand.ru
+              </a>
+            </div>
+
+          </div>
+
+          <div class="footer-menu">
+            <div class="one-footer-menu">
+              <ul>
+                <li><a href="#">Доставка и оплата</a></li>
+                <li><a href="#">Личный кабинет</a></li>
+                <li><a href="#">Вопросы</a></li>
+              </ul>
+            </div>
+            <div class="one-footer-menu">
+              <ul>
+                <li><a href="#">Каталог товаров</a></li>
+                <li><a href="#">Акции</a></li>
+                <li><a href="#">Услуги</a></li>
+                <li><a href="#">Бренды</a></li>
+              </ul>
+            </div>
+            <div class="one-footer-menu">
+              <ul>
+                <li><a href="#">О компании</a></li>
+                <li><a href="#">Партнеры</a></li>
+                <li><a href="#">Контактная информация</a></li>
+                <li class="active"><a href="#">Участие в тендерах</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer-lang">
+            <a class="eng" href="#">
+              Eng
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-copy">
+          © ООО «РБ», 2021 <br>
+          Все права защищены. Предложение<br>
+          не является публичной офертой <a href="#">Условия обработки персональных данных</a>
+        </div>
+      </div>
+    </footer>
+    <!-- / footer -->
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+  <script src="js/jquery.inputmask.min.js"></script>
+
+  <script src="js/jquery.easy-autocomplete.min.js"></script>
+
+  <script src="js/init.js"></script>
+
+
+  <!-- ================ -->
+
+  <script src="js/swiper/swiper.min.js"></script>
+
+  <script src="js/ionRangeSlider/ion.rangeSlider.min.js"></script>
+
+  <script src="new-js.js"></script>
+
+  <!-- ================ -->
+
+</body>
+                                  
+</html>
